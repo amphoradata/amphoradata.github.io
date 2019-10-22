@@ -11,6 +11,6 @@ else
 fi
 
 GIT_USER=$1 \
-  CURRENT_BRANCH=master \
+  CURRENT_BRANCH=source \
   USE_SSH=true \
   npm run publish-gh-pages
