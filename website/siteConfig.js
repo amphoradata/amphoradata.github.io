@@ -21,27 +21,27 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Amphora Data', // Title for your website.
+  tagline: 'A unified platform to store and discover agricultural data.',
+  url: 'https://amphoradata.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'docs',
+  organizationName: 'AmphoraData',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'index', label: 'Docs'},
+    // {doc: 'doc4', label: 'API'},
+    // {page: 'help', label: 'Help'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,9 +54,13 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#8e6a86',
-    secondaryColor: '#634a5d',
+    primaryColor: '#181717',
+    secondaryColor: '#BC312A',
   },
+
+    // --amphora-red: #BC312A;
+    // --amphora-black: #181717;
+    // --amphora-white: #FFFEFD;
 
   /* Custom fonts for website */
   /*
@@ -73,7 +77,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Amphora Data`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
