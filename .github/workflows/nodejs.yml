@@ -24,7 +24,7 @@ jobs:
       run: |
         set -e
         echo "${{ secrets.DEPLOY_SSH_KEY }}" >> .key
-        ssh-keygen -l -f key
+        ssh-keygen -l -f .key
     - name: npm install and build
       run: |
         pushd website
