@@ -22,7 +22,7 @@ jobs:
         git config --global user.name "GitHub Actions"
     - name: validate ssh key
       run: |
-        SSH_PATH="/root/.ssh"
+        SSH_PATH=`pwd`
         echo "${{ secrets.DEPLOY_SSH_KEY }}" > "$SSH_PATH/id_rsa"
         chmod 400 "$SSH_PATH/id_rsa"
         ssh-keygen -l -f "$SSH_PATH/id_rsa"
