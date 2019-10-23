@@ -22,25 +22,20 @@ jobs:
         git config --global user.name "GitHub Actions"
     - name: validate ssh key
       run: |
-        set -e
-        echo "${{ secrets.DEPLOY_SSH_KEY }}" >> .key
-        chmod 400 .key
-        ssh-keygen -l -f .key
+        SSH_PATH="/root/.ssh"
+        echo "${{ secrets.DEPLOY_SSH_KEY }}" > "$SSH_PATH/id_rsa"
+        chmod 400 "$SSH_PATH/id_rsa"
+        ssh-keygen -l -f "$SSH_PATH/id_rsa"
+        ssh-add "$SSH_PATH/id_rsa"
     - name: npm install and build
       run: |
         pushd website
         npm install
         npm run build
-        # GIT_USER=amphoradata CURRENT_BRANCH=source USE_SSH=false npm run publish-gh-pages
         popd
       env:
         CI: true
     - name: publish
-      uses: "clay/docusaurus-github-action@master"
-      with: # Set the secret as an input
-        DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-        args: deploy
-      env:
-        BUILD_DIR: "website"
-        PROJECT_NAME: "AmphoraData.github.io"
-      
+      run: |
+        pushd website
+        ./publish-gh-pages.sh amphoradata
