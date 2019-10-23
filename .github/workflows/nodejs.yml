@@ -25,7 +25,15 @@ jobs:
         pushd website
         npm install
         npm run build
-        GIT_USER=amphoradata CURRENT_BRANCH=source USE_SSH=false npm run publish-gh-pages
+        # GIT_USER=amphoradata CURRENT_BRANCH=source USE_SSH=false npm run publish-gh-pages
         popd
       env:
         CI: true
+    - name: publish
+      uses: "clay/docusaurus-github-action@master"
+      args: deploy
+      secrets: ["DEPLOY_SSH_KEY", "ALGOLIA_API_KEY"]
+      env:
+        BUILD_DIR: "website"
+        PROJECT_NAME: "AmphoraData.github.io"
+      
