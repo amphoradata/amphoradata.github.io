@@ -20,7 +20,7 @@ jobs:
       run: |
         git config --global user.email "gh-actions@amphoradata.com"
         git config --global user.name "GitHub Actions"
-    - name: npm install, build, and publish
+    - name: npm install and build
       run: |
         pushd website
         npm install
