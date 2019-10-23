@@ -16,6 +16,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
+    - name: helper
+      run: |
+        git remote
+        remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/amphoradata/amphoradata.github.io.git"
+        echo $remote_repo
+        git remote add origin $remote_repo
     - name: Set git configuration
       run: |
         git config --global user.email "gh-actions@amphoradata.com"
