@@ -3,7 +3,7 @@ id: signal
 title: Signal
 ---
 
-> WARNING. Amphora Data is currently in beta. These documents may change.
+> Amphora Data is currently in beta. These documents may change.
 
 > Currently, each Amphora can only contain 5 signals.
 

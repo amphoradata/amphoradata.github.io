@@ -3,7 +3,7 @@ id: quickstart-web
 title: Getting Started with Amphora Data
 ---
 
-> WARNING. Amphora Data is currently in beta. These documents may change.
+> Amphora Data is currently in beta. These documents may change.
 
 ## Create an Amphora Data account.
 
