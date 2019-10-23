@@ -140,13 +140,13 @@ class Index extends React.Component {
         {[
           {
             content: 'Store agricultural data securely in the cloud',
-            image: `${baseUrl}img/undraw_going_up_ttm5.svg`,
+            image: `${baseUrl}img/undraw_collecting_fjjl.svg`,
             imageAlign: 'top',
             title: 'Store',
           },
           {
             content: 'Search a large catalog to find the data you need',
-            image: `${baseUrl}img/undraw_location_search_bqps.svg`,
+            image: `${baseUrl}img/undraw_file_searching_duff.svg`,
             imageAlign: 'top',
             title: 'Discover',
           },
