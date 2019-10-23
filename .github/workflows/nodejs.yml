@@ -1,4 +1,4 @@
-name: Node CI
+name: Publish
 
 on:
   push:
@@ -16,6 +16,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
+    - name: Set git configuration
+      run: |
+        git config --global user.email "gh-actions@amphoradata.com"
+        git config --global user.name "GitHub Actions"
     - name: npm install, build, and publish
       run: |
         pushd website
