@@ -26,6 +26,9 @@ jobs:
       run: |
         git config --global user.email "gh-actions@amphoradata.com"
         git config --global user.name "GitHub Actions"
+    - uses: webfactory/ssh-agent@v0.1.1
+      with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
     - name: npm install and build
       run: |
         pushd website
@@ -37,4 +40,5 @@ jobs:
     - name: publish
       run: |
         pushd website
-        GIT_USER=amphoradata CURRENT_BRANCH=source npm run publish-gh-pages
+        ./publish-gh-pages.sh amphoradata
+        # GIT_USER=amphoradata CURRENT_BRANCH=source npm run publish-gh-pages
