@@ -21,7 +21,8 @@ jobs:
         git remote
         remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/amphoradata/amphoradata.github.io.git"
         echo $remote_repo
-        git remote add origin $remote_repo
+        git remote set-url origin $remote_repo
+        git remote get-url --all origin
     - name: Set git configuration
       run: |
         git config --global user.email "gh-actions@amphoradata.com"
