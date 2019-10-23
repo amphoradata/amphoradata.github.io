@@ -31,8 +31,9 @@ jobs:
         CI: true
     - name: publish
       uses: "clay/docusaurus-github-action@master"
-      args: deploy
-      secrets: ["DEPLOY_SSH_KEY", "ALGOLIA_API_KEY"]
+      with: # Set the secret as an input
+        DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        args: deploy
       env:
         BUILD_DIR: "website"
         PROJECT_NAME: "AmphoraData.github.io"
