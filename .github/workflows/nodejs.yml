@@ -20,20 +20,12 @@ jobs:
       run: |
         git remote
         remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/amphoradata/amphoradata.github.io.git"
-        echo $remote_repo
         git remote set-url origin $remote_repo
         git remote get-url --all origin
     - name: Set git configuration
       run: |
         git config --global user.email "gh-actions@amphoradata.com"
         git config --global user.name "GitHub Actions"
-    - name: validate ssh key
-      run: |
-        SSH_PATH=`pwd`
-        echo "${{ secrets.DEPLOY_SSH_KEY }}" > "$SSH_PATH/id_rsa"
-        chmod 400 "$SSH_PATH/id_rsa"
-        ssh-keygen -l -f "$SSH_PATH/id_rsa"
-        ssh-add "$SSH_PATH/id_rsa"
     - name: npm install and build
       run: |
         pushd website
@@ -45,4 +37,4 @@ jobs:
     - name: publish
       run: |
         pushd website
-        ./publish-gh-pages.sh amphoradata
+        GIT_USER=amphoradata CURRENT_BRANCH=source npm run publish-gh-pages
