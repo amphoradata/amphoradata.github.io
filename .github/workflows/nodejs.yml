@@ -20,6 +20,13 @@ jobs:
       run: |
         git config --global user.email "gh-actions@amphoradata.com"
         git config --global user.name "GitHub Actions"
+    - name: validate ssh key
+      run: |
+        set -e
+        echo $DEPLOY_SSH_KEY >> .key
+        ssh-keygen -l -f key
+      with: # Set the secret as an input
+        DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
     - name: npm install and build
       run: |
         pushd website
