@@ -6,12 +6,13 @@
     "Quickstart": [
       "quickstarts/quickstart-web",
       "quickstarts/quickstart-python"
-    ]
-  },
-  "docs-other": {
-    "First Category": [
-      "doc4",
-      "doc5"
+    ],
+    "How To Guides": [
+      "how-to-guides/invite-to-organisation"
+    ],
+    "Models": [
+      "models/organisation",
+      "models/signal"
     ]
   }
 }

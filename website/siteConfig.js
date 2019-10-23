@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#181717',
-    secondaryColor: '#BC312A',
+    primaryColor: '#BC312A',
+    secondaryColor: '#FFFEFD',
   },
 
     // --amphora-red: #BC312A;
