@@ -21,7 +21,7 @@ jobs:
         pushd website
         npm install
         npm run build
-        ./publish-gh-pages.sh amphoradata
+        GIT_USER=amphoradata CURRENT_BRANCH=source USE_SSH=false npm run publish-gh-pages
         popd
       env:
         CI: true
