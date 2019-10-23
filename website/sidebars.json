@@ -1,8 +1,17 @@
 {
   "docs": {
-    "Basics": ["index", "orientation", "quickstarts/quickstart-web",  "quickstarts/quickstart-python"]
+    "Overview": [
+      "overview/about"
+    ],
+    "Quickstart": [
+      "quickstarts/quickstart-web",
+      "quickstarts/quickstart-python"
+    ]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": [
+      "doc4",
+      "doc5"
+    ]
   }
 }
