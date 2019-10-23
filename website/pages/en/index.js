@@ -146,7 +146,7 @@ class Index extends React.Component {
           },
           {
             content: 'Search a large catalog to find the data you need',
-            image: `${baseUrl}img/undraw_searching_p5ux.svg`,
+            image: `${baseUrl}img/undraw_location_search_bqps.svg`,
             imageAlign: 'top',
             title: 'Discover',
           },
