@@ -139,16 +139,22 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Store agricultural data securely in the cloud',
-            image: `${baseUrl}img/undraw_collecting_fjjl.svg`,
-            imageAlign: 'top',
-            title: 'Store',
-          },
-          {
-            content: 'Search a large catalog to find the data you need',
-            image: `${baseUrl}img/undraw_file_searching_duff.svg`,
+            content: 'Find the data you need.',
+            image: `${baseUrl}img/undraw_map_1r69.svg`,
             imageAlign: 'top',
             title: 'Discover',
+          },
+          {
+            content: 'Containerise data for use anywhere.',
+            image: `${baseUrl}img/undraw_deliveries_131a.svg`,
+            imageAlign: 'top',
+            title: 'Package',
+          },
+          {
+            content: 'Convert data into revenue.',
+            image: `${baseUrl}img/undraw_Container_ship_ok1c.svg`,
+            imageAlign: 'top',
+            title: 'Trade',
           },
         ]}
       </Block>
