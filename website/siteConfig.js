@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Amphora Data', // Title for your website.
-  tagline: 'A unified platform to store and discover agricultural data.',
+  tagline: 'A platform to discover, package, and trade data.',
   url: 'https://amphoradata.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
