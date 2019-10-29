@@ -38,20 +38,23 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'basic', label: 'Basics'},
+    {page: 'basics', label: 'Basics'},
     {href: 'https://beta.amphoradata.com', label: 'Platform'},
     {doc: 'overview/about', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
     {blog: true, label: 'Blog'},
     {page: 'contact', label: 'Contact'},
+    {page: 'team', label: 'Team'},
+    {page: 'values', label: 'Values'},
+    {page: 'careers', label: 'Careers'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/Amphora_Data_Logo_white.png',
+  footerIcon: 'img/Black_Logo_Square.jpg',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
