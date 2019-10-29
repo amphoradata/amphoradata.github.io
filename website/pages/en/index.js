@@ -60,9 +60,8 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_invest_88iw.svg`} />
         <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
+          <ProjectTitle siteConfig={siteConfig.tagline} />
           <PromoSection>
             <Button href={docUrl('overview/about.html')}>Basics</Button>
             <Button href={docUrl('quickstarts/quickstart-web.html')}>Quickstart</Button>
@@ -139,7 +138,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Find the data you need to improve your analytics and reporting software for farmers',
+            content: 'Find the data you need to improve your analytics and reporting software for farmers.',
             image: `${baseUrl}img/undraw_map_1r69.svg`,
             imageAlign: 'top',
             title: 'Discover',
@@ -152,6 +151,31 @@ class Index extends React.Component {
           },
           {
             content: 'Monetise your data by trading it with verified parties that will improve outcomes on farm.',
+            image: `${baseUrl}img/undraw_Container_ship_ok1c.svg`,
+            imageAlign: 'top',
+            title: 'Trade',
+          },
+        ]}
+      </Block>
+    );
+
+    const Features2 = () => (
+      <Block layout="fourColumn">
+        {[
+          {
+            content: 'Double Find the data you need to improve your analytics and reporting software for farmers',
+            image: `${baseUrl}img/undraw_map_1r69.svg`,
+            imageAlign: 'top',
+            title: 'Discover',
+          },
+          {
+            content: 'Double Containerise data to easily share and integrate across the agricultural ecosystem.',
+            image: `${baseUrl}img/undraw_deliveries_131a.svg`,
+            imageAlign: 'top',
+            title: 'Package',
+          },
+          {
+            content: 'Double Monetise your data by trading it with verified parties that will improve outcomes on farm.',
             image: `${baseUrl}img/undraw_Container_ship_ok1c.svg`,
             imageAlign: 'top',
             title: 'Trade',
@@ -194,6 +218,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
+          <Features2 />
           {/* <LearnHow />
           <TryOut />
           <Description />
