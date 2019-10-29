@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Amphora Data', // Title for your website.
-  tagline: 'A platform to discover, package, and trade data.',
+  title: 'Amphora Data ', // Title for your website.
+  tagline: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
   url: 'https://amphoradata.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -70,9 +70,11 @@ const siteConfig = {
   /* Custom fonts for website */
   
   fonts: {
-    myFont: [
-      "Trebuchet MS",
-      "Sans-serif"
+    fontTahoma: [
+      "Tahoma"
+    ],
+    fontCandara: [
+      "Candara"
     ],
     myOtherFont: [
       "-apple-system",
