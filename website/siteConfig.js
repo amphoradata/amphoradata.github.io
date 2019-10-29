@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {page: 'basic', label: 'Basics'},
-    {page: 'platform', label: 'Platform'},
+    {href: 'https://beta.amphoradata.com', label: 'Platform'},
     {doc: 'overview/about', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
     {blog: true, label: 'Blog'},
@@ -65,18 +65,18 @@ const siteConfig = {
     // --amphora-white: #FFFEFD;
 
   /* Custom fonts for website */
-  /*
-  //fonts: {
-  //  myFont: [
-  //    "Bahnschrift",
-  //    "Serif"
-  //  ],
-   // myOtherFont: [
-  //    "Bahnschrift",
-  //    //"system-ui"
- //   ]
- // },
-  */
+  
+  fonts: {
+    myFont: [
+      "Trebuchet MS",
+      "Sans-serif"
+    ],
+    myOtherFont: [
+      "-apple-system",
+      "system-ui"
+    ]
+  },
+  
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Amphora Data`,
