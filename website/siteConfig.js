@@ -38,10 +38,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {page: 'basic', label: 'Basics'},
+    {page: 'platform', label: 'Platform'},
     {doc: 'overview/about', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
-    // {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {page: 'contact', label: 'Contact'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,7 +56,7 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#BC312A',
+    primaryColor: '#181717',
     secondaryColor: '#FFFEFD',
   },
 
@@ -64,16 +66,16 @@ const siteConfig = {
 
   /* Custom fonts for website */
   /*
-  fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
-  },
+  //fonts: {
+  //  myFont: [
+  //    "Bahnschrift",
+  //    "Serif"
+  //  ],
+   // myOtherFont: [
+  //    "Bahnschrift",
+  //    //"system-ui"
+ //   ]
+ // },
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
