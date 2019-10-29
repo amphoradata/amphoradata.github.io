@@ -36,63 +36,25 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
+           <h5>For developers</h5>
             <a href={this.docUrl('overview/about.html', this.props.language)}>
               Basics
             </a>
-            {/* <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
-            </a> */}
-          </div>
-          <div>
-            <h5>Community</h5>
-            {/* <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a> */}
-            {/* <a
+            <a href="https://amphoradata.slack.com/">Project Chat</a>
+            <a
               href="https://stackoverflow.com/questions/tagged/amphora"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
-            </a> */}
-            <a href="https://amphoradata.slack.com/">Project Chat</a>
-            {/* <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a> */}
+            </a>
+            <a href="https://github.com/amphoradata">Git Hub</a>
           </div>
           <div>
-            <h5>More</h5>
+           <h5>About</h5>
             {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
-            <a href='https://www.amphoradata.com/news-and-updates'>Blog</a>
-            <a href="https://github.com/amphoradata">GitHub</a>
-            {this.props.config.twitterUsername && (
-              <div className="social">
-                <a
-                  href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
-                  Follow @{this.props.config.twitterUsername}
-                </a>
-              </div>
-            )}
-            {this.props.config.facebookAppId && (
-              <div className="social">
-                <div
-                  className="fb-like"
-                  data-href={this.props.config.url}
-                  data-colorscheme="dark"
-                  data-layout="standard"
-                  data-share="true"
-                  data-width="225"
-                  data-show-faces="false"
-                />
-              </div>
-            )}
+            <a href={this.docUrl('team', this.props.language)}>Team</a>
+            <a href={this.docUrl('careers', this.props.language)}>Careers</a>
+            <a href={this.docUrl('values', this.props.language)}>Values</a>
           </div>
         </section>
 
@@ -102,7 +64,7 @@ class Footer extends React.Component {
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/Amphora Data_Logo_white.png`}
+            src={`${this.props.config.baseUrl}img/Amphora_Data_Logo_white.png`}
             alt="Amphora Data"
             width="170"
             height="35"

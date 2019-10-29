@@ -44,9 +44,9 @@ const siteConfig = {
     // {doc: 'doc4', label: 'API'},
     {blog: true, label: 'Blog'},
     {page: 'contact', label: 'Contact'},
-    {page: 'team', label: 'Team'},
-    {page: 'values', label: 'Values'},
-    {page: 'careers', label: 'Careers'},
+   // {page: 'team', label: 'Team'},
+   // {page: 'values', label: 'Values'},
+   // {page: 'careers', label: 'Careers'},
   ],
 
   // If you have users set above, you add it here:
