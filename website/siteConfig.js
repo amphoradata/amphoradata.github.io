@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Amphora Data', // Title for your website.
-  tagline: 'A platform to discover, package, and trade data.',
+  title: 'Amphora Data ', // Title for your website.
+  tagline: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
   url: 'https://amphoradata.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,23 +38,28 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {page: 'basics', label: 'Basics'},
+    {href: 'https://beta.amphoradata.com', label: 'Platform'},
     {doc: 'overview/about', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
-    // {page: 'help', label: 'Help'},
-    // {blog: true, label: 'Blog'},
+    {blog: true, label: 'Blog'},
+    {page: 'contact', label: 'Contact'},
+   // {page: 'team', label: 'Team'},
+   // {page: 'values', label: 'Values'},
+   // {page: 'careers', label: 'Careers'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/Amphora_Data_Logo_white.png',
+  footerIcon: 'img/Black_Logo_Square.jpg',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#BC312A',
+    primaryColor: '#181717',
     secondaryColor: '#FFFEFD',
   },
 
@@ -63,18 +68,20 @@ const siteConfig = {
     // --amphora-white: #FFFEFD;
 
   /* Custom fonts for website */
-  /*
+  
   fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
+    fontTahoma: [
+      "Tahoma"
+    ],
+    fontCandara: [
+      "Candara"
     ],
     myOtherFont: [
       "-apple-system",
       "system-ui"
     ]
   },
-  */
+  
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Amphora Data`,

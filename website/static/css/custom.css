@@ -14,3 +14,27 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+h2 {
+    font-family: $fontCandara;
+  }
+
+h3 {
+    font-family: $fontTahoma;
+}
+
+h4 {
+    font-family: $fontTahoma;
+}
+
+p {
+    font-family: $fontTahoma;
+}
+
+.nav-footer {
+    background-color: #181717;
+}
+
+h2.headerTitleWithLogo {
+    visibility: hidden;
+}
