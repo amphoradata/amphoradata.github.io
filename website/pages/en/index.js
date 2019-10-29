@@ -139,19 +139,19 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Find the data you need.',
+            content: 'Find the data you need to improve your analytics and reporting software for farmers',
             image: `${baseUrl}img/undraw_map_1r69.svg`,
             imageAlign: 'top',
             title: 'Discover',
           },
           {
-            content: 'Containerise data for use anywhere.',
+            content: 'Containerise data to easily share and integrate across the agricultural ecosystem.',
             image: `${baseUrl}img/undraw_deliveries_131a.svg`,
             imageAlign: 'top',
             title: 'Package',
           },
           {
-            content: 'Convert data into revenue.',
+            content: 'Monetise your data by trading it with verified parties that will improve outcomes on farm.',
             image: `${baseUrl}img/undraw_Container_ship_ok1c.svg`,
             imageAlign: 'top',
             title: 'Trade',
