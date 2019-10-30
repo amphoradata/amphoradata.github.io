@@ -31,7 +31,7 @@ class Footer extends React.Component {
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
                 width="66"
-                height="58"
+                height="68"
               />
             )}
           </a>
@@ -52,9 +52,9 @@ class Footer extends React.Component {
           <div>
            <h5>About</h5>
             {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
-            <a href={this.docUrl('team', this.props.language)}>Team</a>
-            <a href={this.docUrl('careers', this.props.language)}>Careers</a>
-            <a href={this.docUrl('values', this.props.language)}>Values</a>
+            <a href={this.pageUrl('team', this.props.language)}>Team</a>
+            <a href={this.pageUrl('careers', this.props.language)}>Careers</a>
+            <a href={this.pageUrl('values', this.props.language)}>Values</a>
           </div>
         </section>
 
