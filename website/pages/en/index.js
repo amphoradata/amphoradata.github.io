@@ -217,7 +217,7 @@ class Index extends React.Component {
 
       <div className="amphora-count">
         <div>
-          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="90" height="70">
+          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="150" height="70">
             Sorry, your browser must support iFrames to see this.
           </iframe>
         </div>
