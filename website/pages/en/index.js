@@ -15,8 +15,8 @@ const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
+    const { siteConfig, language = '' } = this.props;
+    const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -74,8 +74,8 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props;
+    const { baseUrl } = siteConfig;
 
     const Block = props => (
       <Container
@@ -213,9 +213,24 @@ class Index extends React.Component {
       );
     };
 
+    const AmphoraCounter = () => (
+
+      <div className="amphora-count">
+        <div>
+          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="90" height="70">
+            Sorry, your browser must support iFrames to see this.
+          </iframe>
+        </div>
+        <div>
+          <p>More data every day</p>
+        </div>
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
+        <AmphoraCounter />
         <div className="mainContainer">
           <Features />
           {/* <LearnHow />
