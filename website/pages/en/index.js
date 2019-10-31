@@ -107,8 +107,7 @@ class Index extends React.Component {
       <Block>
         {[
           {
-            content:
-              'Most of a data scientist’s time is spent on basic data engineering and wrangling. This increases development cost and delays release. Our platform provides simple access to many data sources in data scientist ready formats. ',
+            content: 'Most of a data scientist’s time is spent on basic data engineering and wrangling. This increases development cost and delays release. Our platform provides simple access to many data sources in data scientist ready formats. ',
             image: `${baseUrl}img/Integration_Picture.jpg`,
             imageAlign: 'left',
             title: 'Simplify your data integration through a single portal',
@@ -169,13 +168,6 @@ class Index extends React.Component {
             content: 'Amphora Data exists to improve the analytics provided for farmers. We do this through increasing the amount of data for analytics and incentivising more data to be collected. All users are verified and can only use data they have permissions for. That means sensitive data is not sold to banks, insurance or seed companies.',
             title: 'We put the farmers first',
           },
-        ]}
-      </Block>
-    );
-
-    const ProductFeatures3 = () => (
-      <Block layout="twoColumn">
-        {[
           {
             content: 'Pricing is by transaction, not subscription. Data is charged on a one-off or monthly fee and can be set at any price. Prices are set depending on user needs as well as the quality, size and utility of the data contained within the Amphora. We are also offering sizable financial benefits for first time users.',
             title: 'Our pricing is transparent',
@@ -186,7 +178,7 @@ class Index extends React.Component {
 
     const DataTypes = () => (
       <Block>
-          {[
+        {[
           {
             content:
               'We can handle a range of data sources and types. This includes time series, imagery, 3D models, graphs and more. We also can handle many produce types.',
@@ -266,38 +258,45 @@ class Index extends React.Component {
     };
 
     const AmphoraCounter = () => (
-
       <div className="amphora-count">
         <div>
-          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="150" height="70">
+          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="200" height="90">
             Sorry, your browser must support iFrames to see this.
           </iframe>
-        </div>
-        <div>
-          <p>More data every day</p>
+          <h2>Amphorae and counting!</h2>
         </div>
       </div>
     );
 
+    const divStyle = {
+      margin: '-70px',
+      border: '1px solid white'
+    };
+    const pStyle = {
+      fontSize: '15px',
+      textAlign: 'left'
+    };
+    
+    const RemoveGaps = () => (
+      <div style={divStyle}>
+      </div>
+    );
+
     return (
-      <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
-        <AmphoraCounter />
         <div className="mainContainer">
           <PageIntro />
           <DescriptionOverview />
+          <AmphoraCounter />
           <ProductFeatures0 />
+          <RemoveGaps />
           <ProductFeatures1 />
+          <RemoveGaps />
           <ProductFeatures2 />
+          <RemoveGaps />
           <ProductFeatures3 />
         </div>
-      </div>
     );
   }
 }
 
 module.exports = Index;
-
-/* <DataTypes />
-<DataGovernance />
-<DataIntegration /> */
