@@ -94,7 +94,7 @@ class Index extends React.Component {
       <Block id="try">
         {[
           {
-            content: 'Data privacy and security is critical. It is a core part of our operations and who we are. We give you the ability to enable only companies who you want to use your data and all market participants are verified. We operate by the principles outlined in the General Data Protection Regulation.',
+            content:'Data privacy and security is critical. It is a core part of our operations and who we are. We give you the ability to enable only companies who you want to use your data and all market participants are verified. We operate by the principles outlined in the General Data Protection Regulation.',
             image: `${baseUrl}img/GDPR.jpg`,
             imageAlign: 'right',
             title: 'We offer secure and transparent escrow and trade of data',
@@ -114,7 +114,6 @@ class Index extends React.Component {
             title: 'Simplify your data integration through a single portal',
           },
         ]}
-
       </Block>
     );
 
@@ -170,6 +169,13 @@ class Index extends React.Component {
             content: 'Amphora Data exists to improve the analytics provided for farmers. We do this through increasing the amount of data for analytics and incentivising more data to be collected. All users are verified and can only use data they have permissions for. That means sensitive data is not sold to banks, insurance or seed companies.',
             title: 'We put the farmers first',
           },
+        ]}
+      </Block>
+    );
+
+    const ProductFeatures3 = () => (
+      <Block layout="twoColumn">
+        {[
           {
             content: 'Pricing is by transaction, not subscription. Data is charged on a one-off or monthly fee and can be set at any price. Prices are set depending on user needs as well as the quality, size and utility of the data contained within the Amphora. We are also offering sizable financial benefits for first time users.',
             title: 'Our pricing is transparent',
@@ -180,7 +186,7 @@ class Index extends React.Component {
 
     const DataTypes = () => (
       <Block>
-        {[
+          {[
           {
             content:
               'We can handle a range of data sources and types. This includes time series, imagery, 3D models, graphs and more. We also can handle many produce types.',
@@ -191,13 +197,13 @@ class Index extends React.Component {
         ]}
       </Block>
     );
-
+    
     const PageIntro = () => (
       <Block>
         {[
           {
             image: `${baseUrl}img/IMG_9353.jpeg`,
-            imageAlign: 'right',
+            imageAlign: 'right', 
             title: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
           },
         ]}
@@ -205,7 +211,7 @@ class Index extends React.Component {
     );
 
     const DescriptionOverview = () => (
-      <Block background="dark" layout="fourColumn">
+      <Block background = "dark" layout="fourColumn">
         {[
           {
             content: 'Find the data you need to improve your analytics and reporting software for farmers.',
