@@ -19,7 +19,7 @@ function Help(props) {
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
-  const team = [
+   const teamBio = [
     {
       content: "Managing Director and Co-founder. Isaac leads the direction and operations of Amphora Data as well as ensuring customers get the right outcomes. \n Prior to starting Amphora Data, he was an Engagement Manager at McKinsey & Company specialising in data, analytics and technology strategy and transformation. He worked with many of Australia and New Zealand’s largest companies. He also led the start up practice and worked with over 50 early stage companies. \n Isaac has a Ph.D. in Applied Mathematics from UNSW and was the recipient of the prestigious Fulbright award in 2015. His academic work focused on probability in complex systems and he published widely in the area. \n He has previously been involved in the development of IoT hardware and software for yacht racing. \n He grew up on a small farm in Northern NSW where his family still grows citrus",
       title: 'Isaac Donnelly',
@@ -39,7 +39,23 @@ function Help(props) {
           <header className="postHeader">
             <h1>We are an experienced team with distinctive expertise in software engineering, data governance, people leadership, operations, agriculture, data science and strategy.</h1>
           </header>
-          <GridBlock contents={team} layout="twoRow" />
+          <div>
+            <h2>Isaac Donnelly</h2>
+            <h3>Managing Director and Co-Founder</h3>
+            <p>Isaac leads the direction and operations of Amphora Data as well as ensuring customers get the right outcomes.</p>
+            <p>Prior to starting Amphora Data, he was an Engagement Manager at McKinsey and Company specialising in data, analytics and technology strategy and transformation. He worked with many of Australia and New Zealand’s largest companies. He also led the start up practice and worked with over 50 early stage companies. </p>
+            <p>Isaac has a Ph.D. in Applied Mathematics from UNSW and was the recipient of the prestigious Fulbright award in 2015. His academic work focused on probability in complex systems and he published in multiple international journals including Nature Communications.</p>
+            <p>He has previously been involved in the development of IoT hardware and software for yacht racing.</p>
+            <p>He grew up on a small farm in Northern NSW where his family still grows citrus.</p>
+          </div>
+          <div>
+            <h2>Rian Finnegan</h2>
+            <h3>Chief Technology Officer and Co-Founder</h3>
+            <p>Rian leads the technology and product development at Amphora Data and also looks after our people.</p>
+            <p>Prior to starting Amphora Data, he was a Software Engineer at Microsoft focused on building products on Azure for external clients. </p>
+            <p>He holds a double Bachelor of Electrical Engineering and Arts from UNSW and previously worked for a leading industrial IoT solutions provider and software vendor.</p>
+            <p>Rian is from Albury-Wodonga, a regional centre located on the Victorian/NSW border where his family still lives.</p>
+          </div>         
         </div>
       </Container>
     </div>
@@ -47,3 +63,5 @@ function Help(props) {
 }
 
 module.exports = Help;
+
+//<GridBlock layout="twoRow" contents={teamBio} />
