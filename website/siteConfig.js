@@ -54,7 +54,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/Amphora_Data_Logo_white.png',
-  footerIcon: 'img/Black_Logo_Square.jpg',
+  footerIcon: 'img/Black_Logo_Square.JPG',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
