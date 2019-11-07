@@ -120,10 +120,14 @@ class Index extends React.Component {
       <Block layout="twoColumn">
         {[
           {
+            image: `${baseUrl}img/undraw_goals_w8tw.svg`,
+            imageAlign: 'left',
             content: 'Amphora Data is a cloud native application built for data scientists and software engineers. You can interact with Amphorae programmatically via modern web APIs, by using one of our client SDKs, or by using the Amphora Data platform on the web. Amphora Data can be integrated with any modern analytics platform and into any data pipeline.',
-            title: 'We are a single point for your data needs',
+            title: 'We are a single point for data integration',
           },
           {
+            image: `${baseUrl}img/undraw_agreement_aajr.svg`,
+            imageAlign: 'bottom',
             content: 'We offer more than just technical integration. We handle the commercials through transparent pricing with money going direct to the data owner. We also surface the terms and conditions for using the data.',
             title: 'We do the commerical and governance parts too',
           },
@@ -135,10 +139,14 @@ class Index extends React.Component {
       <Block layout="twoColumn">
         {[
           {
+            image: `${baseUrl}img/undraw_contrast_vb82.svg`,
+            imageAlign: 'left',
             content: 'We can handle a range of data sources and types. This includes time series, imagery, 3D models, graphs and more. We have historical data as well as live data feeds. We also show the quality, description and other meta data so you know the data you get is what you need.',
-            title: 'We can handle any data you want',
+            title: 'We can orchestrate any data you want',
           },
           {
+            image: `${baseUrl}img/undraw_forming_ideas_0pav.svg`,
+            imageAlign: 'bottom',
             content: 'We are commodity agnostic and can handle GPS tracking from livestock, soil moisture data from ground crops, plant health from orchards, pest prevelance in sugar cane, yield production in dairy and many more. We also have related non-farm data sources including weather, electricity prices and water flows.',
             title: 'We operate across all agricultural commodities',
           },
@@ -150,12 +158,16 @@ class Index extends React.Component {
       <Block layout="twoColumn">
         {[
           {
+            image: `${baseUrl}img/undraw_privacy_protection_nlwy.svg`,
+            imageAlign: 'left',
             content: 'Data privacy is critical. It is a core part of our operations and who we are. We give you the ability to enable only companies who you want to use your data and all market participants are verified. We operate by the principles outlined in the General Data Protection Regulation.',
             title: 'We provide transparent governance of data',
           },
           {
+            image: `${baseUrl}img/undraw_secure_data_0rwp.svg`,
+            imageAlign: 'bottom',
             content: 'We operate entirely on Microsoft Azure and benefit from their leading security and identity management. We utilise Microsoft 256 bit AES encryption, keep data locally with specific regions, and verify all users and organisations on the platform.',
-            title: 'Your data is held securely in escrow',
+            title: 'Your data is managed securely in escrow',
           },
         ]}
       </Block>
@@ -165,10 +177,14 @@ class Index extends React.Component {
       <Block layout="twoColumn">
         {[
           {
+            image: `${baseUrl}img/undraw_completed_ngx6.svg`,
+            imageAlign: 'left',
             content: 'Amphora Data exists to improve the analytics provided for farmers. We do this through increasing the amount of data for analytics and incentivising more data to be collected. All users are verified and can only use data they have permissions for. That means sensitive data is not sold to banks, insurance or seed companies.',
             title: 'We put the farmers first',
           },
           {
+            image: `${baseUrl}img/undraw_credit_card_payment_yb88.svg`,
+            imageAlign: 'bottom',
             content: 'Pricing is by transaction, not subscription. Data is charged on a one-off or monthly fee and can be set at any price. Prices are set depending on user needs as well as the quality, size and utility of the data contained within the Amphora. We are also offering sizable financial benefits for first time users.',
             title: 'Our pricing is transparent',
           },
@@ -291,11 +307,11 @@ class Index extends React.Component {
           <DescriptionOverview />
           <AmphoraCounter />
           <ProductFeatures0 />
-          <RemoveGaps />
+          {/* <RemoveGaps /> */}
           <ProductFeatures1 />
-          <RemoveGaps />
+          {/* <RemoveGaps /> */}
           <ProductFeatures2 />
-          <RemoveGaps />
+          {/* <RemoveGaps /> */}
           <ProductFeatures3 />
         </div>
     );
