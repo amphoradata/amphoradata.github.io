@@ -40,14 +40,14 @@ class Footer extends React.Component {
             <a href={this.docUrl('overview/about.html', this.props.language)}>
               Basics
             </a>
-            <a href="https://amphoradata.slack.com/">Project Chat</a>
+            <a href="https://gitter.im/amphoradata/community" target="_blank">Gitter</a>
             <a
               href="https://stackoverflow.com/questions/tagged/amphora"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
             </a>
-            <a href="https://github.com/amphoradata">Git Hub</a>
+            <a href="https://github.com/amphoradata" target="_blank">GitHub</a>
           </div>
           <div>
            <h5>About</h5>
