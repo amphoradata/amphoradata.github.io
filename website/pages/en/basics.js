@@ -21,19 +21,23 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      image: `${baseUrl}img/undraw_reading_list_4boi.svg`,
+      imageAlign: 'left',
+      content: `Learn how to use Amphora Data`,
+      title: `[Browse Docs](${docUrl( 'doc1.html',)})`,
     },
     {
+      image: `${baseUrl}img/undraw_community_8nwl.svg`,
+      imageAlign: 'right',
       content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      title: '[Join the community](https://gitter.im/amphoradata/community)',
     },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
-    },
+    // {
+    //   image: `${baseUrl}img/undraw_new_message_2gfk.svg`,
+    //   imageAlign: 'left',
+    //   content: "Find out what's new with this project",
+    //   title: 'Stay up to date',
+    // },
   ];
 
   return (
@@ -44,7 +48,7 @@ function Help(props) {
             <h1>Need help?</h1>
           </header>
           <p>This project is maintained by a dedicated group of people.</p>
-          <GridBlock contents={supportLinks} layout="threeColumn" />
+          <GridBlock contents={supportLinks} layout="twoColumn" />
         </div>
       </Container>
     </div>
