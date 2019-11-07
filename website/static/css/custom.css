@@ -55,11 +55,12 @@ h2.headerTitleWithLogo {
 }
 
 .amphora-count iframe {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .amphora-count p {
     margin-left: auto;
     margin-right: auto;
+    font-size: x-large;
 }

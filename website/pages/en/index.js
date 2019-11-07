@@ -260,10 +260,12 @@ class Index extends React.Component {
     const AmphoraCounter = () => (
       <div className="amphora-count">
         <div>
-          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="200" height="90">
+          <iframe src="https://beta.amphoradata.com/api/amphoraestats/count?iFrame=true" width="120" height="70">
             Sorry, your browser must support iFrames to see this.
           </iframe>
-          <h2>Amphorae and counting!</h2>
+        </div>
+        <div>
+          <p>Amphorae and counting!</p>
         </div>
       </div>
     );
