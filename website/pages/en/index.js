@@ -194,8 +194,9 @@ class Index extends React.Component {
       <Block>
         {[
           {
-            image: `${baseUrl}img/IMG_9353.jpeg`,
-            imageAlign: 'right', 
+            // image: `${baseUrl}img/IMG_9353.jpeg`,
+            image: `${baseUrl}img/undraw_blooming_jtv6.svg`,
+            imageAlign: 'left', 
             title: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
           },
         ]}
