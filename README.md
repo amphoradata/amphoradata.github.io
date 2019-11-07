@@ -1,8 +1,11 @@
 # Amphora Data Documentation
 
+![](https://github.com/amphoradata/amphoradata.github.io/workflows/Publish/badge.svg)
+
 This is the source of the Amphora Data docs, which you can view [here](https://amphoradata.github.io).
 
 Built with [docusaurus](https://github.com/facebook/docusaurus).
+
 
 # Build
 
