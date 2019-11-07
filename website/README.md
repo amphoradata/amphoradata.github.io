@@ -1,5 +1,7 @@
 This website was created with [Docusaurus](https://docusaurus.io/).
 
+![](https://github.com/amphoradata/amphoradata.github.io/workflows/Publish/badge.svg)
+
 # What's In This Document
 
 * [Get Started in 5 Minutes](#get-started-in-5-minutes)
