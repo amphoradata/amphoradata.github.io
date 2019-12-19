@@ -38,15 +38,14 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'basics', label: 'Basics'},
-    {href: 'https://beta.amphoradata.com', label: 'Platform'},
+    // {page: 'basics', label: 'Basics'},
     {doc: 'overview/about', label: 'Docs'},
-    // {doc: 'doc4', label: 'API'},
     {blog: true, label: 'Blog'},
-    {page: 'contact', label: 'Contact'},
-   // {page: 'team', label: 'Team'},
-   // {page: 'values', label: 'Values'},
-   // {page: 'careers', label: 'Careers'},
+    {href: 'https://beta.amphoradata.com', label: 'App ⬈'},
+    // {page: 'contact', label: 'Contact'},
+    // {page: 'team', label: 'Team'},
+    // {page: 'values', label: 'Values'},
+    // {page: 'careers', label: 'Careers'},
   ],
 
   // If you have users set above, you add it here:
