@@ -36,18 +36,14 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-           <h5>For developers</h5>
-            <a href={this.docUrl('overview/about.html', this.props.language)}>
-              Basics
-            </a>
+           <h5>Developers</h5>
+            <a className="github-button" href="https://github.com/amphoradata" data-color-scheme="no-preference: dark; light: light; dark: dark;" aria-label="Follow @amphoradata on GitHub">Follow @amphoradata</a>
             <a href="https://gitter.im/amphoradata/community" target="_blank">Gitter</a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/amphora"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
-            </a>
-            <a href="https://github.com/amphoradata" target="_blank">GitHub</a>
+          </div>
+          <div>
+            <h5>Quick Links</h5>
+              <a href="https://beta.amphoradata.com" target="_blank">Amphora App</a>
+              <a href="https://beta.amphoradata.com/swagger/index.html" target="_blank">Open API Definition</a>
           </div>
           <div>
            <h5>About</h5>
