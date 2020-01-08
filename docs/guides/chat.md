@@ -1,8 +1,10 @@
 ---
-id: quickstart-python
-title: Getting Started with Python
+id: chat
+title: Chat with other users
 ---
 
 > Amphora Data is currently in beta. These documents may change.
 
-Another one
+Page is under construction
+
+

@@ -1,25 +1,10 @@
 ---
-id: quickstart-web
-title: Getting Started with Amphora Data
+id: quickstart-list
+title: Create and manage an Amphora
 ---
 
 > Amphora Data is currently in beta. These documents may change.
 
-## Create an Amphora Data account.
-
-Head to [amphoradata.com](https://beta.amphoradata.com) and register with your organisational email address.
-
-### Create a new Organisation
-
-If you're the first member of your organisation to sign up, then you'll need to create an [Amphora Data Organisation](../models/organisation.md).
-
-![New Organisation, Screenshot](../assets/screenshots/new_organisation.png)
-
-### Join an existing Organisation
-
-If your organisation is already represented in Amphora Data, then you'll need to be [invited](../how-to-guides/invite-to-organisation.md) into the Organisation. To join an organisation, once you've been invited, search for the name of the Organisation.
-
-![Join Organisation, Screenshot](../assets/screenshots/join_organisation.png)
 
 ## Create your first Amphora
 
@@ -29,7 +14,11 @@ Navigate to the `Amphorae` page, and click on the `Create` button.
 
 > At this stage, you can describe the Amphora, but *not yet* add any data. That comes later.
 
-Give your Amphora a Name, Description, Price, and Geo-Location. You can search for locations, or just enter the Lat/Lon manually.
+Give your Amphora a Name, Description, Price, and Geo-Location. You can search for locations, or just enter the Lat/Lon manually. These need to be entered into the fields below.
+
+![Fill metadata for Amphora, Screenshot](../assets/screenshots/CreateAmphora.png)
+
+As Amphoras have standardised metadata, please ensure all fields are correct so others can find and use your Amphora.
 
 ### Add a file
 
@@ -39,6 +28,7 @@ You can add any kind of file to an Amphora - images, text files, csv, word docum
 
 ![Add a file to an Amphora, Screenshot](../assets/screenshots/add_file_amphora.png)
 
+> Note that you need a steady connection to upload files and some users have reported issues due to poor connection with their internet providers.
 
 ### Add a signal
 
@@ -53,10 +43,6 @@ Now you can submit a value for that signal (e.g. the current temperature) via th
 ![Viewing a signal on an Amphora, Screenshot](../assets/screenshots/view_signal_amphora.png)
 
 
-## Delete the Amphora
+## Set terms and conditions
 
-If you're finished with an Amphora, and you (and nobody else) requires it's data, then it can be deleted.
-
-To delete an Amphora, click on the edit button, then click delete.
-
-![How to edit an Amphora, Screenshot](../assets/screenshots/edit_amphora_button.png)
+Under construction
