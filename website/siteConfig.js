@@ -24,6 +24,7 @@ const siteConfig = {
   title: 'Amphora Data ', // Title for your website.
   tagline: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
   url: 'https://amphoradata.github.io', // Your website URL
+  editUrl: 'https://github.com/amphoradata/amphoradata.github.io/blob/source/docs/',
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
