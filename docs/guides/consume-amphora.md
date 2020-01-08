@@ -1,6 +1,7 @@
 ---
 id: consume-amphora
 title: Consume data from an Amphora
+sidebar_label: Consume Data
 ---
 
 > Amphora Data is currently in beta. These documents may change.

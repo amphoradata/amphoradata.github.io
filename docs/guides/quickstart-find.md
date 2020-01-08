@@ -1,6 +1,7 @@
 ---
 id: quickstart-find
 title: Find an Amphora
+sidebar_label: Find Data
 ---
 
 > Amphora Data is currently in beta. These documents may change.

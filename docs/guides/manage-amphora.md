@@ -1,6 +1,7 @@
 ---
 id: manage-amphora
 title: Manage a listed Amphora
+sidebar_label: Manage Amphora
 ---
 
 > Amphora Data is currently in beta. These documents may change.

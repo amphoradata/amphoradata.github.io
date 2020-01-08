@@ -1,19 +1,25 @@
 {
   "docs": {
-    "Contents": [
-      "contents"
-    ],
     "Overview": [
+      "contents",
       "overview/about"
     ],
-    "Quickstart": [
-      "quickstarts/quickstart-web",
-      "quickstarts/quickstart-python"
+    "Quickstarts": [
+      "guides/quickstart-login"
     ],
-    "How To Guides": [
-      "how-to-guides/invite-to-organisation"
+    "Organisations and Users": [
+      "guides/invite-to-organisation",
+      "guides/billing-transactions",
+      "guides/set-tncs",
+      "guides/consume-amphora"
     ],
-    "Models": [
+    "Working with Data": [
+      "guides/quickstart-find",
+      "guides/consume-amphora",
+      "guides/quickstart-create",
+      "guides/manage-amphora"
+    ],
+    "Reference": [
       "models/organisation",
       "models/signal"
     ]

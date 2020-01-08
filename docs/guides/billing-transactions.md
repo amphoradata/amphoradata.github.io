@@ -1,6 +1,7 @@
 ---
 id: billing-transactions
 title: Billing and transactions
+sidebar_label: Transactions
 ---
 
 > Amphora Data is currently in beta. These documents may change.

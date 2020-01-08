@@ -1,6 +1,7 @@
 ---
 id: quickstart-login
 title: Logging in and setting up your organisation
+sidebar_label: Get Started
 ---
 
 > Amphora Data is currently in beta. These documents may change.
@@ -17,6 +18,6 @@ If you're the first member of your organisation to sign up, then you'll need to 
 
 ### Join an existing Organisation
 
-If your organisation is already represented in Amphora Data, then you'll need to be [invited](../how-to-guides/invite-to-organisation.md) into the Organisation. To join an organisation, once you've been invited, search for the name of the Organisation.
+If your organisation is already represented in Amphora Data, then you'll need to be [invited](guides/invite-to-organisation.md) into the Organisation. To join an organisation, once you've been invited, search for the name of the Organisation.
 
 ![Join Organisation, Screenshot](../assets/screenshots/join_organisation.png)

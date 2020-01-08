@@ -1,6 +1,7 @@
 ---
-id: quickstart-list
+id: quickstart-create
 title: Create and manage an Amphora
+sidebar_label: Create Data
 ---
 
 > Amphora Data is currently in beta. These documents may change.
