@@ -1,5 +1,5 @@
 ---
-id: manage-amphora
+id: manage
 title: Manage a listed Amphora
 sidebar_label: Manage Amphora
 ---
@@ -14,4 +14,4 @@ If you're finished with an Amphora, and you (and nobody else) requires it's data
 
 To delete an Amphora, click on the edit button, then click delete.
 
-![How to edit an Amphora, Screenshot](../assets/screenshots/edit_amphora_button.png)
+![How to edit an Amphora, Screenshot](/docs/assets/screenshots/edit_amphora_button.png)

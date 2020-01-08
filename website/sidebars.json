@@ -7,17 +7,19 @@
     "Quickstarts": [
       "guides/quickstart-login"
     ],
+    "Working with Data": [
+      "guides/data/find",
+      "guides/data/consume",
+      "guides/data/create",
+      "guides/data/manage"
+    ],
     "Organisations and Users": [
       "guides/invite-to-organisation",
-      "guides/billing-transactions",
       "guides/set-tncs",
       "guides/consume-amphora"
     ],
-    "Working with Data": [
-      "guides/quickstart-find",
-      "guides/consume-amphora",
-      "guides/quickstart-create",
-      "guides/manage-amphora"
+    "Accounts and Billing": [
+      "guides/billing-transactions"
     ],
     "Reference": [
       "models/organisation",

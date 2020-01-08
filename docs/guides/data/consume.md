@@ -1,5 +1,5 @@
 ---
-id: consume-amphora
+id: consume
 title: Consume data from an Amphora
 sidebar_label: Consume Data
 ---
@@ -14,7 +14,7 @@ You can consume data from an Amphora in three ways. You can either download a fl
 To consume a flat file (static file typically .txt or .csv) simply click `Download` next to the file you want under at the bottom of the Amphora page.
 
 To view a time series, click `Signals` in the top right of the Amphora page. You should see some interesting data like this
-![View Signals, Screenshot](../assets/screenshots/DataMarketSignals.jpg)
+![View Signals, Screenshot](/docs/assets/screenshots/DataMarketSignals.jpg)
 
 > Note that not all Amphoras contain time series.
 

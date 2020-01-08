@@ -1,5 +1,5 @@
 ---
-id: quickstart-find
+id: find
 title: Find an Amphora
 sidebar_label: Find Data
 ---
@@ -10,7 +10,7 @@ sidebar_label: Find Data
 ## Find an Amphora
 
 To find an Amphora, click Discover in the header, then search for key words, tags or locations. This will bring up a list of matching Amphora. 
-![Search Data Market, Screenshot](../assets/screenshots/DataMarketSearch.jpg)
+![Search Data Market, Screenshot](/docs/assets/screenshots/DataMarketSearch.jpg)
 
 ## Buy an Amphora
 
