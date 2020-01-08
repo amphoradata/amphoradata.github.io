@@ -26,6 +26,7 @@ const siteConfig = {
   url: 'https://amphoradata.github.io', // Your website URL
   editUrl: 'https://github.com/amphoradata/amphoradata.github.io/blob/source/docs/',
   baseUrl: '/', // Base URL for your project */
+  docsSideNavCollapsible: true,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -108,10 +109,10 @@ const siteConfig = {
   // docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
