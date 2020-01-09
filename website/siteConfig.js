@@ -41,9 +41,15 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     // {page: 'basics', label: 'Basics'},
-    {doc: 'overview/about', label: 'Docs'},
-    {blog: true, label: 'Blog'},
-    {href: 'https://beta.amphoradata.com', label: 'App ⬈'},
+    {href: 'https://amphoradata.com', label: 'HOME'},
+    {href: 'https://beta.amphoradata.com', label: 'PLATFORM'},
+    {doc: 'overview/about', label: 'DOCS'},
+    {href: 'https://github.com/amphoradata', label: 'GITHUB'},
+    {href: 'https://www.amphoradata.com/blog', label: 'BLOG'},
+    {href: 'https://www.amphoradata.com/contact-us', label: 'CONTACT'},
+    // {blog: true, label: 'Blog'},
+
+
     // {page: 'contact', label: 'Contact'},
     // {page: 'team', label: 'Team'},
     // {page: 'values', label: 'Values'},
