@@ -26,13 +26,13 @@ Amphora Data consists of several components:
 
 ### Consuming Data
 
-* [Find and purchase an Amphora](./guides/quickstart-find.md)
-* [Consume data from Amphora](./guides/consume-amphora.md)
+* [Find and purchase an Amphora](./guides/data/find.md)
+* [Consume data from Amphora](./guides/data/consume.md)
 
 ### Providing data
 
-* [Creating an Amphora](./guides/quickstart-create.md)
-* [Managing Amphora](./guides/manage-amphora.md)
+* [Creating an Amphora](./guides/data/create.md)
+* [Managing Amphora](./guides/data/manage.md)
 
 ## Integration and Automation
 
