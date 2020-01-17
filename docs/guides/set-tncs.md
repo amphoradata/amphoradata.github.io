@@ -22,10 +22,12 @@ Within the Terms and Conditions Library you can see all the documents your organ
 You can assign terms and conditions to an Amphora through two ways. 
 
 The first is through the GUI as you create the Amphora. For this method, select the appropriate terms and conditions in appropriate field
-![Fill metadata for Amphora, Screenshot](../assets/screenshots/CreateAmphora.png)
+![Fill metadata for Amphora, Screenshot](/docs/assets/screenshots/CreateAmphora.jpg)
 
-The second is through APIs. The latest code for doing so can be found on GitHub and looks something like
 
-amphora_client.CreateAmphoraDto(... terms_and_conditions_id = The_ID_of_the_appropriate_TnC).
+The second is through APIs. The latest python code for doing so can be found on GitHub and looks something like
 
+```py
+amphora_client.CreateAmphoraDto(terms_and_conditions_id = The_ID_of_the_appropriate_TnC).
+```
 
