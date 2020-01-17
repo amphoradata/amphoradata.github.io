@@ -23,7 +23,8 @@
     ],
     "Python SDK": [
       "guides/python/python-getting-started",
-      "guides/python/python-create-amphora"
+      "guides/python/python-create-amphora",
+      "guides/python/python-upload-file"
     ],
     "Reference": [
       "models/organisation",
