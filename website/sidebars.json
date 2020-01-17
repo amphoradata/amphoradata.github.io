@@ -21,6 +21,10 @@
     "Accounts and Billing": [
       "guides/billing-transactions"
     ],
+    "Python SDK": [
+      "guides/python/python-getting-started",
+      "guides/python/python-create-amphora"
+    ],
     "Reference": [
       "models/organisation",
       "models/signal"
