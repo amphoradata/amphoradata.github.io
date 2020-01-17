@@ -11,4 +11,4 @@ If you want to share data or collaborate with colleagues, you can easily invite 
 Select the `Invite` button in your profile drop down menu.
 
 You will get a screen similar to below. Enter their email address and ensure that "Invite to My Organisation" is checked.
-![Invite colleagues, Screenshot](/docs/assets/screenshots/InviteToOrg.jpg)
+![Invite colleagues, Screenshot](/docs/assets/screenshots/InviteToOrganisation.jpg)
