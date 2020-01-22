@@ -45,6 +45,7 @@ const siteConfig = {
     {href: 'https://beta.amphoradata.com', label: 'PLATFORM'},
     {doc: 'overview/about', label: 'DOCS'},
     {href: 'https://github.com/amphoradata', label: 'GITHUB'},
+    {href: 'https://gitter.im/amphoradata/community', label: 'GITTER'},
     {href: 'https://www.amphoradata.com/blog', label: 'BLOG'},
     {href: 'https://www.amphoradata.com/contact-us', label: 'CONTACT'},
     // {blog: true, label: 'Blog'},

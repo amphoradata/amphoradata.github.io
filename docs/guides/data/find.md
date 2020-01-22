@@ -20,3 +20,4 @@ You may need to accept the terms and conditions of the Amphora. These terms and 
 
 After you purchase the Amphora, it will show up on your organisation profile as a Debit.
 
+You can watch a video of finding and buying an Amphora on our [YouTube](https://www.youtube.com/watch?v=6TQkfAf0v_g) Channel.

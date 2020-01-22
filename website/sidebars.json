@@ -4,19 +4,18 @@
       "contents",
       "overview/about"
     ],
-    "Quickstarts": [
-      "guides/quickstart-login"
-    ],
-    "Working with Data": [
+    "Discover New Data": [
       "guides/data/find",
-      "guides/data/consume",
+      "guides/data/consume"
+    ],
+    "Share Your Data": [
       "guides/data/create",
       "guides/data/manage"
     ],
     "Organisations and Users": [
+      "guides/quickstart-login",
       "guides/invite-to-organisation",
-      "guides/set-tncs",
-      "guides/consume-amphora"
+      "guides/set-tncs"
     ],
     "Accounts and Billing": [
       "guides/billing-transactions"
@@ -27,7 +26,13 @@
       "guides/python/python-upload-file",
       "guides/python/python-upload-signal"
     ],
-    "Reference": [
+    "Community and support": [
+      "guides/request-data.md",
+      "guides/report-bug.md",
+      "guides/chat.md",
+      "guides/contribute-code.md"
+    ],
+    "Definitions": [
       "models/organisation",
       "models/signal"
     ]

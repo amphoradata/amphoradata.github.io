@@ -1,7 +1,7 @@
 ---
 id: create
 title: Create and manage an Amphora
-sidebar_label: Create Data
+sidebar_label: Create Amphora
 ---
 
 > Amphora Data is currently in beta. These documents may change.
