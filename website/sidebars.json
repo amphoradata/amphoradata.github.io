@@ -24,7 +24,8 @@
       "guides/python/python-getting-started",
       "guides/python/python-create-amphora",
       "guides/python/python-upload-file",
-      "guides/python/python-upload-signal"
+      "guides/python/python-upload-signal",
+      "guides/python/python-query-signal"
     ],
     "Community and support": [
       "guides/request-data.md",
