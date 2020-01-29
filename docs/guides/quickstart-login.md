@@ -18,6 +18,8 @@ If you're the first member of your organisation to sign up, then you'll need to 
 
 ### Join an existing Organisation
 
-If your organisation is already represented in Amphora Data, then you'll need to be [invited](guides/invite-to-organisation.md) into the Organisation. To join an organisation, once you've been invited, search for the name of the Organisation.
+If your organisation is already represented in Amphora Data, then you'll need to be [invited](guides/invite-to-organisation.md) into the Organisation. To join an organisation, once you've been invited, click `Find my Organisation`, and search for the name of the Organisation.
 
 ![Join Organisation, Screenshot](../assets/screenshots/join_organisation.png)
+
+By clicking `Join Organisation` you can request to join that organisation. If you've already been invited to an organisation, you should be automatically redirected to join that org. 
