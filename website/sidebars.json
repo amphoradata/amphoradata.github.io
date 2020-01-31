@@ -25,7 +25,8 @@
       "guides/python/python-create-amphora",
       "guides/python/python-upload-file",
       "guides/python/python-upload-signal",
-      "guides/python/python-query-signal"
+      "guides/python/python-query-signal",
+      "guides/python/python-pandasdf"
     ],
     "Community and support": [
       "guides/request-data.md",
