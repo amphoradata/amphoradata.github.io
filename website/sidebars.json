@@ -6,7 +6,9 @@
     ],
     "Discover New Data": [
       "guides/data/find",
-      "guides/data/consume"
+      "guides/data/consume",
+      "guides/data/raise-request",
+      "guides/data/github-issue"
     ],
     "Share Your Data": [
       "guides/data/create",
