@@ -19,7 +19,7 @@ Give your Amphora a Name, Description, Price, and Geo-Location. You can search f
 
 As Amphoras have standardised metadata, please ensure all fields are correct so others can find and use your Amphora.
 
-### Add a file
+### Add an Amphora File
 
 > The max file size for uploading through the web interface is currently 10MB. There is no size limit for uploading files through the API
 
