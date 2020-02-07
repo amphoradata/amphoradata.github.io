@@ -6,29 +6,27 @@ sidebar_label: Consume Data
 
 > Amphora Data is currently in beta. These documents may change.
 
-> You must have bought an Amphora to consume it's data
+> You must have purchased an Amphora to consume it's data
 
+You can consume data from an Amphora in several ways. You can download Amphora Files or Amphora Signals, either via the web application, or by using the REST API or any Amphora Data client SDK.
 
+## Download an Amphora File
 
-You can consume data from an Amphora in three ways. You can either download a flat file, view a time series, or connect a live time-series through an API.
+To consume an Amphora file (static file typically .txt or .csv) select `Files` on the top-right of the Amphora page. You should then see a screen like this. 
 
-## Get a flat file
-
-To consume a flat file (static file typically .txt or .csv) select `Files` on the top-right of the Amphora page. You should then see a screen like this. 
-
-![Flat file download Screenshot](/docs/assets/screenshots/Flat_file_download.png)
+![Amphora File download Screenshot](/docs/assets/screenshots/Flat_file_download.png)
 
 Then simply click `Download` next to the file you want.
 
-## View the time series
+## View an Amphora Signal
 
-To view a time series, click `Signals` in the top right of the Amphora page. You should see some interesting data like this.
+Amphora Signas represent time series data. To view an Amphora Signal click `Signals` in the top right of the Amphora page. You should see some interesting data like this.
 ![View Signals, Screenshot](/docs/assets/screenshots/DataMarketSignals.jpg)
 
 This is an exploratory dashboard and it enables you to discover the data in a simple format. You can choose different signals, different time boxes, and filter by specific values or properties. 
 
-> Note that not all Amphoras contain time series.
+> Note that not all Amphoras contain Signals.
 
-## Get data through API
+## Get data via the API
 
-You can get data from the Amphora through our API. Check out the latest SDKs and sample code on [GitHub](https://github.com/amphoradata). We also have all info on connecting to our API [Here](https://beta.amphoradata.com/swagger/index.html#/). If you would like a SDK in a new language, please let us know over email or on GitHub. 
+All Amphora Data is available via our API. Check out the latest SDKs and sample code on [GitHub](https://github.com/amphoradata). We provide a public Open API specification at [beta.amphoradata.com/swagger](https://beta.amphoradata.com/swagger/). We currently generate and provide a C# SDK and Python SDK.
