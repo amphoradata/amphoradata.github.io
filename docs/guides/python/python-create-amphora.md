@@ -25,6 +25,9 @@ amphora_api = amphora_client.AmphoraeApi(authenticated_api_client)
 name = "Historical hay and feed yields"
 desc = "Hay yields over a 10 year period from 1999 - 2009.\n Data is stored in csv format, and all measurements are in kg."
 
+# use descriptive labels to appear on the Amphora such as data type, structure and other relevant information
+labels = "csv,timeseries,hay,yields"
+
 # set a price you think is fair. It will be billed monthly.
 price = 10 
 
@@ -33,7 +36,7 @@ lat = -27.45714
 lon = 153.07106
 
 # create a Data Transfer Object (DTO) to be sent to Amphora Data
-new_amphora_definition = amphora_client.CreateAmphoraDto(name=name, description=desc, price=price, lat=lat, lon=lon)
+new_amphora_definition = amphora_client.CreateAmphoraDto(name=name, description=desc, labels=labels, price=price, lat=lat, lon=lon)
 ```
 
 Now you've defined your new Amphora, it's time to create it, which you can do in a single call to Amphora Data.
