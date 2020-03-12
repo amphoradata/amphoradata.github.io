@@ -112,6 +112,8 @@ const siteConfig = {
   // No .html extensions for paths.
   cleanUrl: true,
 
+  cname: 'docs.amphoradata.com',
+
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
