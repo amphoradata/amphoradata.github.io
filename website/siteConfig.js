@@ -41,13 +41,16 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     // {page: 'basics', label: 'Basics'},
-    {href: 'https://amphoradata.com', label: 'HOME'},
-    {href: 'https://beta.amphoradata.com', label: 'PLATFORM'},
-    {doc: 'overview/about', label: 'DOCS'},
-    {href: 'https://github.com/amphoradata', label: 'GITHUB'},
-    {href: 'https://gitter.im/amphoradata/community', label: 'GITTER'},
-    {href: 'https://www.amphoradata.com/blog', label: 'BLOG'},
-    {href: 'https://www.amphoradata.com/contact-us', label: 'CONTACT'},
+    {href: 'https://amphoradata.com', label: 'Home'},
+    {href: 'https://app.amphoradata.com/Profiles/Account/Register', label: 'Register'},
+    {href: 'https://app.amphoradata.com/Profiles/Account/Login', label: 'Login'},
+    {href: 'https://www.amphoradata.com/how-we-help/researchers', label: 'How We Help'},
+    {href: 'https://www.amphoradata.com/pricing', label: 'Pricing'},
+    {doc: 'overview/about', label: 'Docs'},
+    {href: 'https://github.com/amphoradata', label: 'Github'},
+    {href: 'https://gitter.im/amphoradata/community', label: 'Gitter'},
+    {href: 'https://www.amphoradata.com/blog', label: 'Blog'},
+    {href: 'https://www.amphoradata.com/contact-us', label: 'Contact'},
     // {blog: true, label: 'Blog'},
 
 
