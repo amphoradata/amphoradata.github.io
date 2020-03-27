@@ -19,37 +19,34 @@ pip install numpy
 pip install pandas
 ```
 
-```py
-import amphora_client as a10a
-# Import this to convert to Pandas.DataFrame
-import amphora_extensions.pandas as a10a_pd
-```
-
-## Convert to a Pandas DataFrame
-
-[This page](./python-query-signal) shows you how to query signals. We assume you have already queried the Amphora Signals, and have created an `amphora_client.QueryResultPage`
+## Convert Signals to a Pandas DataFrame
 
 ```py
-# time_series_data is of type amphora_client.QueryResultPage
+client = AmphoraDataRepositoryClient(credentials)
 
-# Convert to a pandas dataframe!
-df = a10a_pd.to_df(time_series_data)
+# get a reference to an Amphora
+amphora = client.get_amphora("e6097df0-952c-46a6-84b0-ccc29bf1b0f7")
+
+# get a reference to the Amphora's signals
+signals = amphora.get_signals()
+
+# download some signals and convert to a pandas dataframe
+df = signals.pull().to_pandas()
 print(df)
 
-#                            EventCount  temperature
-# 2020-01-31 12:00:00+00:00         NaN         33.0
-# 2020-01-31 13:00:00+00:00         NaN         32.0
-# 2020-01-31 14:00:00+00:00         NaN         31.0
-# 2020-01-31 15:00:00+00:00         NaN         31.0
-# 2020-01-31 16:00:00+00:00         NaN         30.0
-# ...                               ...          ...
-# 2020-02-01 07:00:00+00:00         NaN         42.0
-# 2020-02-01 08:00:00+00:00         NaN         41.0
-# 2020-02-01 09:00:00+00:00         NaN         38.0
-# 2020-02-01 10:00:00+00:00         NaN         35.0
-# 2020-02-01 11:00:00+00:00         NaN         34.0
-
-# [552 rows x 2 columns]
+#                            temperature  rainProb  windSpeed  windDirection  cloudCover  pressure  rainfallRate
+# t                                                                                                             
+# 2020-03-26 02:00:00+00:00         24.0       5.0       11.0          135.0        13.0    1024.6           0.0
+# 2020-03-26 03:00:00+00:00         25.0       5.0       10.0          135.0        10.0    1023.9           0.0
+# 2020-03-26 04:00:00+00:00         26.0       5.0        9.0          135.0        11.0    1023.2           0.0
+# 2020-03-26 05:00:00+00:00         27.0       5.0        9.0          158.0        11.0    1022.6           0.0
+# 2020-03-26 06:00:00+00:00         27.0       7.0        8.0          203.0        10.0    1022.0           0.0
+# ...                                ...       ...        ...            ...         ...       ...           ...
+# 2020-03-26 11:00:00+00:00         18.0       6.0        5.0           90.0        41.0    1023.7           0.0
+# 2020-03-26 12:00:00+00:00         17.0       7.0        4.0           90.0        19.0    1023.9           0.0
+# 2020-03-26 13:00:00+00:00         16.0       6.0        5.0           68.0        20.0    1024.0           0.0
+# 2020-03-26 14:00:00+00:00         15.0       7.0        4.0           68.0        16.0    1024.2           0.0
+# 2020-03-26 15:00:00+00:00         14.0       7.0        4.0           68.0        16.0    1024.1           0.0
 ```
 
 > The Event Count will always contain NaN values.

@@ -39,18 +39,18 @@ password="YOUR_PASSWORD"
 ```
 
 ```py
-auth_api = amphora_client.AuthenticationApi(amphora_client.ApiClient(configuration))
-token_request = amphora_client.TokenRequest(username=os.environ['username'], password=os.environ['password'] ) 
-token = auth_api.authentication_request_token(token_request = token_request)
-configuration.api_key["Authorization"] = "Bearer " + token # set the bearer token for all future authenticated requests
-authenticated_api_client = amphora_client.ApiClient(configuration) 
+import os
+from amphora.client import AmphoraDataRepositoryClient, Credentials
+
+# provide your login credentials
+credentials = Credentials(username=os.environ['username'], password=os.environ['password'])
+# create a client for interacting with the public Amphora Data Repository
+client = AmphoraDataRepositoryClient(credentials)
 ```
 
 ## Check you're Authenticated
 
 ```py
-users_api = amphora_client.UsersApi(authenticated_api_client) # use the configuration 
-me = users_api.users_read_self()
-print(me) # print's your own details
-
+# print information about the logged in user
+print(client.get_self())
 ```

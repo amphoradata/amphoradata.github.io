@@ -9,7 +9,8 @@ sidebar_label: Query Data
 ## Import the required modules
 
 ```py
-import amphora_client as a10a
+from amphora.client import AmphoraDataRepositoryClient
+import amphora_api_client as a10a
 ```
 
 
@@ -18,11 +19,12 @@ import amphora_client as a10a
 > Make sure you're authenticating your api client, as shown in [the getting started with Python page](./python-getting-started)
 
 ```py
-id="57d6593f-1889-410a-b1fb-631b6f9c9c85" # the id for weather data in Albury-Wodonga
+client = AmphoraDataRepositoryClient(credentials)
 
-amphora_api = a10a.AmphoraeApi(authenticated_api_client)
-amphora = amphora_api.amphorae_read(id) # get's the Amphora's metadata from Amphora Data
-print(amphora) 
+amphora_id="57d6593f-1889-410a-b1fb-631b6f9c9c85" # the id for weather data in Albury-Wodonga
+
+amophora = client.get_amphora(amphora_id)
+print(amphora.metadata) 
 ```
 
 ## Define your query
@@ -38,7 +40,7 @@ There are three types of signal queries:
 In this example, we will get data using the `Get Series` API, which standardises the timestamps for us.
 
 ```py
-ts_api = a10a.TimeSeriesApi(authenticated_api_client) # the API for interacting with signals , i.e. time series
+ts_api = a10a.TimeSeriesApi(client.apiClient) # the API for interacting with time series
 
 # Create a DateTimeRange to describe over what period we want to query.
 tomorrow = datetime.now() + timedelta(hours=24)

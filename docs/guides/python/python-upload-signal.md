@@ -10,12 +10,15 @@ sidebar_label: Upload a Signal
 
 An Amphora can store data in one of two ways. We already saw how you can [store an arbitrary file](./python-upload-file) in an Amphora. However, many data are consistantly updating numeric time series - for example, the water levels in a river, or the number of cattle in a given area. For these kinda of data its best to use Amphora Signals.
 
-## Import the required modules
+## Setup your client
 
 ```py
-import amphora_client
-from amphora_client import SignalDto
-from datetime import datetime, timedelta
+from amphora.client import AmphoraDataRepositoryClient, Credentials
+
+# provide your login credentials
+credentials = Credentials(username="username", password="your password")
+# create a client for interacting with the public Amphora Data Repository
+client = AmphoraDataRepositoryClient(credentials)
 ```
 
 ## Check your Amphora exists
@@ -23,27 +26,21 @@ from datetime import datetime, timedelta
 > Make sure you're authenticating your api client, as shown in [the getting started with Python page](./python-getting-started)
 
 ```py
-id="00000000-0000-0000-0000-00000000000" # use the id of the amphora you created previously
+amphora_id="00000000-0000-0000-0000-00000000000" # use the id of the amphora you created previously
 
-amphora_api = amphora_client.AmphoraeApi(authenticated_api_client)
-amphora = amphora_api.amphorae_read(id) # get's the Amphora's metadata from Amphora Data
-print(amphora) 
+amphora = client.get_amphora(amphora_id) # gets a reference to the Amphora
+print(amphora.metadata) 
 ```
 
 ## Define signals on your Amphora
 
-> Currently, Amphora are limited to 7 signals each.
+> Currently, Amphora are limited to 10 signals each.
 
 Before you can upload data, you need to define the properties for which you'll be providing numeric values.
 
 ```py
-signal_definitions = [
-    SignalDto(_property='temperature', value_type='Numeric'), # numeric properties are for numeric data
-    SignalDto(_property='description', value_type='String') # string properties are for string data. these will not be shown in graphs.
-]
-
-for s in signal_definitions:
-    amphora_api.amphorae_create_signal(amphora.id, signal_dto= s) # this creates a signal property on Amphora Data
+amphora.create_signal("temperature", attributes={"units":"celcius", "custom":"any string"}) # units are a special attribute
+amphora.create_signal("description", value_type="String") # override the default 'Numeric' value type
 
 ```
 
@@ -69,13 +66,32 @@ signals = [
         )
 ]
 
-amphora_api.amphorae_upload_signal_batch(amphora.id, request_body = signals) # this sends the data to Amphora Data
+amphora.push_signals_dict_array_(amphora.amphora_id, signals) # this sends the data to Amphora Data
 ```
 
 ## View your data at Amphora Data
 
 You're data should now be live in the Amphora you specified. Replace the following id with your Amphora's id, and visit the link.
 
-`https://beta.amphoradata.com/Amphorae/Signals?id=<YOUR AMPHORA ID>`
+`https://app.amphoradata.com/Amphorae/Signals?id=<YOUR AMPHORA ID>`
 
 Your data is now live!
+
+## Use Pandas DataFrames
+
+You can upload Signal data from Pandas DataFrames. By setting the column names, the sdk can automatically create the Signal definitions for you, by inferring the value type from the data.
+
+```py
+import pandas as pd
+
+# make some timestamps
+yesterday = datetime.now() + timedelta(hours=-24)
+now = datetime.now()
+tomorrow = datetime.now() + timedelta(hours=24)
+
+# intialise data of lists.
+data  = [['tom', 10], ['nick', 15], ['juli', 14]] 
+df = pd.DataFrame(data, columns = ['name', 'age'])
+
+amphora.push_signals_df(df, auto=True) # setting auto to true will automatically create the signal definitions for you.
+```

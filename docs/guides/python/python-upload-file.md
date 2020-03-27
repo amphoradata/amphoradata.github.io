@@ -6,38 +6,39 @@ sidebar_label: Upload a file
 
 > Amphora Data is currently in beta. These documents may change.
 
-## Import the required modules
-
-```py
-import amphora_client
-from amphora_extensions import file_uploader
-```
-
-## Check your Amphora exists
+## Get a reference to your Amphora
 
 > Make sure you're authenticating your api client, as shown in [the getting started with Python page](./python-getting-started)
 
 ```py
-id="00000000-0000-0000-0000-00000000000" # use the id of the amphora you created previously
+client = AmphoraDataRepositoryClient(credentials)
 
-amphora_api = amphora_client.AmphoraeApi(authenticated_api_client)
-amphora = amphora_api.amphorae_read(id) # get's the Amphora's metadata from Amphora Data
-print(amphora) 
+amphora_id="00000000-0000-0000-0000-00000000000" # use the id of the amphora you created previously
+
+amphora = client.get_amphora(amphora_id) # gets the Amphora's metadata from Amphora Data
+print(amphora.metadata) 
 ```
 
-## Upload a file user the file uploader extension
+## Upload a file
 
 The file uploader extension wraps some fundamental SDK calls, and simply let's you upload a file from disk. 
 
 ```py
-uploader = FileUploader(amphora_api) # requires an authenticated AmphoraApi object.
-
-file_path="path to your file"
-uploader.create_and_upload_file(amphora.id, file_path)
+override_file_name= "the_name_in_the_repository"
+file_path="path/to/your/file"
+amphora.push_file(amphora.amphora_id, file_path, file_name=override_file_name)
 ```
 
 ## View your file online
 
 Your file should now be available on Amphora Data, in the Amphora you just referenced. Replace the id in the link below to check your file exists.
 
-`https://beta.amphoradata.com/Amphorae/Files?id=<YOUR AMPHORA ID>`
+`https://app.amphoradata.com/Amphorae/Files?id=<YOUR AMPHORA ID>`
+
+## Download the file
+
+Downloading the file via the SDK is simple:
+
+```py
+amphora.get_file(override_file_name).pull("a_local_file.txt") # downloads the file to your local machine
+```
