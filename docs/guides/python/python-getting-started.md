@@ -19,14 +19,6 @@ In your shell (Windows, Mac, or Linux):
 pip install amphoradata
 ```
 
-## Import the required modules
-
-```py
-import amphora_client
-from amphora_client.configuration import Configuration
-configuration = Configuration()
-```
-
 > These docs refer to version >=0.9.0 (including pre-release)
 >
 > Older versions should upgrade.
