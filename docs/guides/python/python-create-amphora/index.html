@@ -64,21 +64,20 @@
 <p>Amphora Data is currently in beta. These documents may change.</p>
 </blockquote>
 <p>If you're providing data, most likely you'll want to be able to programmatically create an Amphora. This is possible using the Python SDK.</p>
-<h2><a class="anchor" aria-hidden="true" id="import-the-required-modules"></a><a href="#import-the-required-modules" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Import the required modules</h2>
-<pre><code class="hljs css language-py"><span class="hljs-keyword">import</span> amphora_client
-</code></pre>
-<h2><a class="anchor" aria-hidden="true" id="define-your-amphora"></a><a href="#define-your-amphora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Define your Amphora</h2>
+<h2><a class="anchor" aria-hidden="true" id="define-and-create-your-amphora"></a><a href="#define-and-create-your-amphora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Define and create your Amphora</h2>
 <blockquote>
-<p>Make sure you're authenticating your api client, as shown in <a href="./python-getting-started">the getting started with Python page</a></p>
+<p>Make sure you're authenticating your client, as shown in <a href="./python-getting-started">the getting started with Python page</a></p>
 </blockquote>
-<pre><code class="hljs css language-py">amphora_api = amphora_client.AmphoraeApi(authenticated_api_client)
+<pre><code class="hljs css language-py"><span class="hljs-keyword">from</span> amphora.client <span class="hljs-keyword">import</span> AmphoraDataRepositoryClient
+
+client = AmphoraDataRepositoryClient(credentials)
 
 <span class="hljs-comment"># use meaningful name and descriptions for your Amphora</span>
 name = <span class="hljs-string">"Historical hay and feed yields"</span>
 desc = <span class="hljs-string">"Hay yields over a 10 year period from 1999 - 2009.\n Data is stored in csv format, and all measurements are in kg."</span>
 
 <span class="hljs-comment"># use descriptive labels to appear on the Amphora such as data type, structure and other relevant information</span>
-labels = <span class="hljs-string">"csv,timeseries,hay,yields"</span>
+labels = [<span class="hljs-string">"csv"</span>,<span class="hljs-string">"timeseries"</span>,<span class="hljs-string">"hay"</span>,<span class="hljs-string">"yields"</span>]
 
 <span class="hljs-comment"># set a price you think is fair. It will be billed monthly.</span>
 price = <span class="hljs-number">10</span> 
@@ -87,17 +86,14 @@ price = <span class="hljs-number">10</span>
 lat = <span class="hljs-number">-27.45714</span>
 lon = <span class="hljs-number">153.07106</span>
 
-<span class="hljs-comment"># create a Data Transfer Object (DTO) to be sent to Amphora Data</span>
-new_amphora_definition = amphora_client.CreateAmphoraDto(name=name, description=desc, labels=labels, price=price, lat=lat, lon=lon)
-</code></pre>
-<p>Now you've defined your new Amphora, it's time to create it, which you can do in a single call to Amphora Data.</p>
-<pre><code class="hljs css language-py">amphora_detail = amphora_api.amphorae_create(create_amphora_dto=new_amphora_definition)
-print(amphora_detail)
+amphora = client.create_amphora(name=name, description=desc, labels=labels, price=price, lat=lat, lon = lon)
+<span class="hljs-comment"># print the metadata of the Amphora you just created</span>
+print(amphora.metadata)
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="save-the-id-of-your-new-amphora"></a><a href="#save-the-id-of-your-new-amphora" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Save the Id of your new Amphora</h2>
-<p>Amphora Data automatically creates random identifiers for every new Amphora to prevent accidental duplications and inconsistencies. Its good practice to save the Ids of any new Amphora you create, so you can easily find them later.</p>
+<p>Amphora Data automatically creates unique identifiers for every new Amphora to prevent accidental duplications and inconsistencies. Its good practice to save the ids of new Amphora you create, so you can easily find them later.</p>
 <pre><code class="hljs css language-py"><span class="hljs-keyword">with</span> open(<span class="hljs-string">'amphora_id.txt'</span>, <span class="hljs-string">'w'</span>) <span class="hljs-keyword">as</span> f:
-    f.write(<span class="hljs-string">f'<span class="hljs-subst">{amphora_detail.id}</span>\n'</span>)
+    f.write(<span class="hljs-string">f'<span class="hljs-subst">{amphora.amphora_id}</span>\n'</span>)
 </code></pre>
 <p>Your Amphora is created, and ready to fill with data!</p>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2/10/2020 by maxmills1</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/guides/python/python-getting-started"><span class="arrow-prev">← </span><span>Python Quickstart</span></a><a class="docs-next button" href="/docs/guides/python/python-upload-file"><span>Upload a file</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#import-the-required-modules">Import the required modules</a></li><li><a href="#define-your-amphora">Define your Amphora</a></li><li><a href="#save-the-id-of-your-new-amphora">Save the Id of your new Amphora</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/Amphora_Black.svg" alt="Amphora Data " width="66" height="68"/></a><div><h5>Developers</h5><a class="github-button" href="https://github.com/amphoradata" data-color-scheme="no-preference: dark; light: light; dark: dark;" aria-label="Follow @amphoradata on GitHub">Follow @amphoradata</a><a href="https://gitter.im/amphoradata/community" target="_blank">Gitter</a></div><div><h5>Quick Links</h5><a href="https://beta.amphoradata.com" target="_blank">Amphora App</a><a href="https://beta.amphoradata.com/swagger/index.html" target="_blank">Open API Definition</a></div><div><h5>About</h5><a href="/en/team">Team</a><a href="/en/careers">Careers</a><a href="/en/values">Values</a></div></section><a href="https://amphoradata.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/Amphora_Data_Logo_white.png" alt="Amphora Data" width="170" height="35"/></a><section class="copyright">Copyright © 2020 Amphora Data</section></footer></div></body></html>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 3/27/2020 by Rian Finnegan</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/guides/python/python-getting-started"><span class="arrow-prev">← </span><span>Python Quickstart</span></a><a class="docs-next button" href="/docs/guides/python/python-upload-file"><span>Upload a file</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#define-and-create-your-amphora">Define and create your Amphora</a></li><li><a href="#save-the-id-of-your-new-amphora">Save the Id of your new Amphora</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/Amphora_Black.svg" alt="Amphora Data " width="66" height="68"/></a><div><h5>Developers</h5><a class="github-button" href="https://github.com/amphoradata" data-color-scheme="no-preference: dark; light: light; dark: dark;" aria-label="Follow @amphoradata on GitHub">Follow @amphoradata</a><a href="https://gitter.im/amphoradata/community" target="_blank">Gitter</a></div><div><h5>Quick Links</h5><a href="https://beta.amphoradata.com" target="_blank">Amphora App</a><a href="https://beta.amphoradata.com/swagger/index.html" target="_blank">Open API Definition</a></div><div><h5>About</h5><a href="/en/team">Team</a><a href="/en/careers">Careers</a><a href="/en/values">Values</a></div></section><a href="https://amphoradata.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/Amphora_Data_Logo_white.png" alt="Amphora Data" width="170" height="35"/></a><section class="copyright">Copyright © 2020 Amphora Data</section></footer></div></body></html>
