@@ -27,7 +27,9 @@ from amphora_client.configuration import Configuration
 configuration = Configuration()
 ```
 
-
+> These docs refer to version >=0.9.0 (including pre-release)
+>
+> Older versions should upgrade.
 
 ## Authenticate with Amphora Data
 
