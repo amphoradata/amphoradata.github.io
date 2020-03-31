@@ -66,7 +66,7 @@ signals = [
         )
 ]
 
-amphora.push_signals_dict_array(amphora.amphora_id, signals) # this sends the data to Amphora Data
+amphora.push_signals_dict_array(signals) # this sends the data to Amphora Data
 ```
 
 ## View your data at Amphora Data
