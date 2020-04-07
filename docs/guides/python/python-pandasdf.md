@@ -1,7 +1,7 @@
 ---
 id: python-pandasdf
 title: Converting Amphora Signals to a Pandas DataFrame
-sidebar_label: Pandas DataFrame
+sidebar_label: Get Pandas DataFrame
 ---
 
 > Amphora Data is currently in beta. These documents may change.
@@ -20,7 +20,7 @@ pip install pandas
 ```
 
 ## Convert Signals to a Pandas DataFrame
-
+You can convert signals to Dataframes very easily. First get the signal from the Amphora you want.
 ```py
 client = AmphoraDataRepositoryClient(credentials)
 
@@ -29,7 +29,9 @@ amphora = client.get_amphora("e6097df0-952c-46a6-84b0-ccc29bf1b0f7")
 
 # get a reference to the Amphora's signals
 signals = amphora.get_signals()
-
+```
+We can now convert this entire signal to a dataframe
+```
 # download some signals and convert to a pandas dataframe
 df = signals.pull().to_pandas()
 print(df)
@@ -50,3 +52,24 @@ print(df)
 ```
 
 > The Event Count will always contain NaN values.
+
+## Query specific times
+Sometimes you will only want data from a specific interval. This is very easy to do. First set your desired time range
+```
+time_range = DateTimeRange(_from=start_time, to=end_time)
+```
+Note that you will need to import another model
+```
+from amphora_api_client import DateTimeRange
+```
+Now simply add that time range into the pull signal command
+```
+df = signals.pull(date_time_range=time_range).to_pandas()
+```
+
+## Other tips and tricks
+Sometimes the time column will counterintuitively not be titled ``` t ```. This is because ```t``` is treated as an index. You can solve this by passing an option into the ```to_pandas`` as
+```
+df = signals.pull().to_pandas(t_as_index=False)
+```
+This also works if you want to query specific times.
