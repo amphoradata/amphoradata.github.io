@@ -104,3 +104,5 @@ df = pd.DataFrame(data, columns = ['name', 'age'])
 
 amphora.push_signals_df(df, auto=True) # setting auto to true will automatically create the signal definitions for you.
 ```
+## Other code to get you started
+You can get code to get you started [here](https://github.com/amphoradata/samples/blob/master/generic_templates/Create_a_Signal.py) and [here](https://github.com/amphoradata/samples/blob/master/generic_templates/Update_a_signal.py)
