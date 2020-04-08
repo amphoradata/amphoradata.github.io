@@ -4,7 +4,7 @@ title: Contents
 sidebar_label: Contents
 ---
 
-Amphora Data is a cloude data storage and integration platform for real-time data and third-party collaboration. Amphora stores your data in a scalable and secure cloud environment. Amphora integrates with others, so everyone has access to the data they need. Amphora provides a standardised data feed through a modern API       
+Amphora Data is a cloud data storage and integration platform for real-time data and third-party collaboration. Amphora stores your data in a scalable and secure cloud environment. Amphora integrates with others, so everyone has access to the data they need. Amphora provides a standardised data feed through a modern API       
 
 ## How to use these docs
 

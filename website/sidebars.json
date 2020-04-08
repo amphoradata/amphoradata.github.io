@@ -12,15 +12,26 @@
     ],
     "Share Your Data": [
       "guides/data/create",
-      "guides/data/manage"
+      "guides/data/manage",
+      "guides/set-tncs",
+      "guides/email-amphora",
+      "guides/restict-users",
+      "guides/create-data-shop"
+    ],
+    "Manage Data": [
+      "guides/view-audit-log",
+      "guides/set-personalised-url",
+      "guides/set-tncs",
+      "guides/use-sandbox"
     ],
     "Organisations and Users": [
       "guides/quickstart-login",
       "guides/invite-to-organisation",
-      "guides/set-tncs"
+      "guides/manage-users-in-org"
     ],
     "Accounts and Billing": [
-      "guides/billing-transactions"
+      "guides/billing-transactions",
+      "guides/change_plan"
     ],
     "Python SDK": [
       "guides/python/python-getting-started",
