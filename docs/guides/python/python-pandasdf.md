@@ -73,3 +73,6 @@ Sometimes the time column will counterintuitively not be titled ``` t ```. This 
 df = signals.pull().to_pandas(t_as_index=False)
 ```
 This also works if you want to query specific times.
+
+## Other code to get you started
+You can get code to get you started [here](https://github.com/amphoradata/samples/blob/master/generic_templates/Pull_a_file.py) 
