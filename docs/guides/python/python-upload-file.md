@@ -43,3 +43,6 @@ amphora = client.get_amphora(amphora_id) # gets a reference to the Amphora
 print(amphora.metadata) 
 ```
 > Make sure you're authenticating your api client, as shown in [the getting started with Python page](./python-getting-started)
+
+## Other code to get you started
+You can get code to get you started [here](https://github.com/amphoradata/samples/blob/master/generic_templates/Push_a_file.py) and [here](https://github.com/amphoradata/samples/blob/master/generic_templates/Pull_a_file.py)
