@@ -55,3 +55,6 @@ Your Amphora is created, and ready to fill with data!
 
 
 > Make sure you're authenticating your client, as shown in [the getting started with Python page](./python-getting-started)
+
+## Other code to get you started
+You can get code to get you started [here](https://github.com/amphoradata/samples/blob/master/generic_templates/Create_an_Amphora.py)
