@@ -42,8 +42,8 @@ const siteConfig = {
   headerLinks: [
     // {page: 'basics', label: 'Basics'},
     {href: 'https://amphoradata.com', label: 'Home'},
-    {href: 'https://app.amphoradata.com/Profiles/Account/Register', label: 'Register'},
-    {href: 'https://app.amphoradata.com/Profiles/Account/Login', label: 'Login'},
+    {href: 'https://identity.amphoradata.com/Account/Register', label: 'Register'},
+    {href: 'https://identity.amphoradata.com/Account/Login', label: 'Login'},
     {href: 'https://www.amphoradata.com/how-we-help/researchers', label: 'How We Help'},
     {href: 'https://www.amphoradata.com/pricing', label: 'Pricing'},
     {doc: 'overview/about', label: 'Docs'},
