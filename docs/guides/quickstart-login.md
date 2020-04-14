@@ -11,7 +11,7 @@ Signing up to Amphora Data is an easy process that takes less than 60 seconds.
 Head to [amphoradata.com](https://amphoradata.com) and register with your organisational email address. You will need to fill out basic details and choose a username and password.
 
 <kbd>
-<img src="../assets/screenshots/sign_up.png">
+<img src="../assets/screenshots/sign_up.PNG">
 </kbd>
 
 ### Choose your plan
