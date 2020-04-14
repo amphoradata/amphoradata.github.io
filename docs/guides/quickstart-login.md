@@ -13,6 +13,7 @@ Head to [amphoradata.com](https://amphoradata.com) and register with your organi
 <kbd>
 <img src="../assets/screenshots/sign_up.png">
 </kbd>
+
 ### Choose your plan
 
 You need to choose a plan that best suits your needs
