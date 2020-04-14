@@ -8,7 +8,7 @@ Signing up to Amphora Data is an easy process that takes less than 60 seconds.
 
 ### Create an Amphora Data account.
 
-Head to [amphoradata.com](https://beta.amphoradata.com) and register with your organisational email address. You will need to fill out basic details and choose a username and password.
+Head to [amphoradata.com](https://amphoradata.com) and register with your organisational email address. You will need to fill out basic details and choose a username and password.
 
 <kbd>
 <img src="../assets/screenshots/sign_up.png">
@@ -16,7 +16,11 @@ Head to [amphoradata.com](https://beta.amphoradata.com) and register with your o
 ### Choose your plan
 
 You need to choose a plan that best suits your needs
-![Plans], Screenshot](../assets/screenshots/plans.png)
+
+<kbd>
+<img src="../assets/screenshots/plans.png">
+</kbd>
+
 * The free individual plan gives you the essential functionality of Amphora Data. Its best if you want to quickly and easily access public data.
 * The team plan adds support for more users, more data, and enhanced data governance. Its best if your team accesses and shares external data every day. 
 * The institution plan adds support for sharing data internally within large institutions and has leading enterprise data management and control features. Its best if you want the benefits of bespoke data infrastructure and management tools without the cost.
