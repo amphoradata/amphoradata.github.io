@@ -4,7 +4,6 @@ title: Billing and transactions
 sidebar_label: Account Overview
 ---
 
-> Amphora Data is currently in beta. These documents may change.
 
 ## Overview
 Amphora Data maintains a real time ledger of all Amphora bought and sold. Appropriate subsets of this ledger are displayed to different organisations and forms the basis of monthly invoicing. As all users can both buy and sell Amphoras, your organisations balance may be positive or negative. 

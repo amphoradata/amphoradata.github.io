@@ -1,25 +1,51 @@
 ---
 id: quickstart-login
-title: Logging in and setting up your organisation
-sidebar_label: Get Started
+title: Signing up
+sidebar_label: Signing up
 ---
 
-> Amphora Data is currently in beta. These documents may change.
+Signing up to Amphora Data is an easy process that takes less than 60 seconds. 
 
-## Create an Amphora Data account.
+### Create an Amphora Data account.
 
-Head to [amphoradata.com](https://beta.amphoradata.com) and register with your organisational email address. You can either request access from the website or use an invite from email.
+Head to [amphoradata.com](https://beta.amphoradata.com) and register with your organisational email address. You will need to fill out basic details and choose a username and password.
 
-### Create a new Organisation
+<kbd>
+<img src="../assets/screenshots/sign_up.png">
+</kbd>
+### Choose your plan
 
-If you're the first member of your organisation to sign up, then you'll need to create an [Amphora Data Organisation](../models/organisation.md).
+You need to choose a plan that best suits your needs
+![Plans], Screenshot](../assets/screenshots/plans.png)
+* The free individual plan gives you the essential functionality of Amphora Data. Its best if you want to quickly and easily access public data.
+* The team plan adds support for more users, more data, and enhanced data governance. Its best if your team accesses and shares external data every day. 
+* The institution plan adds support for sharing data internally within large institutions and has leading enterprise data management and control features. Its best if you want the benefits of bespoke data infrastructure and management tools without the cost.
 
-![New Organisation, Screenshot](../assets/screenshots/new_organisation.png)
 
-### Join an existing Organisation
+### Create a new organisation (Team and Institution only)
+> You only need to create an organisation if you sign up to a Team or Instition plan
 
-If your organisation is already represented in Amphora Data, then you'll need to be [invited](guides/invite-to-organisation.md) into the Organisation. To join an organisation, once you've been invited, click `Find my Organisation`, and search for the name of the Organisation.
+If you're the first member of your organisation to sign up, then you'll need to create an [Amphora Data Organisation](../models/organisation.md). Creating an organisation is easy and quick.
 
-![Join Organisation, Screenshot](../assets/screenshots/join_organisation.png)
+<kbd>
+<img src=../assets/screenshots/new_organisation.png>
+</kbd>
 
-By clicking `Join Organisation` you can request to join that organisation. If you've already been invited to an organisation, you should be automatically redirected to join that org. 
+### Join an existing Organisation (Team and Institution only)
+
+If your organisation is already represented in Amphora Data, then you'll need to join that organisation. Click `Find my Organisation`, and search for the name of the Organisation.
+
+<kbd>
+<img src=../assets/screenshots/join_organisation.png>
+</kbd>
+
+Clicking `Join Organisation` will send a notice to your organisation admin who accept your request. If you've already been invited to an organisation, you should be automatically redirected to join that organisation. 
+
+### Get started
+
+You will now be redirected to the Getting Started page. 
+* Click `Discover Data` if you want to start finding new datasets
+* Click `Share Data` if you want to start sharing data
+* Click `Read Tutorial` if you want to learn more before you start.
+
+For administrators of Team and Institution plans, you can also navigate to the `My Organisation` page to continue setting up your organisation.

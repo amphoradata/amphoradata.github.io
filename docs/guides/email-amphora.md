@@ -4,7 +4,7 @@ title: Share Amphora through email
 sidebar_label: Share Amphora through email
 ---
 
-> Amphora Data is currently in beta. These documents may change.
+> This feature will be deployed by end of April
 
 ## Description
 

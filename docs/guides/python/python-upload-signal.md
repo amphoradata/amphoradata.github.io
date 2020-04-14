@@ -4,8 +4,6 @@ title: Creating and uploading signals with Python
 sidebar_label: Upload a Signal
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
 ## What is a signal?
 
 A signal is an updating time series. Examples of signals are weather forecasts, market prices, soil moisture, Covid infections e.t.c.

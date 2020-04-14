@@ -4,8 +4,6 @@ title: Restrict users for a specific Amphora
 sidebar_label: Restrict users for an Amphora
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
 ## Overview
 
 You can set specific restrictions on who can and who can't access data for your own Amphoras on the public data repository.

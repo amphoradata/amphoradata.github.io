@@ -4,7 +4,6 @@ title: Set terms and conditions
 sidebar_label: Set your Terms and Conditions
 ---
 
-> Amphora Data is currently in beta. These documents may change.
 
 ## Overview
 One of the major features of the Amphora Data platform is the ability to set and agree to Terms and Conditions for using data. To do this as a Amphora creator, we need to be able to create and use a libary of Terms and Conditions
@@ -22,6 +21,7 @@ Within the Terms and Conditions Library you can see all the documents your organ
 You can assign terms and conditions to an Amphora through two ways. 
 
 The first is through the GUI as you create the Amphora. For this method, select the appropriate terms and conditions in appropriate field
+
 ![Fill metadata for Amphora, Screenshot](/docs/assets/screenshots/CreateAmphora.jpg)
 
 

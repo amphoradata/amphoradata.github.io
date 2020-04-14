@@ -4,8 +4,6 @@ title: Manage a listed Amphora
 sidebar_label: Manage Amphora
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
 ## View consumers of Amphora
 
 As an owner of an Amphora, you can see you has purchased the Amphora by clicking `Show has purchased` in the bottom right of the View Amphora page.
@@ -36,24 +34,22 @@ There are several key steps to follow to maintain the best Amphora
 
 Check regularly to see if signals are updating: 
 
-    Signals may stop working due to a variety of reasons. 
-    
-    Set up your own processes and code to ensure you are aware of any issues.
+* Signals may stop working due to a variety of reasons. 
+* Set up your own processes and code to ensure you are aware of any issues.
 
 Respond promptly to any issues users identify:
 
-    Users can raise issues with the Amphora through our integration with GitHub.
+* Users can raise issues with the Amphora through our integration with GitHub.
 
-    Try to resolve these issues as fast as possible.
+* Try to resolve these issues as fast as possible.
 
 Update any metadata, labels, description or T&Cs as needed:
 
-    Data sets can change over time for a variety of reasions.
+* Data sets can change over time for a variety of reasions.
 
-    Make sure you keep the Amphora description and metadata up-to-date, especially the terms and conditions.
+* Make sure you keep the Amphora description and metadata up-to-date, especially the terms and conditions.
 
 Share interesting usecases or sample code:
+* You should share interesting uses for your data with the rest of the Amphora Data community (where commercially appropriate)
 
-    You should share interesting uses for your data with the rest of the Amphora Data community (where commercially appropriate)
-
-    You will help contribute to the community as well as drive more interest in your datasets
+* You will help contribute to the community as well as drive more interest in your datasets

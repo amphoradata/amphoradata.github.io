@@ -1,17 +1,16 @@
 ---
 id: find
-title: Find an Amphora
+title: Find Data
 sidebar_label: Find Data
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
-
+You need to search the Amphora Data Catalogue to find the data you want. You need to purchase the Amphora after you find the one you want.
 ## Find an Amphora
 
 To find an Amphora, click Discover in the header. This will take you to a list of all Amphoras on the platform. 
 
 You can search this list multiple ways 
+
 ![Search Data Market, Screenshot](/docs/assets/screenshots/DataMarketSearch.jpg)
 
 You can use the advanced search buttons to search for Amphora by 
@@ -29,4 +28,5 @@ You may need to accept the terms and conditions of the Amphora. These terms and 
 
 After you purchase the Amphora, it will show up on your organisation profile as a Debit.
 
-You can watch a video of finding and buying an Amphora on our [YouTube](https://www.youtube.com/watch?v=6TQkfAf0v_g) Channel.
+You can watch a video of finding and buying an Amphora on our [YouTube](https://www.youtube.com/channel/UCdeAwh89DuwZKJ6JJK9TCnw) Channel.
+

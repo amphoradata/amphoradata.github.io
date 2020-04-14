@@ -4,8 +4,6 @@ title: Converting Amphora Signals to a Pandas DataFrame
 sidebar_label: Get Pandas DataFrame
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
 ## Pandas Data Frame
 
 Pandas is a very popular Python package for working with data. [Pandas Data Frames](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) form the core of Pandas. Many data scientists love working with Data Frames, and many tools can import from this standard.

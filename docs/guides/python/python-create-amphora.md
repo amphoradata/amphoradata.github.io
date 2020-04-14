@@ -4,8 +4,6 @@ title: Creating an Amphora with Python
 sidebar_label: Create an Amphora
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
 You can easily create an Amphora with the python SDK. We will first describe the Amphora that we want to create, then create it. 
 
 Amphoras have standardised metadata. This enables you to quickly search, manage, and consume a variety of different datatypes.

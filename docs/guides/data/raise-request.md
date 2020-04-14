@@ -4,8 +4,7 @@ title: Ask for more data
 sidebar_label: Ask for more data
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
+Sometimes an Amphora contains only some of the data you want, or in a format your not familar with. You can raise a request to the Amphora owner to create a new Amphora for you.
 
 ## Raise a data request
 

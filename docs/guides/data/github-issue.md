@@ -3,15 +3,14 @@ id: github-issue
 title: Raise an issue in GitHub
 sidebar_label: Raise an issue in GitHub
 ---
-
-> Amphora Data is currently in beta. These documents may change.
-
+If you have found a bug or an issue with an Amphora, you can raise an issue directly in GitHub.
 
 ## Raise an issue in GitHub
 
-If you have found a bug or an issue with an Amphora, you can raise an issue directly in GitHub. Do this by clicking `New Issue` from the Amphora screen
+Go to the Amphora you have an issue with and select `Issues` on the left. You will then get a page similar to below. You can create a new GitHub Issue by clicking `New GitHub Issue` in the top-right.
 
 ![GitHub issue, Screenshot](/docs/assets/screenshots/github-issue.png)
+
 
 You will then be redirected to GitHub where you can describe and manage the issue like you would with any GitHub issue
 

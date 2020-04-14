@@ -4,8 +4,6 @@ title: Uploading a file with Python
 sidebar_label: Upload a file
 ---
 
-> Amphora Data is currently in beta. These documents may change.
-
 You can upload flat files to an Amphora. A flat file could be an image, a table, a text file or anything!. You can upload multiple files to a single Amphora. You can upload flat files alongside signals as well if you like.
 
 ## Upload a file
