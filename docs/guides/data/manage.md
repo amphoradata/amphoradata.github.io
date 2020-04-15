@@ -9,7 +9,7 @@ sidebar_label: Manage Amphora
 As an owner of an Amphora, you can see you has purchased the Amphora by clicking `Show has purchased` in the bottom right of the View Amphora page.
 
 <kbd>
-<img src="/docs/assets/screenshots/show_who_has_purchased.png">
+<img src="/docs/assets/screenshots/show_who_has_purchased.PNG">
 </kbd>
 
 ## Edit Amphora
@@ -23,7 +23,7 @@ You can edit an Amphora through the web interface by clicking the `Edit` button 
 This will take you to a page similar to the `Create Amphora` page and you can edit the details as needed
 
 <kbd>
-<img src="/docs/assets/screenshots/edit_amphora.png">
+<img src="/docs/assets/screenshots/edit_amphora.PNG">
 </kbd>
 
 ## Delete the Amphora
