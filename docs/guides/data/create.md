@@ -9,7 +9,9 @@ Amphoras are standardised data containers. To share your data, you need to creat
 
 Navigate to the `PackShareage` page, and you will get the screen below
 
-![How to Navigate to Create Amphora, Screenshot](/docs/assets/screenshots/nav_create_amphora.png)
+<kbd>
+<img src="/docs/assets/screenshots/nav_create_amphora.png">
+</kbd>
 
 > At this stage, you can describe the Amphora, but *not yet* add any data. That comes later.
 
@@ -23,7 +25,9 @@ As Amphoras have standardised metadata, please ensure all fields are correct so 
 
 You can add any kind of file to an Amphora - images, text files, csv, word documents etc. To upload a file from your computer, click the blue `upload` button, select a file, then click `upload`.
 
-![Add a file to an Amphora, Screenshot](/docs/assets/screenshots/add_file_amphora.png)
+<kbd>
+<img src="/docs/assets/screenshots/add_file_amphora.png">
+</kbd>
 
 > Note that you need a steady connection to upload files and some users have reported issues due to poor connection with their internet providers.
 
@@ -31,13 +35,17 @@ You can add any kind of file to an Amphora - images, text files, csv, word docum
 
 [Signals](/docs/guides/models/signal.md) are numeric data that change over time. Add a signal by clicking `Signals` in the top right of your Amphora detail's page, then click the `+` button to add a new property (i.e. the name of the signal), e.g. temperature.
 
-![Add a signal to an Amphora, Screenshot](/docs/assets/screenshots/add_signal_amphora.png)
+<kbd>
+<img src="/docs/assets/screenshots/add_signal_amphora.png">
+</kbd>
 
 Now you can submit a value for that signal (e.g. the current temperature) via the `New Values` button. Once submitted, you'll start seeting data on the graph.
 
 > It may take up to a minute for the new value to be processed and to show on the graph.
 
-![Viewing a signal on an Amphora, Screenshot](/docs/assets/screenshots/view_signal_amphora.png)
+<kbd>
+<img src="/docs/assets/screenshots/view_signal_amphora.png">
+</kbd>
 
 
 ## Set terms and conditions
