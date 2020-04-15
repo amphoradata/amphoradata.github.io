@@ -12,7 +12,9 @@ You can consume data from an Amphora in several ways. You can download Amphora F
 
 To consume an Amphora file (static file typically .txt or .csv) select `Files` on the left of the Amphora page. You will then see a a list of all the files in the Amphora. 
 
-![Amphora File download Screenshot](/docs/assets/screenshots/Flat_file_download.png)
+<kbd>
+<img src="/docs/assets/screenshots/Flat_file_download.png">
+</kbd>
 
 Simply click `Download` next to the file you want.
 
@@ -22,7 +24,7 @@ Amphora Signas represent time series data. To view an Amphora Signal click `Sign
 
 <kbd>
 <img src="/docs/assets/screenshots/view_signal_amphora.png">
-<\kbd>
+</kbd>
 
 This is an exploratory dashboard and it enables you to discover the data in a simple format. You can choose different signals, different time boxes, and filter by specific values or properties. 
 
