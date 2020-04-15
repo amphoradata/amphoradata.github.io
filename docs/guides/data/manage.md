@@ -8,17 +8,23 @@ sidebar_label: Manage Amphora
 
 As an owner of an Amphora, you can see you has purchased the Amphora by clicking `Show has purchased` in the bottom right of the View Amphora page.
 
-![Show who has purchased, Screenshot](/docs/assets/screenshots/show_who_has_purchased.png)
+<kbd>
+<img src="/docs/assets/screenshots/show_who_has_purchased.png">
+</kbd>
 
 ## Edit Amphora
 
 You can edit an Amphora through the web interface by clicking the `Edit` button in the bottom right of the View Amphora page.
 
-![How to edit an Amphora, Screenshot](/docs/assets/screenshots/edit_amphora_button.png)
+<kbd>
+<img src="/docs/assets/screenshots/edit_amphora_button.png">
+</kbd>
 
 This will take you to a page similar to the `Create Amphora` page and you can edit the details as needed
 
-![How to edit an Amphora, Screenshot](/docs/assets/screenshots/edit_amphora.png)
+<kbd>
+<img src="/docs/assets/screenshots/edit_amphora.png">
+</kbd>
 
 ## Delete the Amphora
 
