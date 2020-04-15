@@ -13,7 +13,7 @@ You can consume data from an Amphora in several ways. You can download Amphora F
 To consume an Amphora file (static file typically .txt or .csv) select `Files` on the left of the Amphora page. You will then see a a list of all the files in the Amphora. 
 
 <kbd>
-<img src="/docs/assets/screenshots/Flat_file_download.png">
+<img src="/docs/assets/screenshots/Flat_file_download.PNG">
 </kbd>
 
 Simply click `Download` next to the file you want.
