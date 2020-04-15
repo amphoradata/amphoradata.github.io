@@ -10,7 +10,7 @@ If you have found a bug or an issue with an Amphora, you can raise an issue dire
 Go to the Amphora you have an issue with and select `Issues` on the left. You will then get a page similar to below. You can create a new GitHub Issue by clicking `New GitHub Issue` in the top-right.
 
 <kbd>
-<img src="docs/assets/screenshots/github-issue.PNG">
+<img src="/docs/assets/screenshots/github-issue.PNG">
 </kbd>
 
 
