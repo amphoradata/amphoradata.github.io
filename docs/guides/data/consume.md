@@ -20,7 +20,9 @@ Simply click `Download` next to the file you want.
 
 Amphora Signas represent time series data. To view an Amphora Signal click `Signals` on the left of the Amphora page. You will see a set of time series similar to below.
 
-![View Signals, Screenshot](/docs/assets/screenshots/view_signal_amphora.png)
+<kbd>
+<img src="/docs/assets/screenshots/view_signal_amphora.png">
+<\kbd>
 
 This is an exploratory dashboard and it enables you to discover the data in a simple format. You can choose different signals, different time boxes, and filter by specific values or properties. 
 
