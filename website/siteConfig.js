@@ -21,6 +21,10 @@ const users = [
 ];
 
 const siteConfig = {
+  algolia: {
+    apiKey: '0797d5513a4961659b3f15828b64f261',
+    indexName: 'amphoradata',
+  },
   title: 'Amphora Data ', // Title for your website.
   tagline: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
   url: 'https://amphoradata.github.io', // Your website URL
