@@ -106,6 +106,10 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
 
+  // Google Analytics
+  gaTrackingId: "UA-164144906-4",
+  gaGtag: true,
+
   scrollToTop: true,
 
   // On page navigation for the current documentation page.
