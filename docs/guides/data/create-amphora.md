@@ -1,9 +1,9 @@
 ---
-id: create
-title: Create and manage an Amphora
+id: create-amphora
+title: Create an Amphora
 sidebar_label: Create Amphora
 ---
-Amphoras are standardised data containers. To share your data, you need to create an Amphora then fill it with whatever data you want.
+An Amphora is a standardised data containers. To share your data, you need to create an Amphora then fill it with whatever data you want.
 
 ## Create the Amphora
 
@@ -18,35 +18,6 @@ Navigate to the `PackShareage` page, and you will get the screen below
 Give your Amphora a Name, Description, Price, and Geo-Location. You can search for locations, or just enter the Lat/Lon manually. These need to be entered into the fields below. You should also label it with data type, crop type etc and also select the appropriate Terms and Conditions.
 
 As Amphoras have standardised metadata, please ensure all fields are correct so others can find and use your Amphora.
-
-## Add a File
-
-> The max file size for uploading through the web interface is currently 10MB. There is no size limit for uploading files through the API
-
-You can add any kind of file to an Amphora - images, text files, csv, word documents etc. To upload a file from your computer, click the blue `upload` button, select a file, then click `upload`.
-
-<kbd>
-<img src="/docs/assets/screenshots/add_file_amphora.png">
-</kbd>
-
-> Note that you need a steady connection to upload files and some users have reported issues due to poor connection with their internet providers.
-
-## Add a signal
-
-[Signals](/docs/guides/models/signal.md) are numeric data that change over time. Add a signal by clicking `Signals` in the top right of your Amphora detail's page, then click the `+` button to add a new property (i.e. the name of the signal), e.g. temperature.
-
-<kbd>
-<img src="/docs/assets/screenshots/add_signal_amphora.png">
-</kbd>
-
-Now you can submit a value for that signal (e.g. the current temperature) via the `New Values` button. Once submitted, you'll start seeting data on the graph.
-
-> It may take up to a minute for the new value to be processed and to show on the graph.
-
-<kbd>
-<img src="/docs/assets/screenshots/view_signal_amphora.png">
-</kbd>
-
 
 ## Set terms and conditions
 

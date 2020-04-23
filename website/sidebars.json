@@ -4,15 +4,21 @@
       "contents",
       "overview/about"
     ],
-    "Discover New Data": [
-      "guides/data/find",
-      "guides/data/consume",
+    "Get Started": [
+      "guides/quickstart-login"
+    ],
+    "Get Data": [
+      "guides/data/find-data",
+      "guides/data/buy-data",
+      "guides/data/pull-file",
+      "guides/data/pull-time-series",
       "guides/data/raise-request",
       "guides/data/github-issue"
     ],
-    "Share Your Data": [
-      "guides/data/create",
-      "guides/data/manage",
+    "Share Data": [
+      "guides/data/create-amphora",
+      "guides/data/add-file",
+      "guides/data/add-signal",
       "guides/set-tncs",
       "guides/email-amphora",
       "guides/restict-users",
@@ -20,14 +26,14 @@
     ],
     "Manage Data": [
       "guides/view-audit-log",
-      "guides/set-personalised-url",
+      "guides/data/manage",
       "guides/set-tncs",
       "guides/use-sandbox"
     ],
     "Organisations and Users": [
-      "guides/quickstart-login",
       "guides/invite-to-organisation",
-      "guides/manage-users-in-org"
+      "guides/manage-users-in-org",
+      "guides/set-personalised-url"
     ],
     "Accounts and Billing": [
       "guides/billing-transactions",
