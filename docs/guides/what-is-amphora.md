@@ -6,7 +6,7 @@ sidebar_label: What is an Amphora
 
 An Amphora is a shareable data container. You can put whatever data you want in an Amphora. It has standardised metadata to enable easier and faster sharing, search and management.
 
-The name Amphora comes from the [Greek vessels](https://en.wikipedia.org/wiki/Amphora) for storing and trading agricultural goods.
+The name Amphora comes from the [Greek word](https://en.wikipedia.org/wiki/Amphora) for the ubiquitous vessels made to store and transport agricultural goods.
 
 ## Introduction
 
@@ -18,8 +18,9 @@ We have taken the same concept of standard containerisation and applied it to da
 
 Furthermore, standardised containers gets halfway around the tricky problem of different data standards. Data standards are great but technologists shouldn't wait for standards to develop and innovate. Amphoras can contain any type of data from any standard so you can use any type of data you need.
 
-## Technical defintion
+## Technical definition
 
+An Amphora is a container for data similar to a [shipping container](https://en.wikipedia.org/wiki/Containerization) or a [Docker container](https://www.docker.com/resources/what-container). An Amphora is a standardised unit of data hosted on the Amphora Data repository. Using an Amphora, you can standardise metadata, apply access controls, track and report usage, distribute and monetise your data, monitor ETL activities, govern derived models, and more. You can interact with an Amphora using the web application, API, or via one of our SDKs. You must have an account to access data.
 
 ## Impact
 
