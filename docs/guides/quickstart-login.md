@@ -1,7 +1,7 @@
 ---
 id: quickstart-login
-title: Signing up
-sidebar_label: Signing up
+title: Sign up
+sidebar_label: Sign up
 ---
 
 Signing up to Amphora Data is an easy process that takes less than 60 seconds. 

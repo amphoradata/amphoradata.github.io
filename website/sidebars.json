@@ -5,7 +5,9 @@
       "overview/about"
     ],
     "Get Started": [
-      "guides/quickstart-login"
+      "guides/quickstart-login",
+      "guides/how-a10a-works",
+      "guides/what-is-amphora"
     ],
     "Get Data": [
       "guides/data/find-data",
@@ -21,13 +23,14 @@
       "guides/data/add-signal",
       "guides/set-tncs",
       "guides/email-amphora",
-      "guides/restict-users",
+      "guides/data/edit-amphora",
       "guides/create-data-shop"
     ],
     "Manage Data": [
       "guides/view-audit-log",
       "guides/data/manage",
       "guides/set-tncs",
+      "guides/restict-users",
       "guides/use-sandbox"
     ],
     "Organisations and Users": [
