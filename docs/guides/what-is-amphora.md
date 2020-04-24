@@ -6,7 +6,7 @@ sidebar_label: What is an Amphora
 
 An Amphora is a shareable data container. You can put whatever data you want in an Amphora. It has standardised metadata to enable easier and faster sharing, search and management.
 
-The name Amphora comes from the [Greek word](https://en.wikipedia.org/wiki/Amphora) for the ubiquitous vessels made to store and transport agricultural goods.
+The name Amphora comes from the ubiquitous [Greek vessels](https://en.wikipedia.org/wiki/Amphora) used to store and transport agricultural goods.
 
 ## Introduction
 
