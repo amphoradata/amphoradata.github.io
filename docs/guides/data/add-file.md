@@ -56,7 +56,7 @@ amphora = client.get_amphora(Amphora_id)
 
 # Push file to amphora
 file_path="path/to/your/file"
-amphora.push_file(amphora.Amphora_id, file_path)
+amphora.push_file(file_path)
 ```
 You can download this code from [GitHub](https://github.com/amphoradata/samples/blob/master/generic_templates/Push_a_file.py). There is also more detailed docs in the Python SDK section.
 
