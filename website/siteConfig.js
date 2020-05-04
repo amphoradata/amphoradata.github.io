@@ -24,11 +24,13 @@ const siteConfig = {
   algolia: {
     apiKey: '0797d5513a4961659b3f15828b64f261',
     indexName: 'amphoradata',
+    algoliaOptions: {} // Optional, if provided by Algolia
   },
   title: 'Amphora Data ', // Title for your website.
-  tagline: 'A platform to discover, package, and trade data to improve the sustainability and profitability of farms.',
+  tagline: 'Connecting the worlds real time information',
   url: 'https://amphoradata.github.io', // Your website URL
-  editUrl: 'https://github.com/amphoradata/amphoradata.github.io/blob/source/docs/',
+  editurl: 'https://amphoradata.com', // Your website URL
+  //editUrl: 'https://github.com/amphoradata/amphoradata.github.io/blob/source/docs/',
   baseUrl: '/', // Base URL for your project */
   docsSideNavCollapsible: true,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -46,11 +48,12 @@ const siteConfig = {
   headerLinks: [
     // {page: 'basics', label: 'Basics'},
     {href: 'https://amphoradata.com', label: 'Home'},
-    {href: 'https://www.amphoradata.com/how-we-help/researchers', label: 'How We Help'},
-    {href: 'https://www.amphoradata.com/pricing', label: 'Pricing'},
-    {doc: 'overview/about', label: 'Docs'},
     {href: 'https://identity.amphoradata.com/Account/Register', label: 'Register'},
     {href: 'https://identity.amphoradata.com/Account/Login', label: 'Login'},
+    {href: 'https://www.amphoradata.com/how-we-help/simplified-integration', label: 'Solutions'},
+    {href: 'https://www.amphoradata.com/pricing', label: 'Pricing'},
+    {doc: 'overview/about', label: 'Docs'}
+
     
     // {blog: true, label: 'Blog'},
 

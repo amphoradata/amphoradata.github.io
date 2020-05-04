@@ -5,20 +5,6 @@ sidebar_label: Share File
 ---
 Amphoras are standardised data containers. To share your data, you need to create an Amphora then fill it with whatever data you want.
 
-## Create the Amphora
-
-Navigate to the `Share` page, and you will get the screen below
-
-<kbd>
-<img src="/docs/assets/screenshots/nav_create_amphora.png">
-</kbd>
-
-> At this stage, you can describe the Amphora, but *not yet* add any data. That comes later.
-
-Give your Amphora a Name, Description, Price, and Geo-Location. You can search for locations, or just enter the Lat/Lon manually. These need to be entered into the fields below. You should also label it with data type, crop type etc and also select the appropriate Terms and Conditions.
-
-As Amphoras have standardised metadata, please ensure all fields are correct so others can find and use your Amphora.
-
 ## Add File with web app
 
 > The max file size for uploading through the web interface is currently 10MB. There is no size limit for uploading files through the API
