@@ -37,7 +37,7 @@ You can add any kind of file to an Amphora - images, text files, csv, word docum
 
 You can add a file with python using
 ```py
-amphora.push_file(amphora.Amphora_id, file_path)
+amphora.push_file(file_path)
 ```
 The basic code to get started add files is 
 ```py
