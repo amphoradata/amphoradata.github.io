@@ -7,7 +7,7 @@ Amphoras are standardised data containers. To share your data, you need to creat
 
 ## Create the Amphora
 
-Navigate to the `PackShareage` page, and you will get the screen below
+Navigate to the `Share` page, and you will get the screen below
 
 <kbd>
 <img src="/docs/assets/screenshots/nav_create_amphora.png">
