@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - docs_v2
+    - source
 
 jobs:
   publish:
