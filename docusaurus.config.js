@@ -80,12 +80,12 @@ module.exports = {
           ],
         },
         {
-          href: 'https://identity.amphoradata.com/Account/Register',
+          href: 'https://identity.amphoradata.com/Account/Register?returnUrl=https://app.amphoradata.com/Challenge',
           label: 'Register',
           position: 'right',
         },
         {
-          href: 'https://identity.amphoradata.com/Account/Login?ReturnUrl=%2FChallenge',
+          href: 'https://app.amphoradata.com/Challenge',
           label: 'Login',
           position: 'right',
         },
