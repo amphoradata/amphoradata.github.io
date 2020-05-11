@@ -1,10 +1,11 @@
 module.exports = {
   title: 'Connecting the world’s real-time information',
   tagline: 'Amphora is a leading storage, integration, and collaboration platform.',
+  favicon: 'img/favicon.ico',
+  // github pages config
   url: 'https://amphoradata.github.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Amphora Data', // Usually your GitHub org/user name.
+  organizationName: 'AmphoraData', // Usually your GitHub org/user name.
   projectName: 'AmphoraData.github.io', // Usually your repo name.
  // plugins: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
