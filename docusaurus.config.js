@@ -99,24 +99,16 @@ module.exports = {
           title: 'Company',
           items: [
             {
-              to: 'team',
-              activeBasePath: 'team',
+              href: 'https://amphoradata.com/leadership-team',
               label: 'Team',
             },
             {
-              to: 'careers',
-              activeBasePath: 'careers',
+              href: 'https://amphoradata.com/careers',
               label: 'Careers',
             },
             {
-              to: 'values',
-              activeBasePath: 'values',
+              href: 'https://amphoradata.com/vision-values',
               label: 'Values',
-            },
-            {
-              to: 'values',
-              activeBasePath: 'values',
-              label: 'Privacy and security',
             },
           ],
         },
