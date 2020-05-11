@@ -23,18 +23,12 @@ jobs:
     - uses: webfactory/ssh-agent@v0.1.1
       with:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
-    - uses: borales/actions-yarn@v2.1.0
-      name: Yarn install
-      with:
-        cmd: install # will run `yarn install` command
-    - uses: borales/actions-yarn@v2.1.0
-      name: Yarn build
-      with:
-        cmd: build # will run `yarn install` command
-    - uses: borales/actions-yarn@v2.1.0
-      name: Yarn deploy and publish
-      with:
-        cmd: deploy # will run `yarn install` command
+    - name: Yarn install
+      run: yarn install # will run `yarn install` command
+    - name: Yarn build
+      run: yarn build # will run `yarn install` command
+    - name: Yarn deploy and publish
+      run: yarn deploy # will run `yarn install` command
       env:
         GIT_USER: amphoradata
         USE_SSH: true
