@@ -15,8 +15,8 @@ module.exports = {
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
     // Google Analytics
-    gTag: {
-      trackingId: "UA-164144906-4",
+    gtag: {
+      trackingID: "UA-164144906-4",
       anonymizeIP: true,
     },
     //announcementBar: {
