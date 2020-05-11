@@ -1,23 +1,30 @@
 {
-  "name": "amphoradata.github.io",
-  "version": "1.0.0",
-  "description": "Amphora Data Docs",
-  "main": "index.js",
+  "name": "amphora-data",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amphoradata/amphoradata.github.io.git"
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.50",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.50",
+    "classnames": "^2.2.6",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
-  "keywords": [
-    "Amphora",
-    "Data"
-  ],
-  "author": "Rian Finnegan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/amphoradata/amphoradata.github.io/issues"
-  },
-  "homepage": "https://github.com/amphoradata/amphoradata.github.io#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

@@ -1,38 +1,33 @@
-# Amphora Data Documentation
+# Website
 
-![](https://github.com/amphoradata/amphoradata.github.io/workflows/Publish/badge.svg)
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-This is the source of the Amphora Data docs, which you can view [here](https://amphoradata.github.io).
+### Installation
 
-Built with [docusaurus](https://github.com/facebook/docusaurus).
-
-
-# Build
-
-## Dependencies:
-
-* NodeJS, use [NVM](https://github.com/nvm-sh/nvm)
-
-## Running locally
-
-Clone this repository, and run the following commands
-
-```sh
-cd website
-npm install
-npm start
+```
+$ yarn
 ```
 
-The website should be available at http://localhost:3000
+### Local Development
 
-# Deploy
+```
+$ yarn start
+```
 
-The built website is automatically deployed from the `source` branch to the `master` branch via a [GitHub action](.github/workflows/nodejs.yml), and hosted by GitHub Pages.
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-# Contributing
+### Build
 
-If you find any issues with these documents, please [submit an issue](https://github.com/amphoradata/amphoradata.github.io/issues).
+```
+$ yarn build
+```
 
-We welcome your contributions and pull requests.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+### Deployment
 
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
