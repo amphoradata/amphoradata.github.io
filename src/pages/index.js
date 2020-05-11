@@ -100,4 +100,9 @@ function Home() {
   );
 }
 
-export default Home;
+// export default Home;
+// this overrides the default behaviour, and redirects to the docs page.
+function CustomRedirect(){
+  window.location.href = 'docs/contents';
+}
+export default CustomRedirect;
