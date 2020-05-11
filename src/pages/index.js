@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import { Redirect } from 'react-router-dom';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -45,7 +46,7 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
@@ -62,7 +63,7 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Welcome to Amphora Data ${siteConfig.title}`}
@@ -102,7 +103,9 @@ function Home() {
 
 // export default Home;
 // this overrides the default behaviour, and redirects to the docs page.
-function CustomRedirect(){
-  window.location.href = 'docs/contents';
+function CustomRedirect() {
+  return (
+    <Redirect to='/docs/contents' />
+  )
 }
 export default CustomRedirect;
