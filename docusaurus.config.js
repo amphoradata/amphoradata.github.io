@@ -7,18 +7,18 @@ module.exports = {
   baseUrl: '/',
   organizationName: 'AmphoraData', // Usually your GitHub org/user name.
   projectName: 'AmphoraData.github.io', // Usually your repo name.
- // plugins: ['@docusaurus/plugin-google-analytics'],
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
     algolia: {
       apiKey: '0797d5513a4961659b3f15828b64f261',
       indexName: 'amphoradata',
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
-      // Google Analytics
-    //googleAnalytics: {
-    //  TrackingId: "UA-164144906-4",
-    //  anonymizeIP: true,
-    //},
+    // Google Analytics
+    gTag: {
+      trackingId: "UA-164144906-4",
+      anonymizeIP: true,
+    },
     //announcementBar: {
     //  id: 'support_us', // Any value that will identify this message
     //  content:
