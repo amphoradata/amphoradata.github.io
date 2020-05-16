@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[54],{192:function(a,n,t){"use strict";t.r(n);t(1);var e=t(0),r=t.n(e),m=(t(215),t(3));t(214),t(216),t(213),t(219),t(193),r.a.Fragment,r.a.Fragment,r.a.Fragment,r.a.Fragment,r.a.Fragment,r.a.Fragment,r.a.Fragment,r.a.Fragment;n.default=function(){return r.a.createElement(m.a,{to:"/docs/contents"})}}}]);
