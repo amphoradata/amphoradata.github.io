@@ -9,6 +9,7 @@ module.exports = {
     'Accounts and billing': ['billing-transactions','change_plan'],
     'Python SDK': ["python-create-amphora","python-upload-file","python-upload-signal","python-download-file","python-pandasdf"],
     'Community support': ["request-data","report-bug","chat","contribute-code"],
-    Definitions: ["organisation","signal"]
+    Definitions: ["organisation","signal"],
+    'Native integrations': ["microprediction"]
   },
 };
