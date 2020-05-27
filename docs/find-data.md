@@ -19,7 +19,7 @@ You can use the advanced search buttons to search for Amphora by
 2) Location
 3) Labels
 
-## ## Search with map
+#### Search with map
 
 You can also view the data sets on a map if there is a specific location you are looking for.
 
