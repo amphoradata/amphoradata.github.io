@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Connecting the world’s real-time information',
-  tagline: 'Amphora is a leading storage, integration, and collaboration platform.',
   favicon: 'img/favicon.ico',
   // github pages config
+  tagline: 'Amphora is a data marketplace and management platform for innovative teams and researchers',
   url: 'https://amphoradata.github.io',
   baseUrl: '/',
   organizationName: 'AmphoraData', // Usually your GitHub org/user name.
@@ -38,21 +38,30 @@ module.exports = {
           position: 'right',
           items: [
             {
-              href: 'https://amphoradata.com/how-we-help/simplified-integration/',
-              label: 'Simplified Integration',
+              to: 'how-we-help/find-data',
+              activeBasePath: 'how-we-help/find-data',
+              label: 'Get new data',
             },
             {
-              href: 'https://amphoradata.com/how-we-help/share-data/',
+              to: 'how-we-help/simplified-integration',
+              activeBasePath: 'how-we-help/simplified-integration',
+              label: 'Simplify Integration',
+            },
+            {
+              to: 'how-we-help/share-data',
+              activeBasePath: 'how-we-help/share-data',
               label: 'Share your data',
             },
             {
-              href: 'https://amphoradata.com/how-we-help/data-management/',
-              label: 'Better data management',
+              to: 'how-we-help/manage-data',
+              activeBasePath: 'how-we-help/manage-data',
+              label: 'Manage data',
             },
           ],
         },
         {
-          href: 'https://github.com/amphoradata/',
+          to: 'pricing',
+          activeBasePath: 'pricing',
           label: 'Pricing',
           position: 'right',
         },
@@ -99,7 +108,8 @@ module.exports = {
           title: 'Company',
           items: [
             {
-              href: 'https://amphoradata.com/leadership-team',
+              to: 'leadership-team',
+              activeBasePath: 'leadership-team',
               label: 'Team',
             },
             {
@@ -109,6 +119,11 @@ module.exports = {
             {
               href: 'https://amphoradata.com/vision-values',
               label: 'Values',
+            },
+            {
+              to: 'privacy-security',
+              activeBasePath: 'privacy-security',
+              label: 'Privacy and security',
             },
           ],
         },
