@@ -11,12 +11,14 @@ function SimplifiedIntegration() {
       <div className="container container--fluid">
         <div className={classnames("row mt-12", styles.justifyContentCenter)}>
           <div className="col col--9">
-            <p className="font_large">Simplify your integration of third-party data</p>
+            <p className="font_large">
+              Simplify your integration of third-party data
+            </p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration'
+                  to="simplified-integration"
                 >
                   Impact
                 </Link>
@@ -24,7 +26,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium_bold text--black"
-                  to='simplified-integration-how-it-works'
+                  to="simplified-integration-how-it-works"
                 >
                   How it works
                 </Link>
@@ -32,7 +34,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration-features'
+                  to="simplified-integration-features"
                 >
                   Features
                 </Link>
@@ -40,7 +42,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration-success'
+                  to="simplified-integration-success"
                 >
                   Success stories
                 </Link>
@@ -48,7 +50,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration-details'
+                  to="simplified-integration-details"
                 >
                   More details
                 </Link>
@@ -78,9 +80,8 @@ function SimplifiedIntegration() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -88,11 +89,14 @@ function SimplifiedIntegration() {
 const features = [
   {
     title: <>Yellowstone Ecological Research Centre</>,
-    imageUrl: 'img/share_data_pick.png',
+    imageUrl: "img/share_data_pick.png",
     description: (
       <>
-        Yellowstone Ecological Research Centre uses Amphora Data to showcase data from the world-famous Yellowstone National Park. This includes animal tracking and river flow data. Using Amphora Data saves precious resources for the Yellowstone team so they can do more research in the wild.
-
+        Yellowstone Ecological Research Centre uses Amphora Data to showcase
+        data from the world-famous Yellowstone National Park. This includes
+        animal tracking and river flow data. Using Amphora Data saves precious
+        resources for the Yellowstone team so they can do more research in the
+        wild.
       </>
     ),
   },
@@ -101,15 +105,21 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
     </div>
   );

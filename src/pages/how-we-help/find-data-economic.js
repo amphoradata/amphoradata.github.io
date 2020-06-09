@@ -11,13 +11,12 @@ function FindData() {
       <div className="container container--fluid">
         <div className={classnames("row mt-12", styles.justifyContentCenter)}>
           <div className="col col--9">
-            <p className="font_large">You can get the insights you need in 30 seconds</p>
+            <p className="font_large">
+              You can get the insights you need in 30 seconds
+            </p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data"
-                >
+                <Link className="font_medium text--black" to="find-data">
                   Vegetation
                 </Link>
               </div>
@@ -30,18 +29,12 @@ function FindData() {
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data-water"
-                >
+                <Link className="font_medium text--black" to="find-data-water">
                   Water
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data-soil"
-                >
+                <Link className="font_medium text--black" to="find-data-soil">
                   Soil
                 </Link>
               </div>
@@ -54,10 +47,7 @@ function FindData() {
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data-other"
-                >
+                <Link className="font_medium text--black" to="find-data-other">
                   Other
                 </Link>
               </div>
@@ -86,9 +76,8 @@ function FindData() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -96,23 +85,21 @@ function FindData() {
 const features = [
   {
     title: <>Livestock prices</>,
-    imageUrl: 'img/26_Kings_rd_NDVI_180220.png',
+    imageUrl: "img/26_Kings_rd_NDVI_180220.png",
     description: (
       <>
-        Real-time data of major livestock indices in Australia.
-
-        Major indices ready to use for free, more available on request.
+        Real-time data of major livestock indices in Australia. Major indices
+        ready to use for free, more available on request.
       </>
     ),
   },
   {
     title: <>Electricity price forecasts</>,
-    imageUrl: 'img/Forest_image.PNG',
+    imageUrl: "img/Forest_image.PNG",
     description: (
       <>
-        Real-time 36 hour electricity price forecasts for QLD, SA, TAS, NSW, and VIC.
-
-        Ready for use for free 
+        Real-time 36 hour electricity price forecasts for QLD, SA, TAS, NSW, and
+        VIC. Ready for use for free
       </>
     ),
   },
@@ -121,17 +108,23 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
-      <div className={styles.buttons} >
+      <div className={styles.buttons}>
         <Link
           className="font_medium text--white"
           to={useBaseUrl("https://identity.amphoradata.com/Account/Register")}

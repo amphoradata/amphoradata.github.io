@@ -11,20 +11,19 @@ function ManageData() {
       <div className="container container--fluid">
         <div className={classnames("row mt-12", styles.justifyContentCenter)}>
           <div className="col col--9">
-            <p className="font_large">Manage data access, quality, and jobs in ecosystems</p>
+            <p className="font_large">
+              Manage data access, quality, and jobs in ecosystems
+            </p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to='manage-data'
-                >
+                <Link className="font_medium text--black" to="manage-data">
                   Impact
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='manage-data-how-it-works'
+                  to="manage-data-how-it-works"
                 >
                   How it works
                 </Link>
@@ -32,7 +31,7 @@ function ManageData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='manage-data-features'
+                  to="manage-data-features"
                 >
                   Features
                 </Link>
@@ -40,7 +39,7 @@ function ManageData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='manage-data-success'
+                  to="manage-data-success"
                 >
                   Success stories
                 </Link>
@@ -48,7 +47,7 @@ function ManageData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium_bold text--black"
-                  to='manage-data-details'
+                  to="manage-data-details"
                 >
                   More details
                 </Link>
@@ -78,9 +77,8 @@ function ManageData() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -88,28 +86,32 @@ function ManageData() {
 const features = [
   {
     title: <>Get the factpack</>,
-    imageUrl: 'img/share_data_pick.png',
+    imageUrl: "img/share_data_pick.png",
     description: (
       <>
-        Post your data on Amphora to reach all of our users. You can monetise your data or share it for free. You have full control on who can use your data.
+        Post your data on Amphora to reach all of our users. You can monetise
+        your data or share it for free. You have full control on who can use
+        your data.
       </>
     ),
   },
   {
     title: <>Get the code</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        Don’t worry about anything. We host the data, manage access, commercials and governance. 
+        Don’t worry about anything. We host the data, manage access, commercials
+        and governance.
       </>
     ),
   },
   {
     title: <>Watch a tutorial</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        Don’t worry about anything. We host the data, manage access, commercials and governance. 
+        Don’t worry about anything. We host the data, manage access, commercials
+        and governance.
       </>
     ),
   },
@@ -118,15 +120,21 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
     </div>
   );

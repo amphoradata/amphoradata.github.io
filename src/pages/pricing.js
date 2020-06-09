@@ -9,7 +9,7 @@ import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function pricing() {
-  const [currentPlan, setCurrentPlan] = React.useState(1)
+  const [currentPlan, setCurrentPlan] = React.useState(1);
   const prices = [
     {
       id: 0,
@@ -27,9 +27,9 @@ function pricing() {
         "Custom Access Controls",
         "Max users: 1",
         "Max total file size: 10GB",
-        'SDKs and sample code',
-        'Documentation and online tutorials',
-        'Community support'
+        "SDKs and sample code",
+        "Documentation and online tutorials",
+        "Community support",
       ],
       actionLink: "https://identity.amphoradata.com/Account/Register",
     },
@@ -53,10 +53,10 @@ function pricing() {
         "ETL governance workbench",
         "Max users: 25",
         "Max total file size: 100GB per user",
-        'SDKs and sample code',
-        'Documentation and online tutorials',
-        'Sandbox environment',
-        'Community support'
+        "SDKs and sample code",
+        "Documentation and online tutorials",
+        "Sandbox environment",
+        "Community support",
       ],
     },
     {
@@ -82,19 +82,24 @@ function pricing() {
         "Personalised URL",
         "Max users: Unlimited",
         "Max total file size: 250GB per user",
-        'SDKs and sample code',
-        'Documentation and online tutorials',
-        'Sandbox environment',
-        'Audit logs',
-        'Interactive training',
-        '99% uptime SLA',
-        'Premium support'
+        "SDKs and sample code",
+        "Documentation and online tutorials",
+        "Sandbox environment",
+        "Audit logs",
+        "Interactive training",
+        "99% uptime SLA",
+        "Premium support",
       ],
     },
   ];
   return (
     <Layout title="Pricing">
-      <div className={classnames("container container--fluid", styles.presentationContainer)} >
+      <div
+        className={classnames(
+          "container container--fluid",
+          styles.presentationContainer
+        )}
+      >
         <div
           className={classnames(
             "row mt-12 mb-12 px-2",
@@ -129,18 +134,19 @@ function pricing() {
                     <div className="text--left mb-1">{description}</div>
                   </div>
                 ))}
-                
+
                 <div className={classnames("mb-4", styles.buttons)}>
                   <Link
                     className={classnames(
                       "button button--lg full-width",
                       styles.getStarted,
-                       currentPlan === price.id ? "button--primary" : "button--primary"
+                      currentPlan === price.id
+                        ? "button--primary"
+                        : "button--primary"
                     )}
                     to={useBaseUrl(price.actionLink)}
-                    
                   >
-                    {currentPlan === price.id ? 'Register' : 'Register'}
+                    {currentPlan === price.id ? "Register" : "Register"}
                   </Link>
                 </div>
               </div>

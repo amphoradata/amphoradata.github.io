@@ -11,12 +11,14 @@ function SimplifiedIntegration() {
       <div className="container container--fluid">
         <div className={classnames("row mt-12", styles.justifyContentCenter)}>
           <div className="col col--9">
-            <p className="font_large">Simplify your integration of third-party data</p>
+            <p className="font_large">
+              Simplify your integration of third-party data
+            </p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration'
+                  to="simplified-integration"
                 >
                   Impact
                 </Link>
@@ -24,7 +26,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration-how-it-works'
+                  to="simplified-integration-how-it-works"
                 >
                   How it works
                 </Link>
@@ -32,7 +34,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium_bold text--black"
-                  to='simplified-integration-features'
+                  to="simplified-integration-features"
                 >
                   Features
                 </Link>
@@ -40,7 +42,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration-success'
+                  to="simplified-integration-success"
                 >
                   Success stories
                 </Link>
@@ -48,7 +50,7 @@ function SimplifiedIntegration() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='simplified-integration-details'
+                  to="simplified-integration-details"
                 >
                   More details
                 </Link>
@@ -78,9 +80,8 @@ function SimplifiedIntegration() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -88,37 +89,43 @@ function SimplifiedIntegration() {
 const features = [
   {
     title: <>Data sharing platform</>,
-    imageUrl: 'img/share_data_pick.png',
+    imageUrl: "img/share_data_pick.png",
     description: (
       <>
-        Connect any dataset on Amphora in 30 seconds. We provide the data infrastructure and ETL flow and tooling.
+        Connect any dataset on Amphora in 30 seconds. We provide the data
+        infrastructure and ETL flow and tooling.
       </>
     ),
   },
   {
     title: <>Data search and discovery workbench</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        Find any data you need in seconds. All data containers have standardised, transparent metadata so you know exactly what your getting. 
+        Find any data you need in seconds. All data containers have
+        standardised, transparent metadata so you know exactly what your
+        getting.
       </>
     ),
   },
   {
     title: <>Modern APIs and SDKs.</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        We use modern APIs and have SDKs in python, node.js and .NET. Get the latest at GitHub. 
+        We use modern APIs and have SDKs in python, node.js and .NET. Get the
+        latest at GitHub.
       </>
     ),
   },
   {
     title: <>Free migration</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        We offer a free service to migrate any data feed you want into Amphora with our Team or Institution plans. Get the benefits from simpler integration without any upfront costs.
+        We offer a free service to migrate any data feed you want into Amphora
+        with our Team or Institution plans. Get the benefits from simpler
+        integration without any upfront costs.
       </>
     ),
   },
@@ -127,15 +134,21 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
     </div>
   );

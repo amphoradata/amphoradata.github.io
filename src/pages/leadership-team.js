@@ -8,25 +8,39 @@ import styles from "./styles.module.css";
 function leadership_team() {
   return (
     <Layout title="Leadership Team">
-      <div className="container container--fluid" >
-        <div className="row p-4"  className={classnames("hero hero--primary", styles.heroBanner)}>
-          <h2 className="font_large text--white"  style={{paddingLeft: "240px", paddingRight: "240px", paddingTop: "120px", paddingBottom: "60px"}}>
+      <div className="container container--fluid">
+        <div
+          className="row p-4"
+          className={classnames("hero hero--primary", styles.heroBanner)}
+        >
+          <h2
+            className="font_large text--white"
+            style={{
+              paddingLeft: "240px",
+              paddingRight: "240px",
+              paddingTop: "120px",
+              paddingBottom: "60px",
+            }}
+          >
             We Are An Experienced Team With Distinctive Expertise In Software
             Engineering, Data Governance, People Leadership, Operations,
             Agriculture, Data Science And Strategy.
           </h2>
         </div>
 
-        <div className={classnames("row", styles.justifyContentCenter) } style={{paddingTop: "60px"}}>
-          <div className="col col--4" style={{paddingLeft: "360px"}}>
-            <img src="img/IMG_1205.jpg" alt="leadership team" width="200"/>
+        <div
+          className={classnames("row", styles.justifyContentCenter)}
+          style={{ paddingTop: "60px" }}
+        >
+          <div className="col col--4" style={{ paddingLeft: "360px" }}>
+            <img src="img/IMG_1205.jpg" alt="leadership team" width="200" />
           </div>
           <div className="col">
             <Link
-                className="font_large"
-                to={useBaseUrl("https://linkedin.com/isaac-donnelly")}
-                >
-                Isaac Donnelly
+              className="font_large"
+              to={useBaseUrl("https://linkedin.com/isaac-donnelly")}
+            >
+              Isaac Donnelly
             </Link>
             <h3 className="font_large">Managing director and co-founder</h3>
             <p className="font_medium mb-4">
@@ -44,18 +58,23 @@ function leadership_team() {
             </p>
           </div>
         </div>
-        <div className={classnames("row", styles.justifyContentCenter)} style={{paddingTop: "60px", paddingBottom: "120px"}}>
-          <div className="col col--4" style={{paddingLeft: "360px"}}>
-            <img src="img/IMG_1209.jpg" alt="leadership team" width="200"/>
+        <div
+          className={classnames("row", styles.justifyContentCenter)}
+          style={{ paddingTop: "60px", paddingBottom: "120px" }}
+        >
+          <div className="col col--4" style={{ paddingLeft: "360px" }}>
+            <img src="img/IMG_1209.jpg" alt="leadership team" width="200" />
           </div>
           <div className="col">
             <Link
-                className="font_large"
-                to={useBaseUrl("https://linkedin.com/rian-finnegan")}
-                >
-                Rian Finnegan
+              className="font_large"
+              to={useBaseUrl("https://linkedin.com/rian-finnegan")}
+            >
+              Rian Finnegan
             </Link>
-            <h3 className="font_large">Chief technology officer and co-founder</h3>
+            <h3 className="font_large">
+              Chief technology officer and co-founder
+            </h3>
             <p className="font_medium mb-4">
               Rian leads the technology and product development at Amphora Data
               and also looks after our people.
@@ -71,7 +90,6 @@ function leadership_team() {
             </p>
           </div>
         </div>
-        
       </div>
     </Layout>
   );

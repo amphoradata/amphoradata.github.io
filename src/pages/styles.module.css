@@ -4,7 +4,7 @@
  * and scoped locally.
  */
 
- .heroBanner {
+.heroBanner {
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -57,8 +57,8 @@
 
 .description {
   font-size: 20x;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.10px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1px;
   line-height: 1.4;
 }
 
@@ -78,9 +78,7 @@
   box-shadow: 0 2px 0 0 #5aa6c0;
   background-color: #0a789e;
   margin-bottom: 16px;
-  margin-top: 16px; 
-
-
+  margin-top: 16px;
 }
 
 .buttons_tab {
@@ -91,7 +89,7 @@
   width: 190px;
   border-radius: 4px;
   box-shadow: 0 2px 0 0 #5aa6c0;
-  background-color: #FFFEFD;
+  background-color: #fffefd;
   margin-bottom: 16px;
   margin-top: 16px;
 }
@@ -114,10 +112,10 @@
   opacity: 0.5;
   text-decoration: none;
 }
-.rightAbsolute{
+.rightAbsolute {
   position: absolute;
   right: 40px;
 }
-.whiteSpace{
+.whiteSpace {
   white-space: normal;
 }

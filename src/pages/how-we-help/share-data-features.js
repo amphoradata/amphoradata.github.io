@@ -14,17 +14,14 @@ function ShareData() {
             <p className="font_large">Share your data with the world</p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to='share-data'
-                >
+                <Link className="font_medium text--black" to="share-data">
                   Impact
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-how-it-works'
+                  to="share-data-how-it-works"
                 >
                   How it works
                 </Link>
@@ -32,7 +29,7 @@ function ShareData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium_bold text--black"
-                  to='share-data-features'
+                  to="share-data-features"
                 >
                   Features
                 </Link>
@@ -40,7 +37,7 @@ function ShareData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-success'
+                  to="share-data-success"
                 >
                   Success stories
                 </Link>
@@ -48,7 +45,7 @@ function ShareData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-details'
+                  to="share-data-details"
                 >
                   More details
                 </Link>
@@ -78,9 +75,8 @@ function ShareData() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -88,46 +84,50 @@ function ShareData() {
 const features = [
   {
     title: <>Data sharing platform</>,
-    imageUrl: 'img/share_data_pick.png',
+    imageUrl: "img/share_data_pick.png",
     description: (
       <>
-        Share any dataset on Amphora in 30 seconds. We provide the data infrastructure and ETL flow and tooling. You can also share your data in your own Datashop.
+        Share any dataset on Amphora in 30 seconds. We provide the data
+        infrastructure and ETL flow and tooling. You can also share your data in
+        your own Datashop.
       </>
     ),
   },
   {
     title: <>Custom terms of use and access controls</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        You can restrict or open your data terms of use and access controls as much as you want. 
+        You can restrict or open your data terms of use and access controls as
+        much as you want.
       </>
     ),
   },
   {
     title: <>Modern APIs and SDKs.</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
-      <>
-        We use modern APIs and have SDKs in python, node.js and .NET.  
-      </>
+      <>We use modern APIs and have SDKs in python, node.js and .NET.</>
     ),
   },
   {
     title: <>Hosting</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        We host the data so you don’t need to. All data is hosted securely with 256-bit Microsoft enterprise encryption. 
+        We host the data so you don’t need to. All data is hosted securely with
+        256-bit Microsoft enterprise encryption.
       </>
     ),
   },
   {
     title: <>Payment handling</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        We handle all the payments in Amphora powered by Stripe. If you want to charge for your data, simply add a price and wait for payment - nothing else. 
+        We handle all the payments in Amphora powered by Stripe. If you want to
+        charge for your data, simply add a price and wait for payment - nothing
+        else.
       </>
     ),
   },
@@ -136,15 +136,21 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
     </div>
   );

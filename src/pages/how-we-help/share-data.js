@@ -14,17 +14,14 @@ function ShareData() {
             <p className="font_large">Share your data with the world</p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium_bold text--black"
-                  to='share-data'
-                >
+                <Link className="font_medium_bold text--black" to="share-data">
                   Impact
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-how-it-works'
+                  to="share-data-how-it-works"
                 >
                   How it works
                 </Link>
@@ -32,7 +29,7 @@ function ShareData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-features'
+                  to="share-data-features"
                 >
                   Features
                 </Link>
@@ -40,7 +37,7 @@ function ShareData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-success'
+                  to="share-data-success"
                 >
                   Success stories
                 </Link>
@@ -48,7 +45,7 @@ function ShareData() {
               <div className={styles.buttons_tab}>
                 <Link
                   className="font_medium text--black"
-                  to='share-data-details'
+                  to="share-data-details"
                 >
                   More details
                 </Link>
@@ -78,9 +75,8 @@ function ShareData() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -88,19 +84,22 @@ function ShareData() {
 const features = [
   {
     title: <>Share insights instantly</>,
-    imageUrl: 'img/share_data_pick.png',
+    imageUrl: "img/share_data_pick.png",
     description: (
       <>
-        Post your data on Amphora to reach all of our users. You can monetise your data or share it for free. You have full control on who can use your data.
+        Post your data on Amphora to reach all of our users. You can monetise
+        your data or share it for free. You have full control on who can use
+        your data.
       </>
     ),
   },
   {
     title: <>Don’t worry about Data Infra</>,
-    imageUrl: 'img/amphora_cogs.PNG',
+    imageUrl: "img/amphora_cogs.PNG",
     description: (
       <>
-        Don’t worry about anything. We host the data, manage access, commercials and governance. 
+        Don’t worry about anything. We host the data, manage access, commercials
+        and governance.
       </>
     ),
   },
@@ -109,15 +108,21 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
     </div>
   );

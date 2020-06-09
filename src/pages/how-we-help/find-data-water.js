@@ -11,13 +11,12 @@ function FindData() {
       <div className="container container--fluid">
         <div className={classnames("row mt-12", styles.justifyContentCenter)}>
           <div className="col col--9">
-            <p className="font_large">You can get the insights you need in 30 seconds</p>
+            <p className="font_large">
+              You can get the insights you need in 30 seconds
+            </p>
             <div className={classnames("row mt-4", styles.spaceEvenly)}>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data"
-                >
+                <Link className="font_medium text--black" to="find-data">
                   Vegetation
                 </Link>
               </div>
@@ -38,10 +37,7 @@ function FindData() {
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data-soil"
-                >
+                <Link className="font_medium text--black" to="find-data-soil">
                   Soil
                 </Link>
               </div>
@@ -54,10 +50,7 @@ function FindData() {
                 </Link>
               </div>
               <div className={styles.buttons_tab}>
-                <Link
-                  className="font_medium text--black"
-                  to="find-data-other"
-                >
+                <Link className="font_medium text--black" to="find-data-other">
                   Other
                 </Link>
               </div>
@@ -86,9 +79,8 @@ function FindData() {
               </div>
             </section>
           )}
-        </div>  
+        </div>
       </div>
-      
     </Layout>
   );
 }
@@ -96,23 +88,22 @@ function FindData() {
 const features = [
   {
     title: <>River flows</>,
-    imageUrl: 'img/26_Kings_rd_NDVI_180220.png',
+    imageUrl: "img/26_Kings_rd_NDVI_180220.png",
     description: (
       <>
-        Real-time actuals of major rivers in Australia including Murray and Darling. Parameters include water level, temperature, salinity, flow rate and more.
-
-        Available now for free
+        Real-time actuals of major rivers in Australia including Murray and
+        Darling. Parameters include water level, temperature, salinity, flow
+        rate and more. Available now for free
       </>
     ),
   },
   {
     title: <>Groundwater</>,
-    imageUrl: 'img/Forest_image.PNG',
+    imageUrl: "img/Forest_image.PNG",
     description: (
       <>
-        Ground water level and salinity for any location in Australia. Incorporated from 1000s of bore readings in 2019/20.
-
-        Coming in June.
+        Ground water level and salinity for any location in Australia.
+        Incorporated from 1000s of bore readings in 2019/20. Coming in June.
       </>
     ),
   },
@@ -121,17 +112,23 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('row', styles.feature)} style={{ paddingBottom: "30px"}}>
+    <div
+      className={classnames("row", styles.feature)}
+      style={{ paddingBottom: "30px" }}
+    >
       {imgUrl && (
-        <div className="text--center" style={{ paddingLeft: "60px",  paddingRight: "60px"}}>
+        <div
+          className="text--center"
+          style={{ paddingLeft: "60px", paddingRight: "60px" }}
+        >
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <div style={{paddingRight: "60px", width: "600px"}}>
-        <h3 className = "font_large">{title}</h3>
-        <p className = "font_medium">{description}</p>
+      <div style={{ paddingRight: "60px", width: "600px" }}>
+        <h3 className="font_large">{title}</h3>
+        <p className="font_medium">{description}</p>
       </div>
-      <div className={styles.buttons} >
+      <div className={styles.buttons}>
         <Link
           className="font_medium text--white"
           to={useBaseUrl("https://identity.amphoradata.com/Account/Register")}
