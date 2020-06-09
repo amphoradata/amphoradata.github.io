@@ -136,7 +136,7 @@ function Home() {
                     className={classnames(styles.getStarted)}
                     to= 'how-we-help/manage-data'
                   >
-                    <span className="font_extra_large  text--black">Manage data&nbsp;&nbsp;</span> 
+                    <span className="font_extra_large  text--black">Manage data centrally&nbsp;&nbsp;</span> 
                   </Link>
                 </div>
               </div>
