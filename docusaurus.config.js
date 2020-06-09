@@ -89,11 +89,11 @@ module.exports = {
             },
           ],
         },
-        {
-          href: 'https://identity.amphoradata.com/Account/Register?returnUrl=https://app.amphoradata.com/Challenge',
-          label: 'Register',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://identity.amphoradata.com/Register',
+        //   label: 'Register',
+        //   position: 'right',
+        // },
         {
           href: 'https://app.amphoradata.com/Challenge',
           label: 'Login',
@@ -109,20 +109,18 @@ module.exports = {
           items: [
             {
               to: 'leadership-team',
-              activeBasePath: 'leadership-team',
               label: 'Team',
             },
             {
-              href: 'https://amphoradata.com/careers',
+              to: 'careers',
               label: 'Careers',
             },
             {
-              href: 'https://amphoradata.com/vision-values',
+              to: 'values',
               label: 'Values',
             },
             {
               to: 'privacy-security',
-              activeBasePath: 'privacy-security',
               label: 'Privacy and security',
             },
           ],

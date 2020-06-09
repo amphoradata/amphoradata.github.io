@@ -15,7 +15,6 @@ const PropRow = (props) => (
             size="2x"
             className="text--success"
         />
-        &nbsp;
         {props.children}
     </div>
 );
