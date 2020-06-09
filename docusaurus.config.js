@@ -19,13 +19,13 @@ module.exports = {
       trackingID: "UA-164144906-4",
       anonymizeIP: true,
     },
-    //announcementBar: {
+    // announcementBar: {
     //  id: 'support_us', // Any value that will identify this message
     //  content:
     //    'Enter in announcement',
     //  backgroundColor: '#171717', // Defaults to `#fff`
     //  textColor: '#FFEFED', // Defaults to `#000`
-    //},
+    // },
     navbar: {
       logo: {
         src: 'img/Amphora Data_Logo_black.jpg',

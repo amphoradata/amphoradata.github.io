@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    width: 190px;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 0 #5aa6c0;
+    background-color: #0a789e;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  
+  .buttons_tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    width: 190px;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 0 #5aa6c0;
+    background-color: #fffefd;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
