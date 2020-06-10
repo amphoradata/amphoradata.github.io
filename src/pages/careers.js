@@ -1,33 +1,49 @@
-import React from 'react';
-import Layout from '@theme/Layout';
+import React from "react";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import classnames from "classnames";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
-function careers() {
-  return (
-    <Layout title="Hello">
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '50vh',
-          fontSize: '20px',
-        }}>
-        <p>
-          Careers
+function Careers() {
+    return (
+        <Layout title="Careers">
+            <div className="container container--fluid">
+                <div
+                    className="row p-4"
+                    className={classnames(
+                        "hero hero--primary",
+                        styles.heroBanner
+                    )}
+                >
+                    <h2
+                        className="font_large text--white"
+                        style={{
+                            paddingLeft: "240px",
+                            paddingRight: "240px",
+                            paddingTop: "120px",
+                            paddingBottom: "60px",
+                        }}
+                    >
+                        Our people are our core capability. We offer our team
+                        members a constructive culture, remote-work, competitive
+                        packages, and lots of development.
+                    </h2>
+                </div>
 
-          We currently do not have any open positions. 
-
-          We always like hearing from outstanding people - please send through your CV to rian@amphoradata.com and we will get back to you if an appropriate position comes up.
-        </p>
-
-
-
-      </div>
-      <h2>JavaScript in Body</h2>
-
-      <p id="demo">A Paragraph.</p>
-    </Layout>
-  );
+                <div
+                    className={classnames("row", styles.justifyContentCenter)}
+                    style={{ paddingTop: "60px" }}
+                >
+                    <div className="col">
+                        <h3 className="font_large text--center">
+                            We don't have any positions currently open.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </Layout>
+    );
 }
 
-export default careers;
+export default Careers;

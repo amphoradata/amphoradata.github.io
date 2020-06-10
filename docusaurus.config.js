@@ -1,14 +1,15 @@
 module.exports = {
   title: 'Connecting the world’s real-time information',
-  tagline: 'Amphora is a leading storage, integration, and collaboration platform.',
   favicon: 'img/favicon.ico',
   // github pages config
+  tagline: 'Amphora is a data marketplace and management platform for innovative teams and researchers',
   url: 'https://amphoradata.github.io',
   baseUrl: '/',
   organizationName: 'AmphoraData', // Usually your GitHub org/user name.
   projectName: 'AmphoraData.github.io', // Usually your repo name.
   plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
+    disableDarkMode: true,
     algolia: {
       apiKey: '0797d5513a4961659b3f15828b64f261',
       indexName: 'amphoradata',
@@ -19,40 +20,49 @@ module.exports = {
       trackingID: "UA-164144906-4",
       anonymizeIP: true,
     },
-    //announcementBar: {
+    // announcementBar: {
     //  id: 'support_us', // Any value that will identify this message
     //  content:
     //    'Enter in announcement',
     //  backgroundColor: '#171717', // Defaults to `#fff`
     //  textColor: '#FFEFED', // Defaults to `#000`
-    //},
+    // },
     navbar: {
       logo: {
         src: 'img/Amphora Data_Logo_black.jpg',
         srcDark: 'img/Amphora Data_Logo_white.png',
       },
-      backgroundColor: '#FFEFEC', // Defaults to `#fff`
+      backgroundColor: '#222222', // Defaults to `#fff`
       links: [
         {
           label: 'Solutions',
           position: 'right',
           items: [
             {
-              href: 'https://amphoradata.com/how-we-help/simplified-integration/',
-              label: 'Simplified Integration',
+              to: 'how-we-help/find-data',
+              activeBasePath: 'how-we-help/find-data',
+              label: 'Get new data',
             },
             {
-              href: 'https://amphoradata.com/how-we-help/share-data/',
+              to: 'how-we-help/simplified-integration',
+              activeBasePath: 'how-we-help/simplified-integration',
+              label: 'Simplify Integration',
+            },
+            {
+              to: 'how-we-help/share-data',
+              activeBasePath: 'how-we-help/share-data',
               label: 'Share your data',
             },
             {
-              href: 'https://amphoradata.com/how-we-help/data-management/',
-              label: 'Better data management',
+              to: 'how-we-help/manage-data',
+              activeBasePath: 'how-we-help/manage-data',
+              label: 'Manage data',
             },
           ],
         },
         {
-          href: 'https://github.com/amphoradata/',
+          to: 'pricing',
+          activeBasePath: 'pricing',
           label: 'Pricing',
           position: 'right',
         },
@@ -72,16 +82,16 @@ module.exports = {
             },
             {
               label: 'Videos',
-              href: 'https://amphoradata.com/demos',
+              href: 'https://www.youtube.com/channel/UCdeAwh89DuwZKJ6JJK9TCnw',
             },
             {
-              label: 'Blog',
-              href: 'https://amphoradata.com/blog',
+              label: 'News',
+              href: 'https://au.linkedin.com/company/amphora-data',
             },
           ],
         },
         {
-          href: 'https://identity.amphoradata.com/Account/Register?returnUrl=https://app.amphoradata.com/Challenge',
+          href: 'https://identity.amphoradata.com/Register',
           label: 'Register',
           position: 'right',
         },
@@ -99,16 +109,20 @@ module.exports = {
           title: 'Company',
           items: [
             {
-              href: 'https://amphoradata.com/leadership-team',
+              to: 'leadership-team',
               label: 'Team',
             },
             {
-              href: 'https://amphoradata.com/careers',
+              to: 'careers',
               label: 'Careers',
             },
             {
-              href: 'https://amphoradata.com/vision-values',
+              to: 'values',
               label: 'Values',
+            },
+            {
+              to: 'privacy-security',
+              label: 'Privacy and security',
             },
           ],
         },
