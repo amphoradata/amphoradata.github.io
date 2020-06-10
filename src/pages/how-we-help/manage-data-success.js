@@ -18,16 +18,17 @@ function ManageData() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Securely manage your information
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>

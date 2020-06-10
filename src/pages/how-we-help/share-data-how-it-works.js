@@ -18,16 +18,17 @@ function ShareData() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Share your knowledge with the world
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>
@@ -61,7 +62,10 @@ const features = [
         imageUrl: "img/create_package_icon.png",
         description: (
             <>
-                Create a data container. We call them Amphoras. Set all the metadata for the Amphora including name, description, location, price, terms of use, access controls, labels and any specific attributes.
+                Create a data container. We call them Amphoras. Set all the
+                metadata for the Amphora including name, description, location,
+                price, terms of use, access controls, labels and any specific
+                attributes.
             </>
         ),
     },
@@ -70,7 +74,10 @@ const features = [
         imageUrl: "img/package_icon.png",
         description: (
             <>
-                Simply fill the container with any data you want including images, real-time updates, relational databases and more. You can use our web application or interact programmatically through one of our SDKs.
+                Simply fill the container with any data you want including
+                images, real-time updates, relational databases and more. You
+                can use our web application or interact programmatically through
+                one of our SDKs.
             </>
         ),
     },
@@ -79,8 +86,9 @@ const features = [
         imageUrl: "img/share_package.png",
         description: (
             <>
-                Access your data from the specified Amphora. Enjoy using a single API and integration channel to access the data that you need
-
+                Access your data from the specified Amphora. Enjoy using a
+                single API and integration channel to access the data that you
+                need
             </>
         ),
     },

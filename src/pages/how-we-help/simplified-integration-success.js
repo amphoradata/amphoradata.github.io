@@ -21,16 +21,17 @@ function SimplifiedIntegration() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Simplify integration of third-party data
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>
@@ -66,8 +67,7 @@ const features = [
             <>
                 A leading Australian agtech uses Amphora Data to access new data
                 sources. They use Amphora Data to get satellite imagery, soil
-                maps, electricity forecasts for their farmer facing
-                software.
+                maps, electricity forecasts for their farmer facing software.
             </>
         ),
     },

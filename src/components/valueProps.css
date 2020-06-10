@@ -2,21 +2,21 @@
     margin-top: 2rem;
 }
 
-.valueProps .buttons{
+.valueProps .buttons {
     margin-top: 4rem;
     text-align: left;
 }
-.valueProps .prop svg{
+.valueProps .prop svg {
     margin-right: 1rem;
 }
 .valueProps .prop {
-   text-align: left;
+    text-align: left;
 }
-.valueProps .heading{
+.valueProps .heading {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
-.valueProps .prop{
+.valueProps .prop {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }

@@ -18,16 +18,17 @@ function ManageData() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Securely manage your information
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>
@@ -61,7 +62,9 @@ const features = [
         imageUrl: "img/migrate_icon.png",
         description: (
             <>
-               Move the data you want to manage onto Amphora Data. This may be third-party data you find in our catalogue, your own data, or your partners.
+                Move the data you want to manage onto Amphora Data. This may be
+                third-party data you find in our catalogue, your own data, or
+                your partners.
             </>
         ),
     },
@@ -70,8 +73,8 @@ const features = [
         imageUrl: "img/report_icon.png",
         description: (
             <>
-                Set access rules, data quality, ETL jobs and other things you want to manage.
-
+                Set access rules, data quality, ETL jobs and other things you
+                want to manage.
             </>
         ),
     },
@@ -80,7 +83,8 @@ const features = [
         imageUrl: "img/examine_icon.png",
         description: (
             <>
-                Monitor all your data in your Amphoras. You can view who has accessed the data, quality, monitor ETL jobs and more.
+                Monitor all your data in your Amphoras. You can view who has
+                accessed the data, quality, monitor ETL jobs and more.
             </>
         ),
     },

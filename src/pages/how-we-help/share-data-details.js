@@ -18,16 +18,17 @@ function ShareData() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Share your knowledge with the world
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>
@@ -61,7 +62,8 @@ const features = [
         imageUrl: "img/share_data_pick.png",
         description: (
             <>
-                Learn more about the impact and value of sharing data for your organisation.
+                Learn more about the impact and value of sharing data for your
+                organisation.
             </>
         ),
     },
@@ -94,18 +96,18 @@ function Feature({ imageUrl, title, description }) {
             className={classnames("row", styles.feature)}
             style={{ paddingBottom: "30px" }}
         >
-            <div style={{ paddingLeft: "120px", paddingRight: "120px", width: "600px" }}>
+            <div
+                style={{
+                    paddingLeft: "120px",
+                    paddingRight: "120px",
+                    width: "600px",
+                }}
+            >
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>
-            <Link
-                to={imageUrl}
-            >
-                <div
-                    className={classnames(
-                        "buttons text--white",
-                        )}
-                >
+            <Link to={imageUrl}>
+                <div className={classnames("buttons text--white")}>
                     <p>Lets go</p>
                 </div>
             </Link>

@@ -15,7 +15,10 @@ export const Landing = (props) => {
         >
             <div className="landing container container--fluid">
                 <div className="row mt-2">
-                    <div className="col col--8 font_large banner" style={{paddingLeft: "120px"}}>
+                    <div
+                        className="col col--8 font_large banner"
+                        style={{ paddingLeft: "120px" }}
+                    >
                         <h1 className="hero__title text--left text--white">
                             {props.siteConfig.title}
                         </h1>

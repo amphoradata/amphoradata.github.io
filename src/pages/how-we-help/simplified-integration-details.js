@@ -21,16 +21,17 @@ function SimplifiedIntegration() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Simplify integration of third-party data
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>
@@ -64,16 +65,19 @@ const features = [
         imageUrl: "files/Simplified_integration_overview.pdf",
         description: (
             <>
-                Learn more about the impact and value of simplifying integration for your organisation.
+                Learn more about the impact and value of simplifying integration
+                for your organisation.
             </>
         ),
     },
     {
         title: <>Get the code</>,
-        imageUrl: "https://github.com/amphoradata/samples/blob/master/generic_templates/Create_an_Amphora.py",
+        imageUrl:
+            "https://github.com/amphoradata/samples/blob/master/generic_templates/Create_an_Amphora.py",
         description: (
             <>
-                Get started with our sample code. You can share your first dataset in 30 seconds.
+                Get started with our sample code. You can share your first
+                dataset in 30 seconds.
             </>
         ),
     },
@@ -82,7 +86,8 @@ const features = [
         imageUrl: "https://www.youtube.com/channel/UCdeAwh89DuwZKJ6JJK9TCnw",
         description: (
             <>
-                Watch our short tutorials to get started sharing data with Amphora.
+                Watch our short tutorials to get started sharing data with
+                Amphora.
             </>
         ),
     },
@@ -95,18 +100,18 @@ function Feature({ imageUrl, title, description }) {
             className={classnames("row", styles.feature)}
             style={{ paddingBottom: "30px" }}
         >
-            <div style={{ paddingLeft: "120px", paddingRight: "120px", width: "600px" }}>
+            <div
+                style={{
+                    paddingLeft: "120px",
+                    paddingRight: "120px",
+                    width: "600px",
+                }}
+            >
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>
-            <Link
-                to={imageUrl}
-            >
-                <div
-                    className={classnames(
-                        "buttons text--white text--middle",
-                        )}
-                >
+            <Link to={imageUrl}>
+                <div className={classnames("buttons text--white text--middle")}>
                     <p>Lets go</p>
                 </div>
             </Link>

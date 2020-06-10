@@ -21,10 +21,18 @@ const PropRow = (props) => (
 
 export const ValueProps = (props) => {
     return (
-        <div className={classnames("p-4 valueProps", props.styles.presentationContainer)}>
+        <div
+            className={classnames(
+                "p-4 valueProps",
+                props.styles.presentationContainer
+            )}
+        >
             <div className="container container--fluid">
                 <div className={classnames("row", props.styles.spaceBetween)}>
-                    <div className="col col--6" style={{paddingLeft: "120px"}}>
+                    <div
+                        className="col col--6"
+                        style={{ paddingLeft: "120px" }}
+                    >
                         <h3 className="heading font_extra_large text--black">
                             With Amphora you can...
                         </h3>
@@ -44,7 +52,8 @@ export const ValueProps = (props) => {
                                 to="how-we-help/simplified-integration"
                             >
                                 <span className="font_extra_large text--black">
-                                    <strong>Simplify</strong> external integration
+                                    <strong>Simplify</strong> external
+                                    integration
                                 </span>
                             </Link>
                         </PropRow>

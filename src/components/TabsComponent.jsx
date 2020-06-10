@@ -80,25 +80,25 @@ export const ShareDataTabs = [
 export const SimplifyIntegrationTabs = [
     {
         to: "simplified-integration",
-        name: "Impact"
+        name: "Impact",
     },
     {
         to: "simplified-integration-how-it-works",
-        name: "How it Works"
+        name: "How it Works",
     },
     {
         to: "simplified-integration-features",
-        name: "Features"
+        name: "Features",
     },
     {
         to: "simplified-integration-success",
-        name: "Success Stories"
+        name: "Success Stories",
     },
     {
         to: "simplified-integration-details",
-        name: "More Details"
+        name: "More Details",
     },
-]
+];
 
 // window will not be defined in the build step.
 const isClient = typeof window !== "undefined";

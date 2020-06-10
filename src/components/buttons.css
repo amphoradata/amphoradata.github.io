@@ -21,22 +21,22 @@
     height: 3rem;
     width: 100%;
     margin: auto;
-    color: #0A789E;
+    color: #0a789e;
     border-radius: 0px;
     background-color: #ffffff;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    box-shadow: 0 1px 0 0 #AAADB0;
- }
+    box-shadow: 0 1px 0 0 #aaadb0;
+}
 
 .buttons_tab:hover {
-    background-color: #0A789E;
+    background-color: #0a789e;
     color: var(--amphora-white);
 }
 
 .tab_active {
     box-shadow: 0 2px 0 0 #5aa6c0;
-    color:  #222222;
+    color: #222222;
 }
 
 .tabs_row {

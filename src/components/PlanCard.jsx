@@ -26,7 +26,7 @@ export const PlanCard = (props) => {
                     <div className="text--center">{price.perUsers}</div>
                     <h4 className="text--center">{price.fee}</h4>
 
-                    <hr/>
+                    <hr />
                     {props.isMostPopular ? (
                         <div className="text--center mb-2">
                             <FontAwesomeIcon
@@ -36,9 +36,11 @@ export const PlanCard = (props) => {
                             />
                             Most popular
                         </div>
-                    ): <br/>}
+                    ) : (
+                        <br />
+                    )}
 
-                    <br/>
+                    <br />
                     {price.descriptions.map((description) => (
                         <div className="d-flex mb-2">
                             <FontAwesomeIcon

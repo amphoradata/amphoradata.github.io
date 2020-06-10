@@ -15,7 +15,7 @@ export const MoreInfo = (props) => (
                     single platform for any user
                 </h2>
                 <div className="container container--fluid">
-                    <Link to={imgPath} >
+                    <Link to={imgPath}>
                         <img
                             src={imgPath}
                             alt="Benefits of Amphora"

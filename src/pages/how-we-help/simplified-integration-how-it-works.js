@@ -21,16 +21,17 @@ function SimplifiedIntegration() {
                 >
                     <div className="col col--9">
                         <div className="row row--9">
-                            <p className="font_large_caps" style={{paddingRight: "600px"}}>
+                            <p
+                                className="font_large_caps"
+                                style={{ paddingRight: "600px" }}
+                            >
                                 Simplify integration of third-party data
                             </p>
-                            <Link
-                                to="https://identity.amphoradata.com/Account/Register"
-                            >
+                            <Link to="https://identity.amphoradata.com/Account/Register">
                                 <div
                                     className={classnames(
-                                        "buttons text--white text--middle",
-                                        )}
+                                        "buttons text--white text--middle"
+                                    )}
                                 >
                                     <p>Register</p>
                                 </div>
@@ -64,8 +65,9 @@ const features = [
         imageUrl: "img/discover_icon.png",
         description: (
             <>
-                You can find a range of data and analytics products on Amphora. 
-                We specialise in location-specific and real-time operational data.
+                You can find a range of data and analytics products on Amphora.
+                We specialise in location-specific and real-time operational
+                data.
             </>
         ),
     },
@@ -74,7 +76,8 @@ const features = [
         imageUrl: "img/migrate_icon.png",
         description: (
             <>
-                Move your existing integration jobs onto Amphora. We do this for free if you have a Team or Institution plan.
+                Move your existing integration jobs onto Amphora. We do this for
+                free if you have a Team or Institution plan.
             </>
         ),
     },
@@ -83,8 +86,9 @@ const features = [
         imageUrl: "img/happy_icon.png",
         description: (
             <>
-                Access your data from the specified Amphora. Enjoy using a single API and integration channel to access the data that you need
-
+                Access your data from the specified Amphora. Enjoy using a
+                single API and integration channel to access the data that you
+                need
             </>
         ),
     },
