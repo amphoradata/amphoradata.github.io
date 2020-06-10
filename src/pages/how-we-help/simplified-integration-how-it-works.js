@@ -61,7 +61,7 @@ function SimplifiedIntegration() {
 const features = [
     {
         title: <>Find data you want on Amphora</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/discover_icon.png",
         description: (
             <>
                 You can find a range of data and analytics products on Amphora. 
@@ -71,7 +71,7 @@ const features = [
     },
     {
         title: <>Migrate existing data feeds onto Amphora</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/migrate_icon.png",
         description: (
             <>
                 Move your existing integration jobs onto Amphora. We do this for free if you have a Team or Institution plan.
@@ -80,7 +80,7 @@ const features = [
     },
     {
         title: <>Enjoy a single integration channel</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/happy_icon.png",
         description: (
             <>
                 Access your data from the specified Amphora. Enjoy using a single API and integration channel to access the data that you need

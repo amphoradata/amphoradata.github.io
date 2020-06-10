@@ -58,7 +58,7 @@ function ShareData() {
 const features = [
     {
         title: <>Create data container</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/create_package_icon.png",
         description: (
             <>
                 Create a data container. We call them Amphoras. Set all the metadata for the Amphora including name, description, location, price, terms of use, access controls, labels and any specific attributes.
@@ -67,7 +67,7 @@ const features = [
     },
     {
         title: <>Fill container with your data</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/package_icon.png",
         description: (
             <>
                 Simply fill the container with any data you want including images, real-time updates, relational databases and more. You can use our web application or interact programmatically through one of our SDKs.
@@ -76,7 +76,7 @@ const features = [
     },
     {
         title: <>Share with the world</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/share_package.png",
         description: (
             <>
                 Access your data from the specified Amphora. Enjoy using a single API and integration channel to access the data that you need

@@ -58,7 +58,7 @@ function ManageData() {
 const features = [
     {
         title: <>Move data onto Amphora</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/migrate_icon.png",
         description: (
             <>
                Move the data you want to manage onto Amphora Data. This may be third-party data you find in our catalogue, your own data, or your partners.
@@ -67,7 +67,7 @@ const features = [
     },
     {
         title: <>Set quality and controls</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/report_icon.png",
         description: (
             <>
                 Set access rules, data quality, ETL jobs and other things you want to manage.
@@ -77,7 +77,7 @@ const features = [
     },
     {
         title: <>Monitor all data flows</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "img/examine_icon.png",
         description: (
             <>
                 Monitor all your data in your Amphoras. You can view who has accessed the data, quality, monitor ETL jobs and more.
