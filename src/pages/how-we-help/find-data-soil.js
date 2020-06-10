@@ -93,9 +93,7 @@ function Feature({ imageUrl, title, description }) {
             <div className={styles.buttons}>
                 <Link
                     className="font_medium text--white"
-                    to={useBaseUrl(
-                        "https://identity.amphoradata.com/Account/Register"
-                    )}
+                    to="https://identity.amphoradata.com/Register"
                 >
                     Get data
                 </Link>

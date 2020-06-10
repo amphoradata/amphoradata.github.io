@@ -79,7 +79,7 @@ export const ValueProps = (props) => {
             </div>
             <Link
                 className="font_medium text--white"
-                to={"https://identity.amphoradata.com/Account/Register"}
+                to="https://identity.amphoradata.com/Register"
             >
                 <PrimaryButton>Register for Free</PrimaryButton>
             </Link>
