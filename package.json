@@ -5,6 +5,8 @@
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "lint": "prettier --write src",
+    "lint-check": "prettier --check 'src/**/*'",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
   },
@@ -31,5 +33,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "prettier": {
+    "tabWidth": 4
+  },
+  "devDependencies": {
+    "add": "2.0.6",
+    "prettier": "2.0.5",
+    "yarn": "1.22.4"
   }
 }

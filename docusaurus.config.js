@@ -1,29 +1,38 @@
 module.exports = {
   title: 'Connecting the world’s real-time information',
+  favicon: 'img/favicon.ico',
+  // github pages config
   tagline: 'Amphora is a data marketplace and management platform for innovative teams and researchers',
   url: 'https://amphoradata.github.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Amphora Data', // Usually your GitHub org/user name.
+  organizationName: 'AmphoraData', // Usually your GitHub org/user name.
   projectName: 'AmphoraData.github.io', // Usually your repo name.
- // plugins: ['@docusaurus/plugin-google-analytics'],
+  plugins: ['@docusaurus/plugin-google-gtag'],
   themeConfig: {
+    disableDarkMode: true,
     algolia: {
       apiKey: '0797d5513a4961659b3f15828b64f261',
       indexName: 'amphoradata',
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
-      // Google Analytics
-    //googleAnalytics: {
-    //  TrackingId: "UA-164144906-4",
-    //  anonymizeIP: true,
-    //},
+    // Google Analytics
+    gtag: {
+      trackingID: "UA-164144906-4",
+      anonymizeIP: true,
+    },
+    // announcementBar: {
+    //  id: 'support_us', // Any value that will identify this message
+    //  content:
+    //    'Enter in announcement',
+    //  backgroundColor: '#171717', // Defaults to `#fff`
+    //  textColor: '#FFEFED', // Defaults to `#000`
+    // },
     navbar: {
       logo: {
         src: 'img/Amphora Data_Logo_black.jpg',
         srcDark: 'img/Amphora Data_Logo_white.png',
       },
-      backgroundColor: '#FFEFEC', // Defaults to `#fff`
+      backgroundColor: '#222222', // Defaults to `#fff`
       links: [
         {
           label: 'Solutions',
@@ -73,21 +82,21 @@ module.exports = {
             },
             {
               label: 'Videos',
-              href: 'https://amphoradata.com/demos',
+              href: 'https://www.youtube.com/channel/UCdeAwh89DuwZKJ6JJK9TCnw',
             },
             {
-              label: 'Blog',
-              href: 'https://amphoradata.com/blog',
+              label: 'News',
+              href: 'https://au.linkedin.com/company/amphora-data',
             },
           ],
         },
         {
-          href: 'https://identity.amphoradata.com/Account/Register',
+          href: 'https://identity.amphoradata.com/Register',
           label: 'Register',
           position: 'right',
         },
         {
-          href: 'https://identity.amphoradata.com/Account/Login?ReturnUrl=%2FChallenge',
+          href: 'https://app.amphoradata.com/Challenge',
           label: 'Login',
           position: 'right',
         },
@@ -101,22 +110,18 @@ module.exports = {
           items: [
             {
               to: 'leadership-team',
-              activeBasePath: 'leadership-team',
               label: 'Team',
             },
             {
               to: 'careers',
-              activeBasePath: 'careers',
               label: 'Careers',
             },
             {
               to: 'values',
-              activeBasePath: 'values',
               label: 'Values',
             },
             {
               to: 'privacy-security',
-              activeBasePath: 'privacy-security',
               label: 'Privacy and security',
             },
           ],

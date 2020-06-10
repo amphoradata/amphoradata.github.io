@@ -10,7 +10,7 @@ One of the major features of the Amphora Data platform is the ability to set and
 
 ## Create terms and conditions
 
-We can create a new terms and conditions from the [Organisation page](https://beta.amphoradata.com/Organisations/Detail). Select the `Terms and Conditions Libary` button on the left hand side.
+We can create a new terms and conditions from the [Organisation page](https://app.amphoradata.com/Organisations/Detail). Select the `Terms and Conditions Libary` button on the left hand side.
 
 Within the Terms and Conditions Library you can see all the documents your organisation has created. To create a new agreement, select `Create` from the top right hand corner. You will then be able to create new terms and conditions, with a name for all to see, and an ID so it can be accessed through API.
 
