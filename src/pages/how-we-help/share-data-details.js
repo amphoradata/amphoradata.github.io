@@ -4,40 +4,16 @@ import Link from "@docusaurus/Link";
 import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../styles.module.css";
-import { TabsComponent, ShareDataTabs } from "../../components/TabsComponent";
+import { ShareDataTabs } from "../../components/TabsComponent";
+import {PageLayout} from "../../components/PageLayout";
 
 function ShareData() {
     return (
         <Layout title="Share your insight">
-            <div className="container container--fluid">
-                <div
-                    className={classnames(
-                        "row mt-12",
-                        styles.justifyContentCenter
-                    )}
-                >
-                    <div className="col col--9">
-                        <div className="row row--9">
-                            <p
-                                className="font_large_caps"
-                                style={{ paddingRight: "600px" }}
-                            >
-                                Share your knowledge with the world
-                            </p>
-                            <Link to="https://identity.amphoradata.com/Account/Register">
-                                <div
-                                    className={classnames(
-                                        "buttons text--white text--middle"
-                                    )}
-                                >
-                                    <p>Register</p>
-                                </div>
-                            </Link>
-                        </div>
-                        <TabsComponent tabs={ShareDataTabs} />
-                    </div>
-                </div>
-
+            <PageLayout
+                tabs={ShareDataTabs}
+                heading="Share your knowledge with the world"
+            >
                 <div>
                     {features && features.length && (
                         <section className={styles.features}>
@@ -51,7 +27,7 @@ function ShareData() {
                         </section>
                     )}
                 </div>
-            </div>
+            </PageLayout>
         </Layout>
     );
 }

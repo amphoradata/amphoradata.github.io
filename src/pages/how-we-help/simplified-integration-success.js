@@ -1,46 +1,18 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../styles.module.css";
-import {
-    TabsComponent,
-    SimplifyIntegrationTabs,
-} from "../../components/TabsComponent";
+import { SimplifyIntegrationTabs } from "../../components/TabsComponent";
+import { PageLayout } from "../../components/PageLayout";
 
 function SimplifiedIntegration() {
     return (
         <Layout title="Simplify Integration">
-            <div className="container container--fluid">
-                <div
-                    className={classnames(
-                        "row mt-12",
-                        styles.justifyContentCenter
-                    )}
-                >
-                    <div className="col col--9">
-                        <div className="row row--9">
-                            <p
-                                className="font_large_caps"
-                                style={{ paddingRight: "600px" }}
-                            >
-                                Simplify integration of third-party data
-                            </p>
-                            <Link to="https://identity.amphoradata.com/Account/Register">
-                                <div
-                                    className={classnames(
-                                        "buttons text--white text--middle"
-                                    )}
-                                >
-                                    <p>Register</p>
-                                </div>
-                            </Link>
-                        </div>
-                        <TabsComponent tabs={SimplifyIntegrationTabs} />
-                    </div>
-                </div>
-
+            <PageLayout
+                tabs={SimplifyIntegrationTabs}
+                heading="Simplify integration of third-party data"
+            >
                 <div>
                     {features && features.length && (
                         <section className={styles.features}>
@@ -54,7 +26,7 @@ function SimplifiedIntegration() {
                         </section>
                     )}
                 </div>
-            </div>
+            </PageLayout>
         </Layout>
     );
 }

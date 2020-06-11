@@ -9,6 +9,7 @@
     border-radius: 4px;
     box-shadow: 0 2px 0 0 #5aa6c0;
     background-color: #0a789e;
+    color: var(--amphora-white);
     margin-bottom: 16px;
     margin-top: 16px;
     text-align: center;
@@ -37,8 +38,4 @@
 .tab_active {
     box-shadow: 0 2px 0 0 #5aa6c0;
     color: #222222;
-}
-
-.tabs_row {
-    border-bottom: 1px solid var(--pearl);
 }

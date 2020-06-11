@@ -4,39 +4,16 @@ import Link from "@docusaurus/Link";
 import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../styles.module.css";
-import { TabsComponent, FindDataTabs } from "../../components/TabsComponent";
+import { FindDataTabs } from "../../components/TabsComponent";
+import { PageLayout } from "../../components/PageLayout";
 
 function FindData() {
     return (
         <Layout title="Data Catalogue">
-            <div className="container container--fluid">
-                <div
-                    className={classnames(
-                        "row mt-12",
-                        styles.justifyContentCenter
-                    )}
-                >
-                    <div className="col col--9">
-                        <div className="row row--9">
-                            <p
-                                className="font_large_caps"
-                                style={{ paddingRight: "600px" }}
-                            >
-                                Get the insight you need in 30 seconds
-                            </p>
-                            <Link to="https://identity.amphoradata.com/Account/Register">
-                                <div
-                                    className={classnames(
-                                        "buttons text--white text--middle"
-                                    )}
-                                >
-                                    <p>Register</p>
-                                </div>
-                            </Link>
-                        </div>
-                        <TabsComponent tabs={FindDataTabs} />
-                    </div>
-                </div>
+            <PageLayout
+                tabs={FindDataTabs}
+                heading="Get the insight you need in 30 seconds"
+            >
                 <div>
                     {features && features.length && (
                         <section className={styles.features}>
@@ -50,7 +27,7 @@ function FindData() {
                         </section>
                     )}
                 </div>
-            </div>
+            </PageLayout>
         </Layout>
     );
 }
