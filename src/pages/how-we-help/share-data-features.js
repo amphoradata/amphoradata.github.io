@@ -4,7 +4,7 @@ import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../styles.module.css";
 import { ShareDataTabs } from "../../components/TabsComponent";
-import {PageLayout} from "../../components/PageLayout";
+import { PageLayout } from "../../components/PageLayout";
 
 function ShareData() {
     return (
