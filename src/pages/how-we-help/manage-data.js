@@ -34,7 +34,7 @@ function ManageData() {
 const features = [
     {
         title: <>Have full control of your data</>,
-        imageUrl: "img/lock_ic.png",
+        imageUrl: "img/lock_ic.PNG",
         description: (
             <>Determine who can access your data and how they can use it.</>
         ),
@@ -56,12 +56,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -70,7 +70,7 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>

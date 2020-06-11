@@ -34,7 +34,7 @@ function SimplifiedIntegration() {
 const features = [
     {
         title: <>Find data you want on Amphora</>,
-        imageUrl: "img/discover_icon.png",
+        imageUrl: "img/discover_icon.PNG",
         description: (
             <>
                 You can find a range of data and analytics products on Amphora.
@@ -45,7 +45,7 @@ const features = [
     },
     {
         title: <>Migrate existing data feeds onto Amphora</>,
-        imageUrl: "img/migrate_icon.png",
+        imageUrl: "img/migrate_icon.PNG",
         description: (
             <>
                 Move your existing integration jobs onto Amphora. We do this for
@@ -55,7 +55,7 @@ const features = [
     },
     {
         title: <>Enjoy a single integration channel</>,
-        imageUrl: "img/happy_icon.png",
+        imageUrl: "img/happy_icon.PNG",
         description: (
             <>
                 Access your data from the specified Amphora. Enjoy using a
@@ -71,12 +71,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -85,7 +85,7 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>

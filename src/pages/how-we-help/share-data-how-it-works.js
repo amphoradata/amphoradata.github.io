@@ -34,7 +34,7 @@ function ShareData() {
 const features = [
     {
         title: <>Create data container</>,
-        imageUrl: "img/create_package_icon.png",
+        imageUrl: "img/create_package_icon.PNG",
         description: (
             <>
                 Create a data container. We call them Amphoras. Set all the
@@ -46,7 +46,7 @@ const features = [
     },
     {
         title: <>Fill container with your data</>,
-        imageUrl: "img/package_icon.png",
+        imageUrl: "img/package_icon.PNG",
         description: (
             <>
                 Simply fill the container with any data you want including
@@ -58,7 +58,7 @@ const features = [
     },
     {
         title: <>Share with the world</>,
-        imageUrl: "img/share_package.png",
+        imageUrl: "img/share_package.PNG",
         description: (
             <>
                 Access your data from the specified Amphora. Enjoy using a
@@ -74,12 +74,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -88,7 +88,7 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>

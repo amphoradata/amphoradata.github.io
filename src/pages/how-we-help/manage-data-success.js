@@ -34,8 +34,8 @@ function ManageData() {
 const features = [
     {
         title: <>Coming soon</>,
-        imageUrl: "img/share_data_pick.png",
-        description: <>Coming soon</>,
+        imageUrl: "img/share_data_pick.PNG",
+        description: <>We're working on it</>,
     },
 ];
 
@@ -44,12 +44,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -58,7 +58,7 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>

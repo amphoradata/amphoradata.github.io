@@ -55,14 +55,14 @@ const features = [
     },
     {
         title: <>Modern APIs and SDKs.</>,
-        imageUrl: "img/solution_picture_3.PNG",
+        imageUrl: "img/solution_picture_3.png",
         description: (
             <>We use modern APIs and have SDKs in python, node.js and .NET.</>
         ),
     },
     {
         title: <>Hosting</>,
-        imageUrl: "img/Azure-logo-ATMS-web-v2.PNG",
+        imageUrl: "img/Azure-logo-ATMS-web-v2.png",
         description: (
             <>
                 We host the data so you don’t need to. All data is hosted
@@ -72,7 +72,7 @@ const features = [
     },
     {
         title: <>Payment handling</>,
-        imageUrl: "img/Stripe logo - slate_lg.PNG",
+        imageUrl: "img/Stripe logo - slate_lg.png",
         description: (
             <>
                 We handle all the payments in Amphora powered by Stripe. If you
@@ -88,12 +88,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -102,7 +102,7 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>

@@ -34,7 +34,7 @@ function ManageData() {
 const features = [
     {
         title: <>Move data onto Amphora</>,
-        imageUrl: "img/migrate_icon.png",
+        imageUrl: "img/migrate_icon.PNG",
         description: (
             <>
                 Move the data you want to manage onto Amphora Data. This may be
@@ -45,7 +45,7 @@ const features = [
     },
     {
         title: <>Set quality and controls</>,
-        imageUrl: "img/report_icon.png",
+        imageUrl: "img/report_icon.PNG",
         description: (
             <>
                 Set access rules, data quality, ETL jobs and other things you
@@ -55,7 +55,7 @@ const features = [
     },
     {
         title: <>Monitor all data flows</>,
-        imageUrl: "img/examine_icon.png",
+        imageUrl: "img/examine_icon.PNG",
         description: (
             <>
                 Monitor all your data in your Amphoras. You can view who has
@@ -70,12 +70,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -84,7 +84,7 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
             </div>

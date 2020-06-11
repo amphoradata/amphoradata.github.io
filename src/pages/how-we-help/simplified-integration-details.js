@@ -75,8 +75,8 @@ function Feature({ imageUrl, title, description }) {
         >
             <div
                 style={{
-                    paddingLeft: "120px",
-                    paddingRight: "120px",
+                    paddingLeft: "60px",
+                    paddingRight: "60px",
                     width: "600px",
                 }}
             >

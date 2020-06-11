@@ -50,7 +50,7 @@ const features = [
         description: (
             <>
                 Remote sensing of soil moisture in surface layer with 1 week
-                delay. Resolution is 30m Any global location available for free
+                delay. Resolution is 30m. Any global location available for free
                 on request.
             </>
         ),
@@ -62,12 +62,12 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" }}
+            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
                     className="text--center"
-                    style={{ paddingLeft: "60px", paddingRight: "60px" }}
+                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
                 >
                     <img
                         className={styles.featureImage}
@@ -76,17 +76,9 @@ function Feature({ imageUrl, title, description }) {
                     />
                 </div>
             )}
-            <div style={{ paddingRight: "60px", width: "600px" }}>
+            <div style={{ paddingRight: "30px", width: "400px" }}>
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
-            </div>
-            <div className={styles.buttons}>
-                <Link
-                    className="font_medium text--white"
-                    to="https://identity.amphoradata.com/Register"
-                >
-                    Get data
-                </Link>
             </div>
         </div>
     );
