@@ -83,7 +83,7 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div
             className={classnames("row", styles.feature)}
-            style={{ paddingBottom: "30px" , paddingLeft: "60px" }}
+            style={{ paddingBottom: "30px", paddingLeft: "60px" }}
         >
             {imgUrl && (
                 <div
