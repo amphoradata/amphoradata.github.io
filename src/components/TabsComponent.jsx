@@ -6,96 +6,96 @@ import "./buttons.css";
 
 export const FindDataTabs = [
     {
-        to: "find-data",
+        to: "/how-we-help/find-data",
         name: "Vegetation",
     },
     {
-        to: "find-data-weather",
+        to: "/how-we-help/find-data-weather",
         name: "Weather",
     },
     {
-        to: "find-data-water",
+        to: "/how-we-help/find-data-water",
         name: "Water",
     },
     {
-        to: "find-data-soil",
+        to: "/how-we-help/find-data-soil",
         name: "Soil",
     },
     {
-        to: "find-data-economic",
+        to: "/how-we-help/find-data-economic",
         name: "Economic",
     },
     {
-        to: "find-data-other",
+        to: "/how-we-help/find-data-other",
         name: "Other",
     },
 ];
 
 export const ManageDataTabs = [
     {
-        to: "manage-data",
+        to: "/how-we-help/manage-data",
         name: "Impact",
     },
     {
-        to: "manage-data-how-it-works",
+        to: "/how-we-help/manage-data-how-it-works",
         name: "How it Works",
     },
     {
-        to: "manage-data-features",
+        to: "/how-we-help/manage-data-features",
         name: "Features",
     },
     {
-        to: "manage-data-success",
+        to: "/how-we-help/manage-data-success",
         name: "Success Stories",
     },
     {
-        to: "manage-data-details",
+        to: "/how-we-help/manage-data-details",
         name: "More Details",
     },
 ];
 
 export const ShareDataTabs = [
     {
-        to: "share-data",
+        to: "/how-we-help/share-data",
         name: "Impact",
     },
     {
-        to: "share-data-how-it-works",
+        to: "/how-we-help/share-data-how-it-works",
         name: "How it Works",
     },
     {
-        to: "share-data-features",
+        to: "/how-we-help/share-data-features",
         name: "Features",
     },
     {
-        to: "share-data-success",
+        to: "/how-we-help/share-data-success",
         name: "Success Stories",
     },
     {
-        to: "share-data-details",
+        to: "/how-we-help/share-data-details",
         name: "More Details",
     },
 ];
 
 export const SimplifyIntegrationTabs = [
     {
-        to: "simplified-integration",
+        to: "/how-we-help/simplified-integration",
         name: "Impact",
     },
     {
-        to: "simplified-integration-how-it-works",
+        to: "/how-we-help/simplified-integration-how-it-works",
         name: "How it Works",
     },
     {
-        to: "simplified-integration-features",
+        to: "/how-we-help/simplified-integration-features",
         name: "Features",
     },
     {
-        to: "simplified-integration-success",
+        to: "/how-we-help/simplified-integration-success",
         name: "Success Stories",
     },
     {
-        to: "simplified-integration-details",
+        to: "/how-we-help/simplified-integration-details",
         name: "More Details",
     },
 ];
@@ -107,8 +107,7 @@ export const TabsComponent = (props) => {
     let activePath = "";
 
     if (isClient && window && window.location && window.location.pathname) {
-        const sections = window.location.pathname.split("/");
-        activePath = sections[sections.length - 1];
+        activePath = window.location.pathname.replace(/\/$/, "");
     }
 
     return (
