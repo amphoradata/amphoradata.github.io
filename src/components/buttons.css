@@ -8,7 +8,7 @@
     width: 190px;
     border-radius: 4px;
     box-shadow: 0 2px 0 0 #5aa6c0;
-    background-color: #0a789e;
+    background-color: var(--blue-garnet);
     color: var(--amphora-white);
     margin-bottom: 16px;
     margin-top: 16px;
@@ -23,8 +23,6 @@
     width: 100%;
     margin: auto;
     color: #0a789e;
-    border-radius: 0px;
-    background-color: #ffffff;
     margin-bottom: 1rem;
     margin-top: 1rem;
     box-shadow: 0 1px 0 0 #aaadb0;

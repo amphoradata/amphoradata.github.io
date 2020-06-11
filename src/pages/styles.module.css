@@ -37,6 +37,10 @@
     border: 1px solid black;
 }
 
+html {
+    background-color: var(--porcelain);
+}
+
 .spaceBetween {
     justify-content: space-around;
 }
