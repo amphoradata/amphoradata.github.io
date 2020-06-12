@@ -35,7 +35,7 @@ function FindData() {
 const features = [
     {
         title: <>River flows</>,
-        imageUrl: "img/water_flow.png",
+        imageUrl: "img/water_flow.PNG",
         description: (
             <>
                 Real-time actuals of major rivers in Australia including Murray
