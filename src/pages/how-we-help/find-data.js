@@ -63,7 +63,7 @@ const features = [
     },
     {
         title: <>Image detection training library</>,
-        imageUrl: "img/weed_image.PNG",
+        imageUrl: "img/weed_image.png",
         description: (
             <>
                 1000s of images of weeds and grains for image detection
