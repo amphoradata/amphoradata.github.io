@@ -35,7 +35,7 @@ function FindData() {
 const features = [
     {
         title: <>Livestock prices</>,
-        imageUrl: "img/mla_image.png",
+        imageUrl: "img/mla_image.PNG",
         description: (
             <>
                 Real-time data of major livestock indices in Australia. Major

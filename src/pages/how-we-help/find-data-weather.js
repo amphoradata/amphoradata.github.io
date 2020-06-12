@@ -35,7 +35,7 @@ function FindData() {
 const features = [
     {
         title: <>Weather forecasts</>,
-        imageUrl: "img/forecast_image.png",
+        imageUrl: "img/forecast_image.PNG",
         description: (
             <>
                 7 day weather forecasts for any location in Australia 100s of
@@ -57,7 +57,7 @@ const features = [
     },
     {
         title: <>Solar Irradiance</>,
-        imageUrl: "img/solar_image.png",
+        imageUrl: "img/solar_image.PNG",
         description: (
             <>
                 Real-time actuals of solar irradiance for any location in

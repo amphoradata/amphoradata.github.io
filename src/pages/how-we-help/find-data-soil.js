@@ -35,7 +35,7 @@ function FindData() {
 const features = [
     {
         title: <>Static composition</>,
-        imageUrl: "img/soil_composition.png",
+        imageUrl: "img/soil_composition.PNG",
         description: (
             <>
                 Estimated soil composition up to 2 meters for any location in
@@ -46,7 +46,7 @@ const features = [
     },
     {
         title: <>Real-time moisture</>,
-        imageUrl: "img/soil_moisture_index.png",
+        imageUrl: "img/soil_moisture_index.PNG",
         description: (
             <>
                 Remote sensing of soil moisture in surface layer with 1 week
