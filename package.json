@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "docusaurus start",
+    "start": "docusaurus start --port 10101",
     "build": "docusaurus build",
     "lint": "prettier --write src",
     "lint-check": "prettier --check 'src/**/*'",
