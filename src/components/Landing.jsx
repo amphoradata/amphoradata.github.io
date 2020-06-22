@@ -29,7 +29,7 @@ export const Landing = (props) => {
                     <div className="col col--2 actions">
                         <Link
                             className="font_medium text--white"
-                            to="https://identity.amphoradata.com/Account/Login"
+                            to="https://identity.amphoradata.com/Login"
                         >
                             <PrimaryButton>Login</PrimaryButton>
                         </Link>

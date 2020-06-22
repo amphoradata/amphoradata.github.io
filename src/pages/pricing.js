@@ -27,7 +27,7 @@ const pricing = (props) => {
                 { text: "Documentation and online tutorials" },
                 { text: "Community support" },
             ],
-            actionLink: "https://identity.amphoradata.com/Account/Register",
+            actionLink: "https://identity.amphoradata.com/Register",
         },
         {
             id: 1,
@@ -35,7 +35,7 @@ const pricing = (props) => {
             perUsers: "Up to 25 users",
             fee: "$10 per user per month",
             isMostPopular: true,
-            actionLink: "https://identity.amphoradata.com/Account/Register",
+            actionLink: "https://identity.amphoradata.com/Register",
             descriptions: [
                 {
                     icon: faArrowAltCircleLeft,
@@ -56,7 +56,7 @@ const pricing = (props) => {
             perUsers: "Unlimited users",
             fee: "$20 per user per month",
             isMostPopular: false,
-            actionLink: "https://identity.amphoradata.com/Account/Register",
+            actionLink: "https://identity.amphoradata.com/Register",
             descriptions: [
                 {
                     icon: faArrowAltCircleLeft,
