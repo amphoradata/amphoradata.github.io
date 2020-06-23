@@ -35,7 +35,7 @@ function ShareData() {
 const features = [
     {
         title: <>Get the factpack</>,
-        imageUrl: "img/share_data_pick.png",
+        imageUrl: "../files/Share_data_overview.pdf",
         description: (
             <>
                 Learn more about the impact and value of sharing data for your
@@ -45,7 +45,7 @@ const features = [
     },
     {
         title: <>Get the code</>,
-        imageUrl: "img/amphora_cogs.PNG",
+        imageUrl: "https://github.com/amphoradata/samples/blob/master/generic_templates/Create_an_Amphora.py",
         description: (
             <>
                 Don’t worry about anything. We host the data, manage access,
@@ -55,7 +55,7 @@ const features = [
     },
     {
         title: <>Watch a tutorial</>,
-        imageUrl: "img/amphora_cogs.PNG",
+        imageUrl: "https://www.youtube.com/watch?v=M6kW4Po1LmY&t=3s",
         description: (
             <>
                 Don’t worry about anything. We host the data, manage access,

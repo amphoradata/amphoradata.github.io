@@ -35,7 +35,7 @@ function SimplifiedIntegration() {
 const features = [
     {
         title: <>Get the factpack</>,
-        imageUrl: "files/Simplified_integration_overview.pdf",
+        imageUrl: "../files/Simplified_integration_overview.pdf",
         description: (
             <>
                 Learn more about the impact and value of simplifying integration
