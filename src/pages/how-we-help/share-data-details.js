@@ -45,7 +45,8 @@ const features = [
     },
     {
         title: <>Get the code</>,
-        imageUrl: "https://github.com/amphoradata/samples/blob/master/generic_templates/Create_an_Amphora.py",
+        imageUrl:
+            "https://github.com/amphoradata/samples/blob/master/generic_templates/Create_an_Amphora.py",
         description: (
             <>
                 Don’t worry about anything. We host the data, manage access,
