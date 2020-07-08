@@ -35,13 +35,13 @@ module.exports = {
       backgroundColor: '#222222', // Defaults to `#fff`
       links: [
         {
-          label: 'Solutions',
+          label: 'Products',
           position: 'right',
           items: [
             {
               to: 'how-we-help/find-data',
               activeBasePath: 'how-we-help/find-data',
-              label: 'Get new data',
+              label: 'Data',
             },
             {
               to: 'how-we-help/simplified-integration',
@@ -57,6 +57,11 @@ module.exports = {
               to: 'how-we-help/manage-data',
               activeBasePath: 'how-we-help/manage-data',
               label: 'Manage data',
+            },
+            {
+              to: 'how-we-help/manage-data',
+              activeBasePath: 'how-we-help/manage-data',
+              label: 'Glaze',
             },
           ],
         },

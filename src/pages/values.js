@@ -36,35 +36,18 @@ function values() {
                 >
                     <div className="col">
                         <h3 className="font_large text--center">
-                            We operate by 8 values that will help us achieve our
+                            We operate by 3 values that will help us achieve our
                             mission
                         </h3>
                         <div style={{ paddingTop: "30px" }}></div>
                         <p className="font_medium_bold text--center">
-                            We hold information securely and responsibly
+                            We are responsible custodians of information
                         </p>
                         <p className="font_medium_bold text--center">
-                            We hold ourselves to the highest standards of
-                            integrity
+                            We empower our customers to share their knowledge
                         </p>
                         <p className="font_medium_bold text--center">
-                            We deliver and measure impact for us and our
-                            customers
-                        </p>
-                        <p className="font_medium_bold text--center">
-                            We operate honestly and transparently
-                        </p>
-                        <p className="font_medium_bold text--center">
-                            We seek out diverse opinions
-                        </p>
-                        <p className="font_medium_bold text--center">
-                            We consistently challenge ourselves to be the best
-                        </p>
-                        <p className="font_medium_bold text--center">
-                            We support our team and customers to achieve more
-                        </p>
-                        <p className="font_medium_bold text--center">
-                            We will only succeed together
+                            We work together to succeed as a team
                         </p>
                     </div>
                 </div>
