@@ -2,3 +2,7 @@
     padding: 1.8rem;
     margin-bottom: 3rem;
 }
+
+.plan-button .buttons {
+    width: 100%
+}

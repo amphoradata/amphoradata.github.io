@@ -18,7 +18,7 @@ export const PlanCard = (props) => {
     const price = props.plan;
     return (
         <React.Fragment>
-            <div className="col col--4">
+            <div className="col col--6">
                 <div className="card plan-card ">
                     <div class="card__header">
                         <h3>{price.title}</h3>
@@ -52,10 +52,11 @@ export const PlanCard = (props) => {
                             <div className="text--left">{description.text}</div>
                         </div>
                     ))}
-
-                    {/* <Link to={useBaseUrl(price.actionLink)}>
-                        <PrimaryButton>Register</PrimaryButton>
-                    </Link> */}
+                    {<div className="plan-button">
+                        <Link to={useBaseUrl(price.actionLink)}>
+                            <PrimaryButton>{price.actionName}</PrimaryButton>
+                        </Link>
+                    </div>}
                 </div>
             </div>
         </React.Fragment>
