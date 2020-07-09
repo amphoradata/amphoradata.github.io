@@ -44,23 +44,8 @@ module.exports = {
               label: 'Data',
             },
             {
-              to: 'how-we-help/simplified-integration',
-              activeBasePath: 'how-we-help/simplified-integration',
-              label: 'Simplify Integration',
-            },
-            {
-              to: 'how-we-help/share-data',
-              activeBasePath: 'how-we-help/share-data',
-              label: 'Share your data',
-            },
-            {
-              to: 'how-we-help/manage-data',
-              activeBasePath: 'how-we-help/manage-data',
-              label: 'Manage data',
-            },
-            {
-              to: 'how-we-help/manage-data',
-              activeBasePath: 'how-we-help/manage-data',
+              to: 'glaze/overview',
+              activeBasePath: 'glaze/overview',
               label: 'Glaze',
             },
           ],

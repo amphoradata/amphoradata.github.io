@@ -4,6 +4,16 @@ import classnames from "classnames";
 
 import "./buttons.css";
 
+// glaze tabs
+
+export const GlazeTabs = [
+    {
+        to: "/glaze/overview",
+        name: "Overview",
+    },
+];
+
+// find data tabs
 export const FindDataTabs = [
     {
         to: "/how-we-help/find-data",

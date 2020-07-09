@@ -12,7 +12,8 @@ function FindData() {
         <Layout title="Data Catalogue">
             <PageLayout
                 tabs={FindDataTabs}
-                heading="Get the insight you need in 30 seconds"
+                heading="Data Products"
+                subheading="Get the insights you need in 30 seconds"
             >
                 <div>
                     {features && features.length && (
