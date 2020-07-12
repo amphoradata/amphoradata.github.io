@@ -35,10 +35,6 @@ export const FindDataTabs = [
         to: "/how-we-help/find-data-economic",
         name: "Economic",
     },
-    {
-        to: "/how-we-help/find-data-other",
-        name: "Other",
-    },
 ];
 
 export const ManageDataTabs = [

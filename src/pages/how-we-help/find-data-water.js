@@ -52,7 +52,7 @@ const features = [
             <>
                 Ground water level and salinity for any location in Australia.
                 Incorporated from 1000s of bore readings in 2019/20. Coming in
-                June.
+                Spring.
             </>
         ),
     },

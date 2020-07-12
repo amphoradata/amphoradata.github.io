@@ -14,7 +14,7 @@ export const PageLayout = (props) => (
                 <div className="col col--4">
                     {props.button || (
                         <Link to="https://identity.amphoradata.com/Register">
-                            <PrimaryButton>Register</PrimaryButton>
+                            <PrimaryButton>Get Data</PrimaryButton>
                         </Link>
                     )}
                 </div>
