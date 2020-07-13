@@ -7,18 +7,12 @@ import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 import "./plans.css";
-// id: 0,
-// title: "FREE",
-// perUsers: "Individual",
-// fee: "Nothing, its free!",
-// isMostPopular: false,
-// descriptions: {text: "", icon" ""}
 
 export const PlanCard = (props) => {
     const price = props.plan;
     return (
         <React.Fragment>
-            <div className="col col--6">
+            <div className="col col--10">
                 <div className="card plan-card ">
                     <div class="card__header">
                         <h3>{price.title}</h3>

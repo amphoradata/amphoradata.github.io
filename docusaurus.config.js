@@ -41,12 +41,12 @@ module.exports = {
             {
               to: 'how-we-help/find-data',
               activeBasePath: 'how-we-help/find-data',
-              label: 'Data',
+              label: 'Data and analytics',
             },
             {
               to: 'glaze/overview',
               activeBasePath: 'glaze/overview',
-              label: 'Glaze',
+              label: 'Glaze infrastructure-as-a-service',
             },
           ],
         },
