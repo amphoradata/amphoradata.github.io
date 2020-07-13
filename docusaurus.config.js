@@ -2,7 +2,7 @@ module.exports = {
   title: 'Ready-to-use data and software to connect the world’s real-time information',
   favicon: 'img/favicon.ico',
   // github pages config
-  tagline: 'We provide best-in-class datasets to improve your software and single-click infrastructure to sell and share your own data',
+  tagline: 'We provide best-in-class datasets to improve your software and platform-as-a-service to sell and share your own data',
   url: 'https://amphoradata.github.io',
   baseUrl: '/',
   organizationName: 'AmphoraData', // Usually your GitHub org/user name.
@@ -46,7 +46,7 @@ module.exports = {
             {
               to: 'glaze/overview',
               activeBasePath: 'glaze/overview',
-              label: 'Glaze infrastructure-as-a-service',
+              label: 'Glaze platform-as-a-service',
             },
           ],
         },

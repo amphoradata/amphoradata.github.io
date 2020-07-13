@@ -11,14 +11,15 @@ const pricing = (props) => {
             id: 0,
             title: "Glaze",
             perUsers: "Coming soon",
-            fee: "Single click infrastructure for data businesses",
+            fee:
+                "The infrastructure to sell data for small and medium companies",
             isMostPopular: false,
             actionName: "Learn more",
             actionLink: "mailto:contact@amphoradata.com",
             descriptions: [
                 {
                     text:
-                        "Instantly deployable infrastructure-as-a-service to sell data through your own website",
+                        "Instantly deployable platform-as-a-service to sell data through your own website",
                 },
                 {
                     text:
