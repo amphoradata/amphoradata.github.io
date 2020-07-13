@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'Connecting the world’s real-time information',
+  title: 'Ready-to-use data and software to connect the world’s real-time information',
   favicon: 'img/favicon.ico',
   // github pages config
-  tagline: 'Amphora is a data marketplace and management platform for innovative teams and researchers',
+  tagline: 'We provide best-in-class datasets to improve your software and single-click infrastructure to sell and share your own data',
   url: 'https://amphoradata.github.io',
   baseUrl: '/',
   organizationName: 'AmphoraData', // Usually your GitHub org/user name.

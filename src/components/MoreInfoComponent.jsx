@@ -11,8 +11,8 @@ export const MoreInfo = (props) => (
         <div className={classnames(props.styles.heroBanner)}>
             <div className={classnames("p-4", props.styles.opacityContainer)}>
                 <h2 className="font_extra_large">
-                    Amphora Data connects the world's real-time information in a
-                    single platform for any user
+                    Amphora Data connects owners and users of the world's
+                    real-time information
                 </h2>
                 <div className="container container--fluid">
                     <Link to={imgPath}>

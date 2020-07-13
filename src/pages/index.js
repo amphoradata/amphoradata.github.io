@@ -19,7 +19,7 @@ function Home() {
             <CustomHead />
             <Layout
                 title={`Amphora Data | ${siteConfig.title}`}
-                description="Next gen data storage and integration"
+                description="Next gen data insights and infrastructure for data businesses"
             >
                 <Landing siteConfig={siteConfig} styles={styles} />
 

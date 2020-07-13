@@ -42,38 +42,19 @@ export const ValueProps = (props) => {
                                 to="how-we-help/find-data"
                             >
                                 <span className="font_extra_large text--black">
-                                    <strong>Access</strong> third-party data
+                                    <strong>Get more insights</strong> for your
+                                    software and analytics
                                 </span>
                             </Link>
                         </PropRow>
                         <PropRow>
                             <Link
                                 className={classnames(props.styles.getStarted)}
-                                to="how-we-help/simplified-integration"
+                                to="glaze/overview"
                             >
                                 <span className="font_extra_large text--black">
-                                    <strong>Simplify</strong> external
-                                    integration
-                                </span>
-                            </Link>
-                        </PropRow>
-                        <PropRow>
-                            <Link
-                                className={classnames(props.styles.getStarted)}
-                                to="how-we-help/share-data"
-                            >
-                                <span className="font_extra_large  text--black">
-                                    <strong>Share</strong> your data
-                                </span>
-                            </Link>
-                        </PropRow>
-                        <PropRow>
-                            <Link
-                                className={classnames(props.styles.getStarted)}
-                                to="how-we-help/manage-data"
-                            >
-                                <span className="font_extra_large text--black">
-                                    <strong>Manage</strong> data centrally
+                                    <strong>Sell and share your data</strong>{" "}
+                                    instantly and cheaply
                                 </span>
                             </Link>
                         </PropRow>
