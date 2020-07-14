@@ -13,11 +13,7 @@ export const GlazeCard = (props) => {
             <div className="col col--10">
                 <div className="card plan-card ">
                     <div className="row--centre">
-                        <img
-                            src={info.imageUrl}
-                            alt={info.title}
-                            width="400"
-                        />
+                        <img src={info.imageUrl} alt={info.title} width="400" />
                     </div>
                     <hr />
                     <div className="row--centre">
@@ -42,9 +38,7 @@ export const GlazeCard = (props) => {
                     {
                         <div className="plan-button">
                             <Link to={info.actionLink}>
-                                <PrimaryButton>
-                                    {info.actionName}
-                                </PrimaryButton>
+                                <PrimaryButton>{info.actionName}</PrimaryButton>
                             </Link>
                         </div>
                     }

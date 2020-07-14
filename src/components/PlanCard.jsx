@@ -55,9 +55,7 @@ export const PlanCard = (props) => {
                     {
                         <div className="plan-button">
                             <Link to={plan.actionLink}>
-                                <PrimaryButton>
-                                    {plan.actionName}
-                                </PrimaryButton>
+                                <PrimaryButton>{plan.actionName}</PrimaryButton>
                             </Link>
                         </div>
                     }
