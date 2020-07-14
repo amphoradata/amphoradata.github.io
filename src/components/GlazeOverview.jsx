@@ -16,7 +16,7 @@ export const PlanCard = (props) => {
                 <div className="card plan-card ">
                     <div class="row--centre">
                         <img
-                            src="img/Amphora_glaze_title_two_lines.png"
+                            src={price.imageUrl}
                             alt={price.title}
                             width="400"
                         />
