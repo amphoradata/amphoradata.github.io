@@ -14,27 +14,19 @@ export const PlanCard = (props) => {
         <React.Fragment>
             <div className="col col--10">
                 <div className="card plan-card ">
-                    <div class="card__header">
-                        <h3>{price.title}</h3>
+                    <div class="row--centre">
+                        <img
+                            src="../img/Amphora_glaze_title_two_lines.png"
+                            alt={price.title}
+                            width="400"
+                        />
                     </div>
-                    <div className="text--center">{price.perUsers}</div>
-                    <h4 className="text--center">{price.fee}</h4>
-
                     <hr />
-                    {props.isMostPopular ? (
-                        <div className="text--center mb-2">
-                            <FontAwesomeIcon
-                                icon={faStar}
-                                size="lg"
-                                className="text--warning mr-1"
-                            />
-                            Most popular
+                    <div class="row--centre">
+                        <div class="card__header">
+                            <h2 className="text--center">{price.fee}</h2>
                         </div>
-                    ) : (
-                        <br />
-                    )}
-
-                    <br />
+                    </div>
                     {price.descriptions.map((description) => (
                         <div className="d-flex mb-2">
                             <FontAwesomeIcon
@@ -46,6 +38,9 @@ export const PlanCard = (props) => {
                             <div className="text--left">{description.text}</div>
                         </div>
                     ))}
+                    <h2 className="text--center">{price.perUsers}</h2>
+                    <hr />
+
                     {
                         <div className="plan-button">
                             <Link to={price.actionLink}>

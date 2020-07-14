@@ -10,9 +10,10 @@ const pricing = (props) => {
         {
             id: 0,
             title: "Glaze",
+            imageUrl: "../img/Amphora_glaze_title_two_lines.png",
             perUsers: "Coming soon",
             fee:
-                "The infrastructure to sell data for small and medium companies",
+                "The single-click solution for teams and companies to share and sell data",
             isMostPopular: false,
             actionName: "Learn more",
             actionLink: "mailto:contact@amphoradata.com",
