@@ -15,16 +15,16 @@ import "./plans.css";
 // descriptions: {text: "", icon" ""}
 
 export const PlanCard = (props) => {
-    const price = props.plan;
+    const plan = props.plan;
     return (
         <React.Fragment>
             <div className="col col--6">
                 <div className="card plan-card ">
-                    <div class="card__header">
-                        <h3>{price.title}</h3>
+                    <div className="card__header">
+                        <h3>{plan.title}</h3>
                     </div>
-                    <div className="text--center">{price.perUsers}</div>
-                    <h4 className="text--center">{price.fee}</h4>
+                    <div className="text--center">{plan.perUsers}</div>
+                    <h4 className="text--center">{plan.fee}</h4>
 
                     <hr />
                     {props.isMostPopular ? (
@@ -41,8 +41,8 @@ export const PlanCard = (props) => {
                     )}
 
                     <br />
-                    {price.descriptions.map((description) => (
-                        <div className="d-flex mb-2">
+                    {plan.descriptions.map((description) => (
+                        <div key={description.text} className="d-flex mb-2">
                             <FontAwesomeIcon
                                 icon={description.icon || faCheckCircle}
                                 size="lg"
@@ -54,9 +54,9 @@ export const PlanCard = (props) => {
                     ))}
                     {
                         <div className="plan-button">
-                            <Link to={price.actionLink}>
+                            <Link to={plan.actionLink}>
                                 <PrimaryButton>
-                                    {price.actionName}
+                                    {plan.actionName}
                                 </PrimaryButton>
                             </Link>
                         </div>
