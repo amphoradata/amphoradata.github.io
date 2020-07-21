@@ -9,7 +9,7 @@ An Amphora is a standardised data containers. To share your data, you need to cr
 
 Navigate to the `Share` page, and you will get the screen below
 
-![Nav create amphora](../img/nav_create_amphora.png)
+![Nav create amphora](/img/nav_create_amphora.png)
 
 > At this stage, you can describe the Amphora, but *not yet* add any data. That comes later.
 
@@ -45,11 +45,13 @@ There are several key features to include when creating a comprehensive and desc
 * Be sure to put the correct monthly cost, or 0 for free data
 
 #### Labels:
-* Add several relevant labels to make searching processes easier. Include:
+
+* You can add up to **10 labels**, each with a maximum length of **12 characters**.
+* Use several semantically relevant labels, as they are indexed when searching. For example:
 
     * structure of the data (e.g. tabular, image, time series)
-    * the data type (e.g. weather, NDVI)
-    *  any other relevant information (e.g. crop type)
+    * the data category (e.g. weather, NDVI)
+
 
 #### Ts&Cs:
 
