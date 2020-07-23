@@ -22,18 +22,18 @@
     height: 3rem;
     width: 100%;
     margin: auto;
-    color: #0a789e;
+    color: var(--blue-garnet);
     margin-bottom: 1rem;
     margin-top: 1rem;
-    box-shadow: 0 1px 0 0 #aaadb0;
+    box-shadow: 0 1px 0 0 var(--marble);
 }
 
 .buttons_tab:hover {
-    background-color: #0a789e;
+    background-color: var(--blue-garnet);
     color: var(--amphora-white);
 }
 
 .tab_active {
-    box-shadow: 0 2px 0 0 #5aa6c0;
-    color: #222222;
+    box-shadow: 0 2px 0 0 var(--turquoise);
+    color: var(--ebony);
 }
