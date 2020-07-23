@@ -29,10 +29,7 @@ export const ValueProps = (props) => {
         >
             <div className="container container--fluid">
                 <div className={classnames("row", props.styles.spaceBetween)}>
-                    <div
-                        className="col col--6"
-                        style={{ paddingLeft: "5rem" }}
-                    >
+                    <div className="col col--6" style={{ paddingLeft: "5rem" }}>
                         <h3 className="heading font_extra_large text--black">
                             With Amphora you can
                         </h3>

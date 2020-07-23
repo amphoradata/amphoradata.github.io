@@ -3,6 +3,7 @@ import classnames from "classnames";
 import Link from "@docusaurus/Link";
 
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import { MailChimpSignupCondensed } from "../components/MailChimpSignupCondensed";
 
 const imgPath = "img/Home_page_image.png";
 
@@ -47,25 +48,24 @@ export const MoreInfo = (props) => (
                     </div>
                     <div className="col col--4">
                         <h2 className="font_large">
-                            We'd Like To Hear From You
+                            Want the latest on finding, sharing and using data?
                         </h2>
                         <p className="font_medium">
-                            Get in contact with us if you want to learn more
-                            about Amphora Data and how we can help you connect
-                            and manage data better.
+                            Subscribe to our mailing list
+                            <MailChimpSignupCondensed />
                         </p>
+
                         <p className="font_medium">
-                            Phone us at +61 7 3172 9948, or email us at
-                        </p>
-                        <p className="font_medium">
+                            Give us a call at +61 7 3172 9948 or e
                             <Link
                                 className="font_medium"
                                 to={useBaseUrl(
                                     "mailto:contact@amphoradata.com"
                                 )}
                             >
-                                contact@amphoradata.com
+                                -mail us directly
                             </Link>
+                            .
                         </p>
                     </div>
                 </div>

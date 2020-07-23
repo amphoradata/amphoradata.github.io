@@ -7,7 +7,6 @@ import { CustomHead } from "../components/CustomHead";
 import { Landing } from "../components/Landing";
 import { ValueProps } from "../components/ValueProps";
 import { MoreInfo } from "../components/MoreInfoComponent";
-import { MailChimpSignupCondensed } from "../components/MailChimpSignupCondensed";
 
 function Home() {
     const context = useDocusaurusContext();
@@ -24,7 +23,6 @@ function Home() {
                 <main>
                     <ValueProps styles={styles} />
                     <MoreInfo styles={styles} />
-                    <MailChimpSignupCondensed />
                 </main>
             </Layout>
         </React.Fragment>

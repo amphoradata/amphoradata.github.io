@@ -20,7 +20,6 @@ export const CustomHead = (props) => (
             rel="stylesheet"
             type="text/css"
         ></link>
-
         {props.children}
     </Head>
 );
