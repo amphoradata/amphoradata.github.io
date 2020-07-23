@@ -1,15 +1,13 @@
 import React from "react";
-import classnames from "classnames";
 import { Redirect } from "react-router-dom";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import { CustomHead } from "../components/CustomHead";
 import { Landing } from "../components/Landing";
 import { ValueProps } from "../components/ValueProps";
 import { MoreInfo } from "../components/MoreInfoComponent";
+import { MailChimpSignupCondensed } from "../components/MailChimpSignupCondensed";
 
 function Home() {
     const context = useDocusaurusContext();
@@ -26,6 +24,7 @@ function Home() {
                 <main>
                     <ValueProps styles={styles} />
                     <MoreInfo styles={styles} />
+                    <MailChimpSignupCondensed />
                 </main>
             </Layout>
         </React.Fragment>
