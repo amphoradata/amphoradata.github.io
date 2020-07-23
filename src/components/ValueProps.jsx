@@ -31,17 +31,17 @@ export const ValueProps = (props) => {
                 <div className={classnames("row", props.styles.spaceBetween)}>
                     <div
                         className="col col--6"
-                        style={{ paddingLeft: "120px" }}
+                        style={{ paddingLeft: "5rem" }}
                     >
                         <h3 className="heading font_extra_large text--black">
-                            With Amphora you can...
+                            With Amphora you can
                         </h3>
                         <PropRow>
                             <Link
                                 className={classnames(props.styles.getStarted)}
                                 to="how-we-help/find-data"
                             >
-                                <span className="font_extra_large text--black">
+                                <span className="font_large text--black">
                                     <strong>Get more insights</strong> for your
                                     software and analytics
                                 </span>
@@ -52,7 +52,7 @@ export const ValueProps = (props) => {
                                 className={classnames(props.styles.getStarted)}
                                 to="glaze/overview"
                             >
-                                <span className="font_extra_large text--black">
+                                <span className="font_large text--black">
                                     <strong>Sell and share your data</strong>{" "}
                                     instantly and cheaply
                                 </span>
