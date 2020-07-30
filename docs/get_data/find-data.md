@@ -12,7 +12,7 @@ To find an Amphora, click Discover in the header. This will take you to a list o
 
 You can search this list multiple ways 
 
-![Data market search](../img/DataMarketSearch.jpg)
+![Data market search](/img/DataMarketSearch.jpg)
 
 You can use the advanced search buttons to search for Amphora by 
 1) Keywords

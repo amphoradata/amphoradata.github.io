@@ -12,7 +12,7 @@ Signals are live time-series. You can view and download Signals, either via the 
 
 To view an Amphora Signal click `Signals` on the left of the Amphora page. You will see a set of graphs similar to below.
 
-![View signal image](../img/view_signal_amphora.png)
+![View signal image](/img/view_signal_amphora.png)
 
 This is an exploratory dashboard and it enables you to discover the data in a simple format. You can choose different signals, different time boxes, and filter by specific values or properties. 
 

@@ -11,7 +11,7 @@ Amphoras are standardised data containers. To share your data, you need to creat
 
 You can add any kind of file to an Amphora - images, text files, csv, word documents etc. To upload a file from your computer, click the blue `upload` button, select a file, then click `upload`.
 
-![Add file amphora](../img/add_file_amphora.png)
+![Add file amphora](/img/add_file_amphora.png)
 
 > Note that you need a steady connection to upload files and some users have reported issues due to poor connection with their internet providers.
 

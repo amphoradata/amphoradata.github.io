@@ -10,13 +10,13 @@ Signing up to Amphora Data is an easy process that takes less than 60 seconds.
 
 Head to [app.amphoradata.com](https://app.amphoradata.com) and register with your organisational email address. You will need to fill out basic details and choose a username and password.
 
-![Sign-up image](../img/sign_up.PNG)
+![Sign-up image](/img/sign_up.PNG)
 
 ### Choose your plan
 
 You need to choose a plan that best suits your needs
 
-![Plans image](../img/plans.png)
+![Plans image](/img/plans.png)
 
 * The free individual plan gives you the essential functionality of Amphora Data. Its best if you want to quickly and easily access public data.
 * The team plan adds support for more users, more data, and enhanced data governance. Its best if your team accesses and shares external data every day. 
@@ -26,15 +26,15 @@ You need to choose a plan that best suits your needs
 ### Create a new organisation (Team and Institution only)
 > You only need to create an organisation if you sign up to a Team or Instition plan
 
-If you're the first member of your organisation to sign up, then you'll need to create an [Amphora Data Organisation](../models/organisation.md). Creating an organisation is easy and quick.
+If you're the first member of your organisation to sign up, then you'll need to create an Amphora Data Organisation. Creating an organisation is easy and quick.
 
-![New organisation image](../img/new_organisation.png)
+![New organisation image](/img/new_organisation.png)
 
 ### Join an existing Organisation (Team and Institution only)
 
 If your organisation is already represented in Amphora Data, then you'll need to join that organisation. Click `Find my Organisation`, and search for the name of the Organisation.
 
-![Join organisation image](../img/join_organisation.png)
+![Join organisation image](/img/join_organisation.png)
 
 Clicking `Join Organisation` will send a notice to your organisation admin who accept your request. If you've already been invited to an organisation, you should be automatically redirected to join that organisation. 
 

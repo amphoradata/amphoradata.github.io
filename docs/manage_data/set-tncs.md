@@ -22,7 +22,7 @@ You can assign terms and conditions to an Amphora through two ways.
 
 The first is through the GUI as you create the Amphora. For this method, select the appropriate terms and conditions in appropriate field
 
-![Create Amphora image](../img/CreateAmphora.jpg)
+![Create Amphora image](/img/CreateAmphora.jpg)
 
 The second is through APIs. The latest python code for doing so can be found on GitHub and looks something like
 

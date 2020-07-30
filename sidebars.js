@@ -20,7 +20,6 @@ module.exports = {
             "share_data/create-amphora",
             "share_data/add-file",
             "share_data/add-signal",
-            "share_data/set-tncs",
             "share_data/email-amphora",
             "share_data/edit-amphora",
             "share_data/create-data-shop",
