@@ -46,7 +46,7 @@ module.exports = {
             {
               to: 'glaze/overview',
               activeBasePath: 'glaze/overview',
-              label: 'Glaze platform-as-a-service',
+              label: 'Glaze Platform',
             },
           ],
         },
