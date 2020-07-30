@@ -1,3 +1,10 @@
+const base = "https://app.amphoradata.com/Discover";
+const org = "7b429e6c-2885-49cf-994d-4775ae170d64";
+const qs = (labels, take) =>
+    `SearchDefinition.Labels=${labels}&SearchDefinition.Take=${
+        take || 100
+    }&handler=MapView`;
+
 export const products = [
     {
         title: "Crop performance tracking from high-res NDVI",
@@ -7,6 +14,7 @@ export const products = [
                 performance between image captures and overall crop performance.
                 Available now for any global location upon request from $0.7 per
                 Ha per month.`,
+        link: `${base}?${qs("NDVI")}`,
     },
     {
         title: "Forest vegetation tracking",

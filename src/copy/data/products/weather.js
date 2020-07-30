@@ -1,3 +1,10 @@
+const base = "https://app.amphoradata.com/Discover";
+const org = "7b429e6c-2885-49cf-994d-4775ae170d64";
+const qs = (labels, take) =>
+    `SearchDefinition.Labels=${labels}&SearchDefinition.Take=${
+        take || 100
+    }&handler=MapView`;
+
 export const products = [
     {
         title: "Weather forecasts",
@@ -5,25 +12,21 @@ export const products = [
         description: ` 7 day weather forecasts for any location in Australia 100s of
                 locations available now for $2 per month. More available on
                 request.`,
+        link: `${base}?${qs("Forecasts")}`,
     },
     {
-        title: "Weather actuals",
+        title: "Weather Observations",
         imageUrl: "img/weather_actuals.PNG",
         description: ` Real-time actuals of weather parameters for any location in
                 Australia 100s of locations available now for $2 per month. More
                 available on request.`,
+        link: `${base}?${qs("observations")}`,
     },
     {
         title: "Solar Irradiance",
         imageUrl: "img/solar_image.PNG",
         description: ` Real-time actuals of solar irradiance for any location in
                 Australia Any location available on request for $2 per month.`,
-    },
-    {
-        title: "Comparison of actuals to month forecast",
-        imageUrl: "img/month_forecast.PNG",
-        description: ` Comparison of actual rainfall and temperature to BOM month
-                forecast across Australia. Any location available on request for
-                $2 per month.`,
+        link: `${base}?${qs("solar")}`,
     },
 ];

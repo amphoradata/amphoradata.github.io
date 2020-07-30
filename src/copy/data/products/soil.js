@@ -1,3 +1,8 @@
+const base = "https://app.amphoradata.com/Discover";
+const org = "7b429e6c-2885-49cf-994d-4775ae170d64";
+const qs = (labels, take) =>
+    `SearchDefinition.Labels=${labels}&SearchDefinition.Take=${take}`;
+
 export const products = [
     {
         title: "Static composition",
@@ -5,6 +10,7 @@ export const products = [
         description: `Estimated soil composition up to 2 meters for any location in
                 Australia. Resolution is 90 m. 1000s of locations available for
                 free, more available upon request.`,
+        link: `${base}?${qs("Soil", 120)}&handler=MapView`,
     },
     {
         title: "Real-time moisture",
