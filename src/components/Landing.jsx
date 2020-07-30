@@ -16,7 +16,7 @@ export const Landing = (props) => {
             <div className="landing container container--fluid">
                 <div className="row mt-2">
                     <div
-                        className="col col--8 font_large banner"
+                        className="col col--6 col--offset-1 font_large banner"
                         style={{ paddingLeft: "120px" }}
                     >
                         <h1 className="hero__title text--left text--white">
@@ -26,7 +26,7 @@ export const Landing = (props) => {
                             {props.siteConfig.tagline}
                         </p>
                     </div>
-                    <div className="col col--2 actions">
+                    <div className="col col--2 col--offset-1 actions">
                         <Link
                             className="font_medium text--white"
                             to="https://identity.amphoradata.com/Login"
