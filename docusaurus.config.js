@@ -1,11 +1,11 @@
 module.exports = {
-    title: "Join the world's leading data market",
-    favicon: "img/favicon.ico",
-    // github pages config
-    tagline:
-        "Discover quality datasets to improve your software and analytics, or use our platform to share and sell your own.",
     url: "https://amphoradata.github.io",
     baseUrl: "/",
+    favicon: "img/favicon.ico",
+    title: "Join the world's leading data collaboration platform.",
+    tagline:
+        "Discover quality datasets to improve your software and analytics, or use our platform to share and sell your own.",
+    // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
     // plugins: ["@docusaurus/plugin-google-gtag"],
