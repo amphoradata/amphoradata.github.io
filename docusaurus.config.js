@@ -39,9 +39,9 @@ module.exports = {
           position: 'right',
           items: [
             {
-              to: 'how-we-help/find-data',
-              activeBasePath: 'how-we-help/find-data',
-              label: 'Data and analytics',
+              to: 'data/vegetation',
+              activeBasePath: 'data/vegetation',
+              label: 'Data & Analytics',
             },
             {
               to: 'glaze/overview',

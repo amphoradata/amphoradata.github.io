@@ -14,95 +14,27 @@ export const GlazeTabs = [
 ];
 
 // find data tabs
+const catalog = "data";
 export const FindDataTabs = [
     {
-        to: "/how-we-help/find-data",
+        to: `/${catalog}/vegetation`,
         name: "Vegetation",
     },
     {
-        to: "/how-we-help/find-data-weather",
+        to: `/${catalog}/weather`,
         name: "Weather",
     },
     {
-        to: "/how-we-help/find-data-water",
+        to: `/${catalog}/water`,
         name: "Water",
     },
     {
-        to: "/how-we-help/find-data-soil",
+        to: `/${catalog}/soil`,
         name: "Soil",
     },
     {
-        to: "/how-we-help/find-data-economic",
+        to: `/${catalog}/economic`,
         name: "Economic",
-    },
-];
-
-export const ManageDataTabs = [
-    {
-        to: "/how-we-help/manage-data",
-        name: "Impact",
-    },
-    {
-        to: "/how-we-help/manage-data-how-it-works",
-        name: "How it Works",
-    },
-    {
-        to: "/how-we-help/manage-data-features",
-        name: "Features",
-    },
-    {
-        to: "/how-we-help/manage-data-success",
-        name: "Success Stories",
-    },
-    {
-        to: "/how-we-help/manage-data-details",
-        name: "More Details",
-    },
-];
-
-export const ShareDataTabs = [
-    {
-        to: "/how-we-help/share-data",
-        name: "Impact",
-    },
-    {
-        to: "/how-we-help/share-data-how-it-works",
-        name: "How it Works",
-    },
-    {
-        to: "/how-we-help/share-data-features",
-        name: "Features",
-    },
-    {
-        to: "/how-we-help/share-data-success",
-        name: "Success Stories",
-    },
-    {
-        to: "/how-we-help/share-data-details",
-        name: "More Details",
-    },
-];
-
-export const SimplifyIntegrationTabs = [
-    {
-        to: "/how-we-help/simplified-integration",
-        name: "Impact",
-    },
-    {
-        to: "/how-we-help/simplified-integration-how-it-works",
-        name: "How it Works",
-    },
-    {
-        to: "/how-we-help/simplified-integration-features",
-        name: "Features",
-    },
-    {
-        to: "/how-we-help/simplified-integration-success",
-        name: "Success Stories",
-    },
-    {
-        to: "/how-we-help/simplified-integration-details",
-        name: "More Details",
     },
 ];
 

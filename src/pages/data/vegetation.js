@@ -4,10 +4,10 @@ import Link from "@docusaurus/Link";
 import classnames from "classnames";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "../styles.module.css";
-import { FindDataTabs } from "../../components/TabsComponent";
+import { TabsComponent, FindDataTabs } from "../../components/TabsComponent";
 import { PageLayout } from "../../components/PageLayout";
 
-function FindData() {
+export default function Vegetation() {
     return (
         <Layout title="Data Catalogue">
             <PageLayout
@@ -35,24 +35,26 @@ function FindData() {
 
 const features = [
     {
-        title: <>Static composition</>,
-        imageUrl: "img/soil_composition.PNG",
+        title: <>Crop performance tracking from high-res NDVI </>,
+        imageUrl: "img/26_Kings_rd_NDVI_180220.png",
         description: (
             <>
-                Estimated soil composition up to 2 meters for any location in
-                Australia. Resolution is 90 m. 1000s of locations available for
-                free, more available upon request.
+                Tracking of performance through 0.5M resolution NDVI images.
+                Options include ranking of plants, tracking change in
+                performance between image captures and overall crop performance.
+                Available now for any global location upon request from $0.7 per
+                Ha per month.
             </>
         ),
     },
     {
-        title: <>Real-time moisture</>,
-        imageUrl: "img/soil_moisture_index.PNG",
+        title: <>Forest vegetation tracking</>,
+        imageUrl: "img/Forest_image.PNG",
         description: (
             <>
-                Remote sensing of soil moisture in surface layer with 1 week
-                delay. Resolution is 30m. Any global location available for free
-                on request.
+                Tracking of forest coverage, extant, and health through remote
+                imaging. Available now for any global location upon request from
+                $0.05 per Ha per month.
             </>
         ),
     },
@@ -84,5 +86,3 @@ function Feature({ imageUrl, title, description }) {
         </div>
     );
 }
-
-export default FindData;

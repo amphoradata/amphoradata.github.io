@@ -7,7 +7,7 @@ import styles from "../styles.module.css";
 import { FindDataTabs } from "../../components/TabsComponent";
 import { PageLayout } from "../../components/PageLayout";
 
-function FindData() {
+export default function FindData() {
     return (
         <Layout title="Data Catalogue">
             <PageLayout
@@ -35,10 +35,25 @@ function FindData() {
 
 const features = [
     {
-        title: <>Covid actuals</>,
-        imageUrl: "img/covid_image.PNG",
+        title: <>River flows</>,
+        imageUrl: "img/water_flow.PNG",
         description: (
-            <>Covid actuals for any country globally Ready for use for free.</>
+            <>
+                Real-time actuals of major rivers in Australia including Murray
+                and Darling. Parameters include water level, temperature,
+                salinity, flow rate and more. Available now for free
+            </>
+        ),
+    },
+    {
+        title: <>Groundwater</>,
+        imageUrl: "img/groundwater-image-source-smh.jpg",
+        description: (
+            <>
+                Ground water level and salinity for any location in Australia.
+                Incorporated from 1000s of bore readings in 2019/20. Coming in
+                Spring.
+            </>
         ),
     },
 ];
@@ -69,5 +84,3 @@ function Feature({ imageUrl, title, description }) {
         </div>
     );
 }
-
-export default FindData;

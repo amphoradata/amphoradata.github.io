@@ -36,7 +36,7 @@ export const ValueProps = (props) => {
                         <PropRow>
                             <Link
                                 className={classnames(props.styles.getStarted)}
-                                to="how-we-help/find-data"
+                                to="data/find-data"
                             >
                                 <span className="font_large text--black">
                                     <strong>Get more insights</strong> for your
