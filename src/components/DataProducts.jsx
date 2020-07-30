@@ -1,6 +1,5 @@
 import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import classnames from "classnames";
 
 import "./data-products.css";
 
@@ -11,11 +10,9 @@ export const DataProducts = ({ products }) => {
                 {products && products.length && (
                     <section className="data-products">
                         <div className="container">
-                            <div>
-                                {products.map((props, idx) => (
-                                    <Product key={idx} {...props} />
-                                ))}
-                            </div>
+                            {products.map((props, idx) => (
+                                <Product key={idx} {...props} />
+                            ))}
                         </div>
                     </section>
                 )}
@@ -24,24 +21,28 @@ export const DataProducts = ({ products }) => {
     );
 };
 
-function Product({ imageUrl, title, description }) {
+function Product({ imageUrl, title, description, link }) {
     const imgUrl = useBaseUrl(imageUrl);
     return (
-        <div
-            className={classnames("row")}
-            style={{ paddingBottom: "30px", paddingLeft: "60px" }}
-        >
-            {imgUrl && (
-                <div
-                    className="text--center"
-                    style={{ paddingLeft: "30px", paddingRight: "30px" }}
-                >
-                    <img src={imgUrl} alt={title} />
-                </div>
-            )}
-            <div style={{ paddingRight: "30px", width: "400px" }}>
+        <div className="row">
+            <div className="col">
+                {imgUrl && (
+                    <div
+                        className="text--center"
+                        style={{ paddingLeft: "30px", paddingRight: "30px" }}
+                    >
+                        <img src={imgUrl} alt={title} />
+                    </div>
+                )}
+            </div>
+            <div className="col">
                 <h3 className="font_large">{title}</h3>
                 <p className="font_medium">{description}</p>
+                {link && (
+                    <a target="_blank" href={link}>
+                        View Data
+                    </a>
+                )}
             </div>
         </div>
     );
