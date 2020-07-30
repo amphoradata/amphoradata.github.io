@@ -15,10 +15,7 @@ export const Landing = (props) => {
         >
             <div className="landing container container--fluid">
                 <div className="row mt-2">
-                    <div
-                        className="col col--6 col--offset-1 font_large banner"
-                        style={{ paddingLeft: "120px" }}
-                    >
+                    <div className="col col--6 col--offset-1 font_large banner">
                         <h1 className="hero__title text--left text--white">
                             {props.siteConfig.title}
                         </h1>
@@ -27,16 +24,10 @@ export const Landing = (props) => {
                         </p>
                     </div>
                     <div className="col col--2 col--offset-1 actions">
-                        <Link
-                            className="font_medium text--white"
-                            to="https://identity.amphoradata.com/Login"
-                        >
+                        <Link to="https://identity.amphoradata.com/Login">
                             <PrimaryButton>Login</PrimaryButton>
                         </Link>
-                        <Link
-                            className="font_medium text--white"
-                            to="https://identity.amphoradata.com/Register"
-                        >
+                        <Link to="https://identity.amphoradata.com/Register">
                             <PrimaryButton>Register</PrimaryButton>
                         </Link>
                     </div>
