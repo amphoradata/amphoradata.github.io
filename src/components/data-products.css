@@ -8,3 +8,7 @@
 .data-products img {
     width: 400px;
 }
+
+.data-products .row {
+    margin: 2rem;
+}
