@@ -4,7 +4,9 @@ module.exports = {
             "contents"
         ],
         "Get started": [
-            "get_started/quickstart-login",
+            "get_started/sign-up",
+            "get_started/plans",
+            "get_started/organisation",
             "get_started/how-a10a-works",
             "get_started/what-is-amphora",
         ],
