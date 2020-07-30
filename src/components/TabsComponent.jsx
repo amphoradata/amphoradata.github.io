@@ -15,7 +15,7 @@ export const GlazeTabs = [
 
 // find data tabs
 const catalog = "data";
-export const FindDataTabs = [
+export const DataTabs = [
     {
         to: `/${catalog}/vegetation`,
         name: "Vegetation",

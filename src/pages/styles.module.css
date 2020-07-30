@@ -72,17 +72,6 @@ html {
     }
 }
 
-.features {
-    display: flex;
-    align-items: center;
-    padding: 2rem 0;
-    width: 100%;
-}
-
-.featureImage {
-    width: 400px;
-}
-
 .disabledLink {
     color: currentColor;
     cursor: not-allowed;
