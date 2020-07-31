@@ -1,5 +1,5 @@
 import React from "react";
-import { PrimaryButton } from "../components/PrimaryButton";
+import { PrimaryButton } from "../buttons/PrimaryButton";
 import Link from "@docusaurus/Link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";

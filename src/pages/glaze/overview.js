@@ -2,7 +2,7 @@ import React from "react";
 import classnames from "classnames";
 import Layout from "@theme/Layout";
 import styles from ".././styles.module.css";
-import { GlazeCard } from "../../components/GlazeOverview";
+import { GlazeCard } from "../../components/cards/GlazeOverview";
 
 const info = {
     id: 0,

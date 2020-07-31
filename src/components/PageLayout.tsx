@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "@docusaurus/Link";
 import { TabsComponent } from "./TabsComponent";
-import { PrimaryButton } from "./PrimaryButton";
+import { PrimaryButton } from "./buttons/PrimaryButton";
 
 export const PageLayout = (props) => (
     <React.Fragment>

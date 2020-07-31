@@ -24,8 +24,10 @@ jobs:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
       - name: Yarn install
         run: yarn install # will run `yarn install` command
-      - name: Yarn lint-check
+      - name: Lint
         run: yarn lint-check # will run a linter that checks the files are to standard.
+      - name: Compile Typescript Check
+        run: yarn compile # runs the typescript compilation.
       - name: Yarn build
         run: yarn build # will run `yarn install` command
       - name: Yarn deploy and publish

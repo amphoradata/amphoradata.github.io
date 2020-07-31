@@ -1,5 +1,5 @@
 import * as React from "react";
-const hiddenDivStyle = {
+const hiddenDivStyle: React.CSSProperties = {
     position: "absolute",
     left: "-5000px",
 };
@@ -38,7 +38,7 @@ export const MailChimpSignupCondensed = () => {
                             <input
                                 type="text"
                                 name="b_0ace6fc62d5e2c941f7c7127e_003b2e58bc"
-                                tabIndex="-1"
+                                tabIndex={-1}
                                 defaultValue=""
                             />
                         </div>

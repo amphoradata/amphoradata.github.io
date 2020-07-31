@@ -3,7 +3,7 @@ import classnames from "classnames";
 import Layout from "@theme/Layout";
 import styles from "./styles.module.css";
 import { faArrowAltCircleLeft } from "@fortawesome/free-regular-svg-icons";
-import { PlanCard } from "../components/PlanCard";
+import { PlanCard } from "../components/cards/PlanCard";
 
 const pricing = (props) => {
     const prices = [

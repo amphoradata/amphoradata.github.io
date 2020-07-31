@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import ReactPlayer from "react-player";
-import { PrimaryButton } from "./PrimaryButton";
+import { PrimaryButton } from "./buttons/PrimaryButton";
 
 import "./valueProps.css";
 

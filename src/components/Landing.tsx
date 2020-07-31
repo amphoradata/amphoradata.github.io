@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 import Link from "@docusaurus/Link";
-import { PrimaryButton } from "./PrimaryButton";
+import { PrimaryButton } from "./buttons/PrimaryButton";
 
 import "./landing.css";
 

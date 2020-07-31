@@ -5,6 +5,7 @@
   "scripts": {
     "start": "docusaurus start --port 10101",
     "build": "docusaurus build",
+    "compile": "tsc --noEmit",
     "lint": "prettier --write src",
     "lint-check": "prettier --check 'src/**/*'",
     "swizzle": "docusaurus swizzle",
@@ -38,8 +39,11 @@
     "tabWidth": 4
   },
   "devDependencies": {
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.60",
+    "@types/react": "^16.9.43",
     "add": "2.0.6",
     "prettier": "2.0.5",
+    "typescript": "^3.9.7",
     "yarn": "1.22.4"
   }
 }

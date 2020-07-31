@@ -3,7 +3,7 @@ import classnames from "classnames";
 import Link from "@docusaurus/Link";
 
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import { MailChimpSignupCondensed } from "../components/MailChimpSignupCondensed";
+import { MailChimpSignupCondensed } from "../components/mail/MailChimpSignupCondensed";
 
 export const MoreInfo = (props) => (
     <React.Fragment>
