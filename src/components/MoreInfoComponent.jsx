@@ -5,25 +5,20 @@ import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { MailChimpSignupCondensed } from "../components/MailChimpSignupCondensed";
 
-const imgPath = "img/Home_page_image.png";
-
 export const MoreInfo = (props) => (
     <React.Fragment>
         <div className={classnames(props.styles.heroBanner)}>
             <div className={classnames("p-4", props.styles.opacityContainer)}>
-                <h2 className="font_extra_large">
+                <div className="font_extra_large">
                     Amphora Data connects owners and users of the world's
                     real-time information
-                </h2>
-                <div className="container container--fluid">
-                    <Link to={imgPath}>
-                        <img
-                            src={imgPath}
-                            alt="Benefits of Amphora"
-                            width="70%"
-                        />
-                    </Link>
                 </div>
+
+                <img
+                    src="/img/Home_page_image.PNG"
+                    alt="Benefits of Amphora"
+                    width="70%"
+                />
             </div>
         </div>
         <div className={classnames("p-4 text--center")}>
@@ -56,16 +51,15 @@ export const MoreInfo = (props) => (
                         </p>
 
                         <p className="font_medium">
-                            Give us a call at +61 7 3172 9948 or e
+                            {"Give us a call at +61 7 3172 9948 or "}
                             <Link
                                 className="font_medium"
                                 to={useBaseUrl(
                                     "mailto:contact@amphoradata.com"
                                 )}
                             >
-                                -mail us directly
+                                email us directly.
                             </Link>
-                            .
                         </p>
                     </div>
                 </div>
