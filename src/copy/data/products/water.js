@@ -2,7 +2,7 @@ const base = "https://app.amphoradata.com/Discover";
 const org = "7b429e6c-2885-49cf-994d-4775ae170d64";
 const yerc = "OrgId=e933a64f-be47-429e-9be1-ab53a5575db8&handler=MapView";
 const qs = (term, labels, take) =>
-    `SearchDefinition.Term=${term}&SearchDefinition.Labels=${labels}&SearchDefinition.Take=${
+    `Q.OrgId=${org}&Q.Term=${term}&Q.Labels=${labels}&Q.Take=${
         take || 100
     }&handler=MapView`;
 
