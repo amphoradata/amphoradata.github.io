@@ -1,7 +1,6 @@
 const base = "https://app.amphoradata.com/Discover";
 const org = "7b429e6c-2885-49cf-994d-4775ae170d64";
-const qs = (labels, take) =>
-    `Q.OrgId=${org}&Q.Labels=${labels}&Q.Take=${take}`;
+const qs = (labels, take) => `Q.OrgId=${org}&Q.Labels=${labels}&Q.Take=${take}`;
 
 export const products = [
     {
