@@ -15,7 +15,7 @@ export const MoreInfo = (props) => (
                 </div>
 
                 <img
-                    src="/img/Home_page_image.PNG"
+                    src="../static/img/Home_page_image.PNG"
                     alt="Benefits of Amphora"
                     width="70%"
                 />
