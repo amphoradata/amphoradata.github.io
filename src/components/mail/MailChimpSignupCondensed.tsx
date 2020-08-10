@@ -44,6 +44,7 @@ export const MailChimpSignupCondensed = () => {
                         </div>
                         <div className="clear">
                             <input
+                                value="Subscribe"
                                 type="submit"
                                 defaultValue="Subscribe"
                                 name="subscribe"
