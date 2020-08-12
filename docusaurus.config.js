@@ -59,15 +59,15 @@ module.exports = {
                     position: "right",
                 },
                 {
+                    to: "docs/contents",
+                    // activeBasePath: "contents",
+                    label: "Docs",
+                    position: "right",
+                },
+                {
                     label: "Resources",
                     position: "right",
                     items: [
-                        {
-                            to: "docs/contents",
-                            activeBasePath: "contents",
-                            label: "Docs",
-                            position: "left",
-                        },
                         {
                             label: "GitHub",
                             href: "https://github.com/amphoradata/",
@@ -83,11 +83,6 @@ module.exports = {
                                 "https://au.linkedin.com/company/amphora-data",
                         },
                     ],
-                },
-                {
-                    href: "https://identity.amphoradata.com/Register",
-                    label: "Register",
-                    position: "right",
                 },
                 {
                     href: "https://app.amphoradata.com/Challenge",
