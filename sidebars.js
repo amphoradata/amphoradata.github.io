@@ -15,6 +15,7 @@ module.exports = {
             "get_data/buy-data",
             "get_data/pull-file",
             "get_data/pull-time-series",
+            "get_data/access-levels",
             "get_data/raise-request",
             "get_data/github-issue",
         ],
