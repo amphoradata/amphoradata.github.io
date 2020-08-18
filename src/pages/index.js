@@ -10,7 +10,7 @@ import { ValueProps } from "../components/ValueProps";
 import { MoreInfo } from "../components/MoreInfoComponent";
 
 // reference this if you want bootstrap CSS styles
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
     const context = useDocusaurusContext();
