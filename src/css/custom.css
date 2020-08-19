@@ -300,3 +300,9 @@ h3,
 .full-width {
     width: 100%;
 }
+
+.opacity-container {
+    width: 100%;
+    color: white;
+    background: rgba(72, 140, 166, 0.8) !important;
+}
