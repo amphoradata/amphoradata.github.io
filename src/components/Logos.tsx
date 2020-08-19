@@ -23,6 +23,10 @@ const supporters: Supporter[] = [
         imgPath: "/img/logos/YERC.png",
         website: "https://www.founders.unsw.edu.au/",
     },
+    {
+        imgPath: "/img/logos/microsoft.png",
+        website: "https://www.microsoft.com/en-us/ai/ai-for-earth",
+    },
 ];
 
 export const Logos = () => {
@@ -38,7 +42,7 @@ export const Logos = () => {
                 className="row text-center align-items-center ml-2 mr-2"
             >
                 {supporters.map((s, i) => (
-                    <div key={i} className="col-sm">
+                    <div key={i} className="col-lg-3 col-sm-6 col-6">
                         <a href={s.website}>
                             <img
                                 style={imgStyle}
