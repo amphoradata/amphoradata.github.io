@@ -1,5 +1,5 @@
 import React from "react";
-import classnames from "classnames";
+import { SectionHeader } from "./layout/SectionHeader";
 import Link from "@docusaurus/Link";
 
 import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -9,9 +9,9 @@ export const MailingListSubscribeSection = (props) => (
     <React.Fragment>
         <div className="row mt-5">
             <div className="col text-center">
-                <h2 className="font_large">
+                <SectionHeader>
                     Want the latest on finding, sharing and using data?
-                </h2>
+                </SectionHeader>
                 <p className="font_medium">
                     Subscribe to our mailing list
                     <MailChimpSignupCondensed />

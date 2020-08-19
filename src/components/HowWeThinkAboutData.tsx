@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "@docusaurus/Link";
+import {SectionHeader} from './layout/SectionHeader'
 
 export const HowWeThinkAboutData: React.FC = () => (
     <div className="container text-center mt-5">
-        <h3>How We Think About Data</h3>
-        <p className="font_medium">
+        <SectionHeader>How We Think About Data</SectionHeader>
+        <p className="font_medium w-75 m-auto">
             Data privacy, governance, and ethics is critical. We operate by the
             principles of the National Farmers Federation Data Code, the
             European General Data Protection Regulation, and relevant local
