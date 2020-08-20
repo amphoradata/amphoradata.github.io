@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import {SectionHeader} from './layout/SectionHeader'
+import { SectionHeader } from "./layout/SectionHeader";
 
 export const HowWeThinkAboutData: React.FC = () => (
     <div className="container text-center mt-5">
