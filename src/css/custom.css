@@ -108,6 +108,7 @@ h3,
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.1px;
     line-height: 1.4;
+    color: var(--amphora-black);
 }
 
 .font_medium_bold {
@@ -120,14 +121,14 @@ h3,
 
 .font_large {
     font-size: 24px;
-    font-family: "Ropa Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.3px;
     line-height: 1.333;
 }
 
 .font_large_caps {
     font-size: 32px;
-    font-family: "Ropa Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     text-transform: capitalize;
     letter-spacing: 0.25px;
     line-height: 1.375;
@@ -135,14 +136,14 @@ h3,
 
 .font_extra_large {
     font-size: 42px;
-    font-family: "Ropa Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.3px;
     line-height: 1.174;
 }
 
 .font_xxl {
     font-size: 46px;
-    font-family: "Ropa Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.3px;
     line-height: 1.174;
 }

@@ -19,9 +19,6 @@ export const Landing = (props) => {
                         <h1 className="hero__title text--left text--white">
                             {props.siteConfig.title}
                         </h1>
-                        <p className="hero__subtitle text--left text--white">
-                            {props.siteConfig.tagline}
-                        </p>
                     </div>
                     <div className="col actions">
                         <div className="row">

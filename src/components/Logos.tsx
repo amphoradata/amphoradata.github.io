@@ -17,11 +17,11 @@ const supporters: Supporter[] = [
     },
     {
         imgPath: "/img/logos/UNSW_founders.png",
-        website: "https://www.yellowstoneresearch.org/",
+        website: "https://www.founders.unsw.edu.au/",
     },
     {
         imgPath: "/img/logos/YERC.png",
-        website: "https://www.founders.unsw.edu.au/",
+        website: "https://www.yellowstoneresearch.org/",
     },
     {
         imgPath: "/img/logos/microsoft.png",
@@ -32,11 +32,11 @@ const supporters: Supporter[] = [
 export const Logos = () => {
     return (
         <div className="container">
-            {/* <div className="row mt-3">
-                <div className="col text-center">
-                    <h5>Amphora works with</h5>
+            <div className="row mt-4">
+                <div className="col heading font_large text--black text--center">
+                    <h3>A few of our partners and customers</h3>
                 </div>
-            </div> */}
+            </div>
             <div
                 style={logosStyle}
                 className="row text-center align-items-center ml-2 mr-2"

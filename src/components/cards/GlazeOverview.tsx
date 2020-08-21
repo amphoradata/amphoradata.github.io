@@ -10,7 +10,7 @@ export const GlazeCard = (props) => {
     const info = props.info;
     return (
         <React.Fragment>
-            <div className="col col--10">
+            <div className="col col--6">
                 <div className="card plan-card ">
                     <div className="row--centre">
                         <img src={info.imageUrl} alt={info.title} width="400" />

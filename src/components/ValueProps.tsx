@@ -30,32 +30,22 @@ export const ValueProps = (props) => {
             <div className="container container--fluid">
                 <div className={classnames("row", props.styles.spaceBetween)}>
                     <div className="col col--5 col--offset-1">
-                        <h3 className="heading font_extra_large text--black">
-                            With Amphora you can
+                        <h3 className="heading font_large text--white">
+                            Our mission is to transform the way knowledge is
+                            shared by innovative teams.
                         </h3>
-                        <PropRow>
-                            <Link
-                                className={classnames(props.styles.getStarted)}
-                                to="/data"
-                            >
-                                <span className="font_large text--black">
-                                    <strong>Get more insights</strong> for your
-                                    software and analytics
-                                </span>
-                            </Link>
-                        </PropRow>
-                        <PropRow>
-                            <Link
-                                className={classnames(props.styles.getStarted)}
-                                to="glaze/overview"
-                            >
-                                <span className="font_large text--black">
-                                    <strong>Sell and share your data</strong>{" "}
-                                    instantly and cheaply
-                                </span>
-                            </Link>
-                        </PropRow>
+                        <h3 className="heading font_large text--white">
+                            We belive that data should be bought and sold
+                            responsibly, securely, and transparently.
+                        </h3>
+                        <Link
+                            className="font_medium text--white"
+                            to="https://identity.amphoradata.com/Register"
+                        >
+                            <PrimaryButton>Register for Free</PrimaryButton>
+                        </Link>
                     </div>
+
                     <div className="col col--6 col-video">
                         <ReactPlayer
                             url="https://youtu.be/rBt_743oT18"
@@ -64,12 +54,6 @@ export const ValueProps = (props) => {
                     </div>
                 </div>
             </div>
-            <Link
-                className="font_medium text--white"
-                to="https://identity.amphoradata.com/Register"
-            >
-                <PrimaryButton>Register for Free</PrimaryButton>
-            </Link>
         </div>
     );
 };
