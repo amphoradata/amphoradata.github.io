@@ -2,9 +2,9 @@ module.exports = {
     url: "https://amphoradata.github.io",
     baseUrl: "/",
     favicon: "img/favicon.ico",
-    title: "The fastest and simplest way to buy and sell data",
+    title: "The best way to buy and sell data in real-time.",
     tagline:
-        "Securely and simply sell more data. Quickly and easily get new insights.",
+        "Secure and simple. Find new insights or share your own.",
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
