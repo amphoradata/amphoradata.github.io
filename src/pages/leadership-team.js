@@ -11,10 +11,7 @@ function leadership_team() {
             <div className="container container--fluid">
                 <div
                     className="row p-4"
-                    className={classnames(
-                        "hero",
-                        styles.heroBanner
-                    )}
+                    className={classnames("hero", styles.heroBanner)}
                 >
                     <h2
                         className="font_large text--white"

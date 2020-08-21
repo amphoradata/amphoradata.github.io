@@ -31,7 +31,9 @@ export const BuyData = (props) => {
                             className="font_medium text--white"
                             to="data/vegetation"
                         >
-                            <PrimaryButton className="w-100 mb-5">Discover data</PrimaryButton>
+                            <PrimaryButton className="w-100 mb-5">
+                                Discover data
+                            </PrimaryButton>
                         </Link>
                     </div>
                 </div>
