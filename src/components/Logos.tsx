@@ -1,8 +1,5 @@
 import React from "react";
 
-const logosStyle: React.CSSProperties = {
-    backgroundColor: "var(--amphora-white)",
-};
 const imgStyle: React.CSSProperties = {
     maxHeight: "10rem",
 };
@@ -37,10 +34,7 @@ export const Logos = () => {
                     <h3>A few of our partners and customers</h3>
                 </div>
             </div>
-            <div
-                style={logosStyle}
-                className="row text-center align-items-center ml-2 mr-2"
-            >
+            <div className="row text-center align-items-center ml-2 mr-2">
                 {supporters.map((s, i) => (
                     <div key={i} className="col-lg-3 col-sm-6 col-6">
                         <a href={s.website}>

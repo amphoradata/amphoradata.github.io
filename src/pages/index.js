@@ -11,7 +11,6 @@ import { BuyData } from "../components/BuyData";
 import { SellData } from "../components/SellData";
 import { MailingListSubscribeSection } from "../components/MailingListSubscribe";
 import { HowWeThinkAboutData } from "../components/HowWeThinkAboutData";
-import { SuperHeroImageSection } from "../components/SuperHeroImage";
 
 function Home() {
     const context = useDocusaurusContext();
@@ -21,16 +20,17 @@ function Home() {
             <CustomHead />
             <Layout
                 title={`Amphora Data | ${siteConfig.title}`}
-                description="Next gen data insights and infrastructure for data businesses"
+                description="Buy or sell data in real time."
             >
                 <Landing siteConfig={siteConfig} styles={styles} />
 
                 <main>
-                    <SellData styles={styles} />
-                    <BuyData styles={styles} />
+                    <SellData />
+                    <hr />
+                    <BuyData />
                     <ValueProps styles={styles} />
-                    <Logos />
                     <MailingListSubscribeSection styles={styles} />
+                    <Logos />
                     <HowWeThinkAboutData />
                 </main>
             </Layout>

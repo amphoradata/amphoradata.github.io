@@ -12,7 +12,7 @@ function leadership_team() {
                 <div
                     className="row p-4"
                     className={classnames(
-                        "hero hero--primary",
+                        "hero",
                         styles.heroBanner
                     )}
                 >

@@ -1,56 +1,37 @@
 import React from "react";
-import classnames from "classnames";
 import Link from "@docusaurus/Link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
-import ReactPlayer from "react-player";
 import { PrimaryButton } from "./buttons/PrimaryButton";
 
-import "./SellData.css";
-
-const PropRow = (props) => (
-    <div className="d-flex prop">
-        <FontAwesomeIcon
-            icon={faCheckCircle}
-            size="2x"
-            className="text--success"
-        />
-        {props.children}
-    </div>
-);
-
-export const SellData = (props) => {
+export const SellData = () => {
     return (
-        <div
-            className={classnames(
-                "p-4 SellData",
-                props.styles.presentationContainerBlank
-            )}
-        >
-            <div className="container container--fluid">
-                <div className={classnames("row", props.styles.spaceBetween)}>
-                    <div className="col col--5 col--offset-1 text--center">
-                        <h3 className="heading font_large text--black mt-4">
-                            Do you have valuable data but not sure how to sell
-                            it?
-                        </h3>
-                        <h3 className="heading font_large text--black mt-4">
-                            List your data today in minutes.
-                        </h3>
-                        <h3 className="heading font_large text--black mt-4 mb-8">
-                            You focus on the data - we handle payments,
-                            security, storage, identity management and more.
-                        </h3>
-                        <Link className="font_medium text--white" to="selldata">
-                            <PrimaryButton>Start selling</PrimaryButton>
-                        </Link>
-                    </div>
-
+        <div className="container">
+            <div className="row align-items-center justify-content-center">
+                <div className="col-md-5 order-1 order-md-2 text-center">
                     <img
+                        className="img-fluid"
                         alt="List Sell Get Paid"
-                        src="img/list_sell_get_paid.jpg"
+                        src="img/marketing/list_sell_get_paid.png"
                         width="500px"
                     />
+                </div>
+                <div className="col-md-5 order-2 order-md-1 text-center">
+                    <div className="font_large mt-5">
+                        Do you have valuable data but not sure how to sell it?
+                    </div>
+                    <div className="font_large mt-3">
+                        List your data today in minutes.
+                    </div>
+                    <div className="font_large mt-3">
+                        We handle payments, security, storage, identity
+                        management and more.
+                    </div>
+                    <div className="m-3">
+                        <Link to="/selldata">
+                            <PrimaryButton className="w-100">
+                                Start selling
+                            </PrimaryButton>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

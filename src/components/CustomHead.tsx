@@ -10,7 +10,10 @@ export const CustomHead = (props) => (
             property="og:description"
             content="An advanced platform for sharing data and knowledge."
         />
-        <meta property="og:image" content="https://www.amphoradata.com/img/logos/Amphora_Data_Cover.png" />
+        <meta
+            property="og:image"
+            content="https://www.amphoradata.com/img/logos/Amphora_Data_Cover.png"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.amphoradata.com/" />
 

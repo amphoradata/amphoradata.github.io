@@ -4,29 +4,8 @@
  * and scoped locally.
  */
 
-.heroBanner {
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    background: url("/img/network.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
-.presentationContainer {
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    background-image: url("/img/network.jpg") !important;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+/* dont use these styles any more */
 
 .presentationContainerBlank {
     margin-top: 40px;

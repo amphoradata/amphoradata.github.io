@@ -66,6 +66,18 @@ h3,
     font-size: 2.7rem;
 }
 
+.hero-banner {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: url("/img/network.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .font_tiny {
     font-size: 12x;
     font-family: "Roboto", sans-serif;

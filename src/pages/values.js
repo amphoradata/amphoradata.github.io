@@ -1,8 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
 import classnames from "classnames";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 function values() {
@@ -11,10 +9,7 @@ function values() {
             <div className="container container--fluid">
                 <div
                     className="row p-4"
-                    className={classnames(
-                        "hero hero--primary",
-                        styles.heroBanner
-                    )}
+                    className={classnames("hero", styles.heroBanner)}
                 >
                     <h2
                         className="font_large text--white"

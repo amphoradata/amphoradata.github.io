@@ -1,9 +1,8 @@
 import React from "react";
-import classnames from "classnames";
 import Link from "@docusaurus/Link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/youtube";
 import { PrimaryButton } from "./buttons/PrimaryButton";
 
 import "./valueProps.css";
@@ -21,16 +20,11 @@ const PropRow = (props) => (
 
 export const ValueProps = (props) => {
     return (
-        <div
-            className={classnames(
-                "p-4 valueProps",
-                props.styles.presentationContainer
-            )}
-        >
-            <div className="container container--fluid">
-                <div className={classnames("row", props.styles.spaceBetween)}>
-                    <div className="col col--5 col--offset-1">
-                        <h3 className="heading font_large text--white">
+        <div className="hero-banner">
+            <div className="container">
+                <div className="row align-items-center justify-content-between m-5">
+                    <div className="col-lg-4 order-2 order-lg-1 text-left">
+                        <h3 className="heading font_large text-white">
                             Our mission is to transform the way knowledge is
                             shared by innovative teams.
                         </h3>
@@ -46,7 +40,7 @@ export const ValueProps = (props) => {
                         </Link>
                     </div>
 
-                    <div className="col col--6 col-video">
+                    <div className="col-lg-7 order-1 order-lg-2 col-video mb-5">
                         <ReactPlayer
                             url="https://youtu.be/rBt_743oT18"
                             width="100%"
