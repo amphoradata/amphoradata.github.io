@@ -4,7 +4,7 @@ module.exports = {
     favicon: "img/favicon.ico",
     title: "The fastest and simplest way to buy and sell data",
     tagline:
-        "Securely and simply sell more data. Quickly and easily get new insights.",
+        "Buy and sell information on our marketplace or use our SaaS to sell data on your own website. ",
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
@@ -13,6 +13,7 @@ module.exports = {
         colorMode: {
             disableSwitch: true,
         },
+
         algolia: {
             apiKey: "0797d5513a4961659b3f15828b64f261",
             indexName: "amphoradata",
@@ -23,13 +24,6 @@ module.exports = {
             trackingID: "UA-164144906-4",
             anonymizeIP: true,
         },
-        // announcementBar: {
-        //  id: 'support_us', // Any value that will identify this message
-        //  content:
-        //    'Enter in announcement',
-        //  backgroundColor: '#171717', // Defaults to `#fff`
-        //  textColor: '#FFEFED', // Defaults to `#000`
-        // },
         navbar: {
             logo: {
                 src: "img/Amphora Data_Logo_black.jpg",
@@ -37,26 +31,16 @@ module.exports = {
             },
             items: [
                 {
-                    label: "Products",
+                    to: "selldata",
+                    activeBasePath: "selldata",
+                    label: "Sell Data",
                     position: "right",
-                    items: [
-                        {
-                            to: "data/vegetation",
-                            activeBasePath: "data/vegetation",
-                            label: "Data & Analytics",
-                        },
-                        {
-                            to: "glaze/overview",
-                            activeBasePath: "glaze/overview",
-                            label: "Glaze Platform",
-                        },
-                    ],
                 },
                 {
-                    to: "pricing",
-                    activeBasePath: "pricing",
-                    label: "Pricing",
+                    to: "data/vegetation",
+                    activeBasePath: "data/vegetation",
                     position: "right",
+                    label: "Buy Data",
                 },
                 {
                     to: "docs/contents",
