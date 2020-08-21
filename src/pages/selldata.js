@@ -1,7 +1,5 @@
 import React from "react";
-import classnames from "classnames";
 import Layout from "@theme/Layout";
-import styles from "./styles.module.css";
 import { GlazeCard } from "../components/cards/GlazeOverview";
 
 const sellData = (props) => {
@@ -78,25 +76,17 @@ const sellData = (props) => {
     ];
     return (
         <Layout title="Pricing">
-            <div
-                className={classnames(
-                    "container container--fluid",
-                    styles.presentationContainer
-                )}
-            >
-                <div
-                    className={classnames(
-                        "mt-4 mr-2 row",
-                        styles.justifyContentCenter
-                    )}
-                >
-                    {info.map((info) => (
-                        <GlazeCard
-                            key={info.id}
-                            isMostPopular={info.isMostPopular}
-                            info={info}
-                        />
-                    ))}
+            <div className="hero-banner">
+                <div className="container">
+                    <div className="mt-5 row">
+                        {info.map((info) => (
+                            <GlazeCard
+                                key={info.id}
+                                isMostPopular={info.isMostPopular}
+                                info={info}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </Layout>
