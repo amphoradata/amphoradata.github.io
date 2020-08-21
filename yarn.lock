@@ -8688,10 +8688,10 @@ react-loadable@^5.5.0:
   dependencies:
     prop-types "^15.5.0"
 
-react-player@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.2.0.tgz#dfda060ce0fe87d6d41b168fc53eede449f3ffd4"
-  integrity sha512-TsUn7NL3IWmVwoeU+Jbbbrq6+2HQYsiAyC75deWI0dCkJA3InbR194VBJJiYIZvFL+tUZAcbBDHt+tYyPA0Wjg==
+react-player@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.6.0.tgz#5b425d5c8514b552c29af353adb232f4dbb0bdcf"
+  integrity sha512-RLzAnHO00ZA5VnAZX6A6SGfCKQLOEcBGOM4POWAQkugh0VY2HjWUOYbHVt/7xeogyK3E1fP9dOxoPyLv8lBZ/A==
   dependencies:
     deepmerge "^4.0.0"
     load-script "^1.0.0"
