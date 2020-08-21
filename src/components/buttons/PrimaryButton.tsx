@@ -1,6 +1,11 @@
 import React from "react";
+import classnames from "classnames";
 
 import "./buttons.css";
-export const PrimaryButton = (props) => (
-    <div className="buttons">{props.children}</div>
-);
+interface PrimaryButtonProps {
+    className?: string;
+}
+export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
+    children,
+    className,
+}) => <div className={classnames("buttons", className)}>{children}</div>;

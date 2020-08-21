@@ -13,9 +13,9 @@ export const Landing = (props) => {
                 props.styles.heroBanner
             )}
         >
-            <div className="landing container container--fluid">
-                <div className="row mt-2">
-                    <div className="col col--6 col--offset-1 font_large banner">
+            <div className="landing container">
+                <div className="row justify-content-center mt-2">
+                    <div className="col col-8 banner font_large">
                         <h1 className="hero__title text--left text--white">
                             {props.siteConfig.title}
                         </h1>
@@ -23,13 +23,19 @@ export const Landing = (props) => {
                             {props.siteConfig.tagline}
                         </p>
                     </div>
-                    <div className="col col--2 col--offset-1 actions">
-                        <Link to="https://identity.amphoradata.com/Login">
-                            <PrimaryButton>Login</PrimaryButton>
-                        </Link>
-                        <Link to="https://identity.amphoradata.com/Register">
-                            <PrimaryButton>Register</PrimaryButton>
-                        </Link>
+                    <div className="col actions">
+                        <div className="row">
+                            <div className="col-md-5 col-lg-6">
+                                <Link to="https://identity.amphoradata.com/Login">
+                                    <PrimaryButton className="w-100">Login</PrimaryButton>
+                                </Link>
+                            </div>
+                            <div className="col-md-5 col-lg-6">
+                                <Link to="https://identity.amphoradata.com/Register">
+                                    <PrimaryButton className="w-100">Register</PrimaryButton>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
