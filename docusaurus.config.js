@@ -8,7 +8,6 @@ module.exports = {
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
-    // plugins: ["@docusaurus/plugin-google-gtag"],
     themeConfig: {
         colorMode: {
             disableSwitch: true,
@@ -92,6 +91,7 @@ module.exports = {
             ],
         },
         footer: {
+            logo: {},
             style: "dark",
             links: [
                 {
@@ -147,11 +147,12 @@ module.exports = {
                         "https://github.com/facebook/docusaurus/edit/master/website/",
                 },
                 theme: {
-                    customCss: require.resolve(
-                        "./src/css/custom.css"
-                    ),
+                    customCss: require.resolve("./src/css/custom.css"),
                 },
             },
         ],
+    ],
+    stylesheets: [
+        "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
     ],
 };
