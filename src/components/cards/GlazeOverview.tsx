@@ -32,7 +32,16 @@ export const GlazeCard = (props) => {
                             <div className="text--left">{description.text}</div>
                         </div>
                     ))}
-                    <h2 className="text--center">{info.perUsers}</h2>
+                    {
+                        <div className="info-button">
+                            <Link to={info.actionLink2}>
+                                <PrimaryButton>
+                                    {info.actionName2}
+                                </PrimaryButton>
+                            </Link>
+                        </div>
+                    }
+
                     <hr />
 
                     {

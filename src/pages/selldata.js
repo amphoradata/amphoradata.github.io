@@ -11,8 +11,10 @@ const sellData = (props) => {
             perUsers: "Available now",
             fee: "List your data for sale in 30 seconds",
             isMostPopular: false,
-            actionName: "Register for free",
+            actionName: "Start today",
             actionLink: "https://identity.amphoradata.com/Register",
+            actionName2: "Get the fact pack",
+            actionLink2: "/files/Amphora_Sell_Data_Overview.pdf",
             descriptions: [
                 {
                     text: "Sell to global users of Amphora Data",
@@ -48,8 +50,10 @@ const sellData = (props) => {
             perUsers: "Coming soon",
             fee: "The single-click solution to share and sell data",
             isMostPopular: false,
-            actionName: "Learn more",
+            actionName: "Register your interest",
             actionLink: "mailto:contact@amphoradata.com",
+            actionName2: "See Glaze in action",
+            actionLink2: "https://www.youtube.com/watch?v=Lqx6nBzrqjM&t=37s",
             descriptions: [
                 {
                     text:
