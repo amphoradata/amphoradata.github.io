@@ -1,3 +1,5 @@
+![Publish](https://github.com/amphoradata/amphoradata.github.io/workflows/Publish/badge.svg)
+
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
