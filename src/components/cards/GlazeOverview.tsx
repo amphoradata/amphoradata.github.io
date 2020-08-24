@@ -34,16 +34,14 @@ export const GlazeCard = (props) => {
                     ))}
                     {
                         <div className="info-button">
-                            <Link to={info.actionLink2}>
+                            <a href={info.actionLink2} download>
                                 <PrimaryButton>
                                     {info.actionName2}
                                 </PrimaryButton>
-                            </Link>
+                            </a>
                         </div>
                     }
-
                     <hr />
-
                     {
                         <div className="plan-button">
                             <Link to={info.actionLink}>
