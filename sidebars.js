@@ -1,7 +1,8 @@
 module.exports = {
     someSidebar: {
         Overview: [
-            "contents"
+            "contents",
+            "faq"
         ],
         "Get started": [
             "get_started/sign-up",
