@@ -1,9 +1,6 @@
 module.exports = {
     someSidebar: {
-        Overview: [
-            "contents",
-            "faq"
-        ],
+        Overview: ["contents", "faq"],
         "Get started": [
             "get_started/sign-up",
             "get_started/plans",
@@ -36,19 +33,22 @@ module.exports = {
             "manage_data/restict-users",
             "manage_data/use-sandbox",
         ],
+        Files: [
+            "files/attributes"
+        ],
         "Users and organisation": [
             "users_orgs/invite-to-organisation",
             "users_orgs/manage-users-in-org",
             "users_orgs/set-personalised-url",
         ],
         Applications: [
-          "applications/understand-applications",
-          "applications/register-application"
+            "applications/understand-applications",
+            "applications/register-application",
         ],
         "Accounts and billing": [
             "accnts_bills/billing-transactions",
-             "accnts_bills/change_plan"
-            ],
+            "accnts_bills/change_plan",
+        ],
         "Python SDK": [
             "SDKs/python-find-data",
             "SDKs/python-create-amphora",
@@ -63,12 +63,7 @@ module.exports = {
             "comm_support/chat",
             "comm_support/contribute-code",
         ],
-        Definitions: [
-            "definitions/organisation", 
-            "definitions/signal"
-        ],
-        "Native integrations": [
-            "native_ints/microprediction"
-        ],
+        Definitions: ["definitions/organisation", "definitions/signal"],
+        "Native integrations": ["native_ints/microprediction"],
     },
 };
