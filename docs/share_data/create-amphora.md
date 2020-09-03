@@ -3,7 +3,7 @@ id: create-amphora
 title: Create an Amphora
 sidebar_label: Create Amphora
 ---
-An Amphora is a standardised data containers. To share your data, you need to create an Amphora then fill it with whatever data you want.
+An Amphora is a standardised data container. To share your data, you need to create an Amphora then fill it with whatever data you want.
 
 ## Create the Amphora
 
@@ -63,4 +63,3 @@ There are several key features to include when creating a comprehensive and desc
 
 * Use the search bar or directly enter latitude and longitude of the region for which the data are aggregated
 *  If there is no specific region for the Amphora then use the location of the body which generated the data (e.g. using the MLA office in North Sydney for their nation wide livestock data)
-

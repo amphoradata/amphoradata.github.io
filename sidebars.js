@@ -31,7 +31,6 @@ module.exports = {
             "manage_data/manage",
             "manage_data/set-tncs",
             "manage_data/restict-users",
-            "manage_data/use-sandbox",
         ],
         Files: [
             "files/attributes"

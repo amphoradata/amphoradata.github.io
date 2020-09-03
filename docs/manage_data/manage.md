@@ -6,19 +6,9 @@ sidebar_label: Manage Amphora
 
 ## View consumers of Amphora
 
-As an owner of an Amphora, you can see you has purchased the Amphora by clicking `Show has purchased` in the bottom right of the View Amphora page.
+As an owner of an Amphora, you can see you has purchased it via the options section of the Amphora page.
 
 ![New organisation image](/img/show_who_has_purchased.PNG)
-
-## Edit Amphora
-
-You can edit an Amphora through the web interface by clicking the `Edit` button in the bottom right of the View Amphora page.
-
-![New organisation image](/img/edit_amphora_button.png)
-
-This will take you to a page similar to the `Create Amphora` page and you can edit the details as needed
-
-![New organisation image](/img/edit_amphora.PNG)
 
 ## Delete the Amphora
 
@@ -32,9 +22,9 @@ The Amphora will stay on the platform for 48 hours pending deletion. During this
 
 There are several key steps to follow to maintain the best Amphora
 
-Check regularly to see if signals are updating: 
+Check regularly to see if signals are updating:
 
-* Signals may stop working due to a variety of reasons. 
+* Signals may stop working due to a variety of reasons.
 * Set up your own processes and code to ensure you are aware of any issues.
 
 Respond promptly to any issues users identify:

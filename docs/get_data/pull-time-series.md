@@ -22,7 +22,7 @@ You can download the selected timeseries by clicking the `...` button and select
 
 ## Get Signal programmatically
 
-Most of the time you will want to consume data programmatically. You can check out the latest SDKs, sample code and tutorials at [GitHub](https://github.com/amphoradata). We provide a public Open API specification at [amphoradata.com/swagger](https://beta.amphoradata.com/swagger/). We currently generate and provide a C# SDK, Node.js SDK, and Python SDK.
+Most of the time you will want to consume data programmatically. You can check out the latest SDKs, sample code and tutorials at [GitHub](https://github.com/amphoradata). We provide a public Open API specification at [api.amphoradata.com/swagger](https://api.amphoradata.com/swagger/). We currently generate and provide a C# SDK, Node.js SDK, and Python SDK.
 
 #### Python
 
