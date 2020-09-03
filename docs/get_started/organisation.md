@@ -10,7 +10,7 @@ Alternatively, you may wish to join an existing Organisation. In that case, you 
 
 ### Customise an Organisation
 
-If you're the first member of your Organisation, or an Organisation administrator, then you'll can customise it.
+If you're the first member of your Organisation, or an Organisation administrator, then you can customise it.
 
 ### Join an existing Organisation (Team and Institution only)
 
@@ -18,5 +18,4 @@ If your organisation is already represented in Amphora Data, then you'll need to
 
 ![Join organisation image](/img/join_organisation.png)
 
-Clicking `Join Organisation` will send a notice to your organisation admin who accept your request. If you've already been invited to an organisation, you should be automatically redirected to join that organisation. 
-
+Clicking `Join Organisation` will send a notice to your organisation admin who accept your request. If you've already been invited to an organisation, you should be automatically redirected to join that organisation.

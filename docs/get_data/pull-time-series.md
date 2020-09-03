@@ -14,13 +14,13 @@ To view an Amphora Signal click `Signals` on the left of the Amphora page. You w
 
 ![View signal image](/img/view_signal_amphora.png)
 
-This is an exploratory dashboard and it enables you to discover the data in a simple format. You can choose different signals, different time boxes, and filter by specific values or properties. 
+This is an exploratory dashboard and it enables you to discover the data in a simple format. You can choose different signals, different time boxes, and filter by specific values or properties.
 
-You can download the selected timeseries by clicking the `...` botton and selecting `Download`.
+You can download the selected timeseries by clicking the `...` button and selecting `Download`.
 
 > Note that not all Amphoras contain Signals.
 
-## Get Signal programmatically 
+## Get Signal programmatically
 
 Most of the time you will want to consume data programmatically. You can check out the latest SDKs, sample code and tutorials at [GitHub](https://github.com/amphoradata). We provide a public Open API specification at [amphoradata.com/swagger](https://beta.amphoradata.com/swagger/). We currently generate and provide a C# SDK, Node.js SDK, and Python SDK.
 
@@ -40,11 +40,11 @@ from amphora.client import AmphoraDataRepositoryClient, Credentials
 import os
 
 # Login to amphoradata.com
-credentials = Credentials(username=os.getenv('username'), password=os.getenv('password')) 
+credentials = Credentials(username=os.getenv('username'), password=os.getenv('password'))
 client = AmphoraDataRepositoryClient(credentials)
 
 # Get Amphora object
-amphora = client.get_amphora(Amphora_id) 
+amphora = client.get_amphora(Amphora_id)
 
 # Pull signal
 signals = amphora.get_signals()
