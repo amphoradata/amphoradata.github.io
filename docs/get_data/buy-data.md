@@ -4,17 +4,17 @@ title: Buy Data
 sidebar_label: Buy Data
 ---
 
-You need to search the Amphora Data Catalogue to find the data you want. You need to purchase the Amphora after you find the one you want.
+To access data from other organisations, search the Amphora Data Catalogue.
 
 ## Buy an Amphora
 
 #### Buy with web application
 
-To access any data in an Amphora, you need to purchase it. Many Amphora don't cost anything but still need to be purchased. Purchase the Amphora you want by clicking the `Buy` button in the top right of the Amphora page. 
+To access any data in an Amphora, you need to purchase it. Many Amphora don't cost anything but still need to be purchased. Purchase the Amphora you want by clicking the `Buy` button in the top right of the Amphora page.
 
 #### Buy programmatically
 
-You can buy an Amphora programmatically. The command is 
+You can buy an Amphora programmatically. The command is
 ```py
 client.buy_amphora(amphora_id)
 ```
@@ -29,4 +29,3 @@ You may need to accept the terms and conditions of the Amphora. These terms and 
 After you purchase the Amphora, it will show up on your organisation profile as a Debit.
 
 You can watch a video of finding and buying an Amphora on our [YouTube](https://www.youtube.com/channel/UCdeAwh89DuwZKJ6JJK9TCnw) Channel.
-

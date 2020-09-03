@@ -10,17 +10,17 @@ Flat files are static files such as tables, images, graphs, and text. You can do
 
 ## Get file on web app
 
-To consume an Amphora file (static file typically .txt or .csv) select `Files` on the left of the Amphora page. You will then see a a list of all the files in the Amphora. 
+To consume an Amphora file (static file typically .txt or .csv) select `Files` on the left of the Amphora page. You will then see a a list of all the files in the Amphora.
 
-![Flat file download](/img/Flat_file_download.PNG)
+![Flat file download](/img/add_file_amphora.png)
 
 Simply click `Download` next to the file you want.
 
 > Note that not all Amphoras contain Signals.
 
-## Get file programmatically 
+## Get file programmatically
 
-Most of the time you will want to consume data programmatically. You can check out the latest SDKs, sample code and tutorials at [GitHub](https://github.com/amphoradata). We provide a public Open API specification at [amphoradata.com/swagger](https://beta.amphoradata.com/swagger/). We currently generate and provide a C# SDK, Node.js SDK, and Python SDK.
+Most of the time you will want to consume data programmatically. You can check out the latest SDKs, sample code and tutorials at [GitHub](https://github.com/amphoradata). We provide a public Open API specification at [api.amphoradata.com/swagger](https://api.amphoradata.com/swagger/). We currently generate and provide a C# SDK, Node.js SDK, and Python SDK.
 
 #### Python
 
@@ -38,11 +38,11 @@ from amphora.client import AmphoraDataRepositoryClient, Credentials
 import os
 
 # Login to amphoradata.com
-credentials = Credentials(username=os.getenv('username'), password=os.getenv('password')) 
+credentials = Credentials(username=os.getenv('username'), password=os.getenv('password'))
 client = AmphoraDataRepositoryClient(credentials)
 
 # Get Amphora object
-amphora = client.get_amphora(Amphora_id) 
+amphora = client.get_amphora(Amphora_id)
 
 # Pull file
 amphora.get_file(file_name).pull(destination_file_path)

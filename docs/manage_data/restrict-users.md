@@ -12,8 +12,8 @@ You can set specific restrictions on who can and who can't access data for your 
 ## Method
 To do this, go to ```Options``` on the Amphora page.
 
-Then click ```Restricted Organisations```.
+Then click ```Access Controls```. You can restrict Organisations with their organisation id. The Priority indicates the importance of the restriction placed on an organisation.
 
-Now create a new restriction by clicking ```Restrict an Organisation``` in the top-right. Search the organisation you want to restrict then simply click ```Restrict Organisation```. 
+![Restrict Organisation](/img/access_controls.png)
 
 Note that you can only restrict existing organisations on the Amphora platform. If there is a specific organisation, e.g. close competitor, that is not yet on Amphora but you want to restrict, please email isaac@amphoradata.com

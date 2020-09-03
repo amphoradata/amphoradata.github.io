@@ -9,7 +9,7 @@ Amphoras are standardised data containers. To share your data, you need to creat
 
 > The max file size for uploading through the web interface is currently 10MB. There is no size limit for uploading files through the API
 
-You can add any kind of file to an Amphora - images, text files, csv, word documents etc. To upload a file from your computer, click the blue `upload` button, select a file, then click `upload`.
+You can add any kind of file to an Amphora - images, text files, csv, word documents etc. To upload a file from your computer, click the `upload` button, select a file, then click `upload`.
 
 ![Add file amphora](/img/add_file_amphora.png)
 
@@ -23,7 +23,7 @@ You can add a file with python using
 ```py
 amphora.push_file(file_path)
 ```
-The basic code to get started add files is 
+The basic code to get started add files is
 ```py
 # Import Amphora modules
 from amphora.client import AmphoraDataRepositoryClient, Credentials
@@ -32,11 +32,11 @@ from amphora.client import AmphoraDataRepositoryClient, Credentials
 import os
 
 # Login to amphoradata.com
-credentials = Credentials(username=os.getenv('username'), password=os.getenv('password')) 
+credentials = Credentials(username=os.getenv('username'), password=os.getenv('password'))
 client = AmphoraDataRepositoryClient(credentials)
 
 # Get Amphora object
-amphora = client.get_amphora(Amphora_id) 
+amphora = client.get_amphora(Amphora_id)
 
 # Push file to amphora
 file_path="path/to/your/file"
@@ -49,4 +49,3 @@ Code for pulling signals can be found on [GitHub](https://github.com/amphoradata
 
 #### Node.js
 Code for pulling signals can be found on [GitHub](https://github.com/amphoradata/nodejs-sdk/tree/master/samples). We are expanding our docs for Node.js so stay tuned for more details.
-
