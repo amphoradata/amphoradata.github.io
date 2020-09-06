@@ -118,7 +118,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Amphora Data`,
+            copyright: `Copyright © ${new Date().getFullYear()} Amphora Data, 34/1 Eagle St, Brisbane`,
         },
     },
     presets: [
