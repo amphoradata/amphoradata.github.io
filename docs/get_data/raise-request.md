@@ -10,7 +10,7 @@ Sometimes an Amphora contains only some of the data you want, or is in a format 
 
 If you want specific data that isn't available on the Amphora platform, you can press the `I can't find what I'm looking for` button at the bottom of the `Discover` page. This will take you to the following page:
 
-![Data request](/img/Data_request.PNG)
+![Data request](/img/screenshots/Data_request.PNG)
 
 Simply fill out as much information as you can and click `Create`
 

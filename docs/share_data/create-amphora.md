@@ -9,7 +9,7 @@ An Amphora is a standardised data container. To share your data, you need to cre
 
 Navigate to the `Share` page, and you will get the screen below
 
-![Nav create amphora](/img/nav_create_amphora.png)
+![Nav create amphora](/img/screenshots/nav_create_amphora.png)
 
 > At this stage, you can describe the Amphora, but *not yet* add any data. That comes later.
 

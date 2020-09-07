@@ -30,7 +30,7 @@ module.exports = {
             "manage_data/view-audit-log",
             "manage_data/manage",
             "manage_data/set-tncs",
-            "manage_data/restict-users",
+            "manage_data/control-access",
         ],
         Files: [
             "files/attributes"

@@ -12,7 +12,7 @@ Flat files are static files such as tables, images, graphs, and text. You can do
 
 To consume an Amphora file (static file typically .txt or .csv) select `Files` on the left of the Amphora page. You will then see a a list of all the files in the Amphora.
 
-![Flat file download](/img/add_file_amphora.png)
+![Flat file download](/img/screenshots/add_file_amphora.png)
 
 Simply click `Download` next to the file you want.
 

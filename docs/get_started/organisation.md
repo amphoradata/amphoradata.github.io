@@ -16,6 +16,6 @@ If you're the first member of your Organisation, or an Organisation administrato
 
 If your organisation is already represented in Amphora Data, then you'll need to join that organisation. Click `Find my Organisation`, and search for the name of the Organisation.
 
-![Join organisation image](/img/join_organisation.png)
+![Join organisation image](/img/screenshots/join_organisation.png)
 
 Clicking `Join Organisation` will send a notice to your organisation admin who accept your request. If you've already been invited to an organisation, you should be automatically redirected to join that organisation.

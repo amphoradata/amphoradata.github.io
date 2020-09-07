@@ -8,7 +8,7 @@ sidebar_label: Manage Amphora
 
 As an owner of an Amphora, you can see you has purchased it via the options section of the Amphora page.
 
-![New organisation image](/img/show_who_has_purchased.PNG)
+![New organisation image](/img/screenshots/show_who_has_purchased.PNG)
 
 ## Delete the Amphora
 

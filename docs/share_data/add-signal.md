@@ -9,7 +9,7 @@ Amphoras are standardised data containers. To share your data, you need to creat
 
 Signals are numeric data that change over time. Add a signal by clicking `New Signal` and specify the property (i.e. the name of the signal), e.g. temperature.
 
-![Add signal amphora](/img/add_signal_amphora.png)
+![Add signal amphora](/img/screenshots/add_signal_amphora.png)
 
 Now you can submit a value for that signal (e.g. the current temperature) via the `New Values` button. Once submitted, you'll start seeing data on the graph.
 

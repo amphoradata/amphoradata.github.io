@@ -8,7 +8,7 @@ If you want to share data or collaborate with colleagues, you can easily invite 
 
 Go to `Account` and select `Members`. Then click `Invite Member` as shown in the image below.
 
-![New organisation image](/img/InviteToOrganisation.png)
+![New organisation image](/img/screenshots/InviteToOrganisation.png)
 
 
 Enter an email address, and it will be invited to join *your* organisation. Only Organisational administators with confirmed email addresses have permission to invite others.

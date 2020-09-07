@@ -6,7 +6,7 @@ const qs = (labels, take) =>
 const products = [
     {
         title: "Livestock prices",
-        imageUrl: "img/mla_image.PNG",
+        imageUrl: "/img/mla_image.PNG",
         description: `  Real-time data of major livestock indices in Australia. Major
                 indices ready to use for free, more available on request.`,
         link: `${base}?${qs("Meat")}`,
