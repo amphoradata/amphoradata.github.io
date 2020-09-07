@@ -9,7 +9,7 @@ const qs = (term, labels, take) =>
 export const products = [
     {
         title: "River flows",
-        imageUrl: "img/water_flow.PNG",
+        imageUrl: "/img/data-products/water_flow.PNG",
         description: ` Real-time actuals of major rivers in Australia including Murray
                 and Darling. Parameters include water level, temperature,
                 salinity, flow rate and more. Available now for free`,
@@ -17,14 +17,14 @@ export const products = [
     },
     {
         title: "Yellowstone National Park",
-        imageUrl: "img/yellowstone.png",
+        imageUrl: "/img/data-products/yellowstone.png",
         description: `Real water quality and quantity measurements from the Yellowstone Ecological Research Center.`,
         link: `${base}?${yerc}`,
     },
     {
         title: "Groundwater",
-        imageUrl: "img/groundwater-image-source-smh.jpg",
-        description: `    Ground water level and salinity for any location in Australia.
+        imageUrl: "/img/data-products/groundwater-image-source-smh.jpg",
+        description: `Ground water level and salinity for any location in Australia.
                 Incorporated from 1000s of bore readings in 2019/20. Coming in
                 Spring.
             `,
