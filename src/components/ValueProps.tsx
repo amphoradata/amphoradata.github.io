@@ -29,7 +29,7 @@ export const ValueProps = (props) => {
                             shared by innovative teams.
                         </h3>
                         <h3 className="heading font_large text--white">
-                            We belive that data should be bought and sold
+                            We believe that data should be bought and sold
                             responsibly, securely, and transparently.
                         </h3>
                         <Link
