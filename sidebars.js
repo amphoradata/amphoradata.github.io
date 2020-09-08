@@ -23,7 +23,6 @@ module.exports = {
             "share_data/add-signal",
             "share_data/email-amphora",
             "share_data/edit-amphora",
-            "share_data/create-data-shop",
         ],
         "Manage data": [
             "manage_data/set-data-qual",
@@ -32,9 +31,7 @@ module.exports = {
             "manage_data/set-tncs",
             "manage_data/control-access",
         ],
-        Files: [
-            "files/attributes"
-        ],
+        Files: ["files/attributes"],
         "Users and organisation": [
             "users_orgs/invite-to-organisation",
             "users_orgs/manage-users-in-org",
@@ -48,7 +45,7 @@ module.exports = {
             "accnts_bills/billing-transactions",
             "accnts_bills/change_plan",
         ],
-        "Python": [
+        Python: [
             "SDKs/python/python-install",
             "SDKs/python/python-find-data",
             "SDKs/python/python-create-amphora",
@@ -57,10 +54,7 @@ module.exports = {
             "SDKs/python/python-download-file",
             "SDKs/python/python-pandasdf",
         ],
-        Javscript: [
-            "SDKs/js/js-install",
-            "SDKs/js/js-get-started",
-        ],
+        Javscript: ["SDKs/js/js-install", "SDKs/js/js-get-started"],
         "Community support": [
             "comm_support/request-data",
             "comm_support/report-bug",
