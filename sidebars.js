@@ -48,13 +48,18 @@ module.exports = {
             "accnts_bills/billing-transactions",
             "accnts_bills/change_plan",
         ],
-        "Python SDK": [
-            "SDKs/python-find-data",
-            "SDKs/python-create-amphora",
-            "SDKs/python-upload-file",
-            "SDKs/python-upload-signal",
-            "SDKs/python-download-file",
-            "SDKs/python-pandasdf",
+        "Python": [
+            "SDKs/python/python-install",
+            "SDKs/python/python-find-data",
+            "SDKs/python/python-create-amphora",
+            "SDKs/python/python-upload-file",
+            "SDKs/python/python-upload-signal",
+            "SDKs/python/python-download-file",
+            "SDKs/python/python-pandasdf",
+        ],
+        Javscript: [
+            "SDKs/js/js-install",
+            "SDKs/js/js-get-started",
         ],
         "Community support": [
             "comm_support/request-data",
