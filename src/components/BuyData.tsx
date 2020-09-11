@@ -16,7 +16,7 @@ export const BuyData = (props) => {
                 </div>
                 <div className="col-md-5 text-center">
                     <div className="font_large mt-5">
-                        Looking for cheap and easy to use data?
+                        Looking for quality and easy to use data?
                     </div>
                     <div className="font_large mt-3">
                         Discover and buy data from our Marketplace in 30

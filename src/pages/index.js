@@ -20,13 +20,13 @@ function Home() {
             <CustomHead />
             <Layout
                 title={`Amphora Data | ${siteConfig.title}`}
-                description="Buy or sell data in real time."
+                description="Real Time Analytics."
             >
                 <Landing siteConfig={siteConfig} styles={styles} />
 
                 <main>
-                    <SellData />
-                    <hr />
+                    {/* <SellData />
+                    <hr /> */}
                     <BuyData />
                     <ValueProps styles={styles} />
                     <MailingListSubscribeSection styles={styles} />
