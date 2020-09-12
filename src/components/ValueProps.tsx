@@ -25,12 +25,12 @@ export const ValueProps = (props) => {
                 <div className="row align-items-center justify-content-between m-5">
                     <div className="col-lg-4 order-2 order-lg-1 text-left">
                         <h3 className="heading font_large text-white">
-                            Our mission is to transform the way knowledge is
-                            shared by innovative teams.
+                            Our mission is to help small businesses profitably
+                            use artificial intelligence.
                         </h3>
                         <h3 className="heading font_large text--white">
-                            We believe that data should be bought and sold
-                            responsibly, securely, and transparently.
+                            We believe that data should be managed responsibly,
+                            securely, and transparently.
                         </h3>
                         <Link
                             className="font_medium text--white"

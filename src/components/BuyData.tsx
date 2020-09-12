@@ -16,15 +16,14 @@ export const BuyData = (props) => {
                 </div>
                 <div className="col-md-5 text-center">
                     <div className="font_large mt-5">
-                        Looking for quality and easy to use data?
+                        Looking for insightful and easy-to-use analytics?
                     </div>
                     <div className="font_large mt-3">
-                        Discover and buy data from our Marketplace in 30
-                        seconds.
+                        Use our analytics-as-a-service for your small business.
                     </div>
                     <div className="font_large mt-3">
-                        Only buy the data you need - no platform fees or lock-in
-                        contracts!
+                        Only buy the insights you need - no platform fees or
+                        lock-in contracts!
                     </div>
                     <div className="m-3">
                         <Link
@@ -32,7 +31,7 @@ export const BuyData = (props) => {
                             to="data/vegetation"
                         >
                             <PrimaryButton className="w-100 mb-5">
-                                Discover data
+                                Discover Analytics
                             </PrimaryButton>
                         </Link>
                     </div>

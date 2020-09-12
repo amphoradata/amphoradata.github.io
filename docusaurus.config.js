@@ -2,9 +2,9 @@ module.exports = {
     url: "https://amphoradata.github.io",
     baseUrl: "/",
     favicon: "img/favicon.ico",
-    title: "Get new insights on your data",
+    title: "Analytics and AI for small businesses",
     tagline:
-        "Find information on our marketplace, or use Glaze to provide data on your own website.",
+        "Ready-to-use insights to improve your business",
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
@@ -39,7 +39,7 @@ module.exports = {
                     to: "data/vegetation",
                     activeBasePath: "data/vegetation",
                     position: "right",
-                    label: "Buy Data",
+                    label: "Get AI insights",
                 },
                 {
                     to: "docs/contents",
