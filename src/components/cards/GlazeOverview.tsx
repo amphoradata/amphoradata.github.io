@@ -22,7 +22,7 @@ export const GlazeCard = (props) => {
                         </div>
                     </div>
                     {info.descriptions.map((description) => (
-                        <div key={description.text} className="d-flex mb-2">
+                        <div key={description.text} className="d-flex mb-3">
                             <FontAwesomeIcon
                                 icon={description.icon || faCheckCircle}
                                 size="lg"

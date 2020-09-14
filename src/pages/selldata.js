@@ -30,14 +30,11 @@ const info = [
                 text: "Sell to your partners by sharing a link to your data",
             },
             {
-                text: "Get paid as soon as your data is sold",
-            },
-            {
                 text:
-                    "No subscription fees, only 20% transaction fee when data is sold",
+                    "No ongoing fees, only 20% transaction fee when data is sold",
             },
             {
-                text: "No fee if you share data for free",
+                text: "No fees if you share data for free",
             },
         ],
     },
@@ -46,7 +43,7 @@ const info = [
         title: "Glaze",
         imageUrl: "/img/Amphora_glaze_title_two_lines.png",
         perUsers: "Coming soon",
-        fee: "The single-click solution to share and sell data",
+        fee: "Simple drop-in solution for sharing or selling data",
         isMostPopular: false,
         actionName: "Register your interest",
         actionLink: "mailto:contact@amphoradata.com",
@@ -54,19 +51,17 @@ const info = [
         actionLink2: "https://www.youtube.com/watch?v=Lqx6nBzrqjM&t=37s",
         descriptions: [
             {
-                text:
-                    "Instantly deployable platform to sell data through your own website",
+                text: "Drop in code to sell data through your own website",
             },
             {
                 text:
-                    "Get a new revenue channel by selling your own insights on Amphora Marketplace",
+                    "Find new revenue channel through the Amphora Marketplace",
             },
             {
-                text:
-                    "Utilise our inbuilt customer identity management which supports user specific data access and management",
+                text: "Use the Amphora identity management system",
             },
             {
-                text: "Seamless payments handling so you get paid more faster",
+                text: "Seamless payments handling",
             },
             {
                 text:
