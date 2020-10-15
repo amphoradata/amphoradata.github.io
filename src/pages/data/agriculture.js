@@ -1,9 +1,9 @@
 import * as React from "react";
 import Layout from "@theme/Layout";
 import { DataTabs, PageLayout, DataProducts } from "../../components";
-import { products } from "../../copy/data/products/vegetation";
+import { products } from "../../copy/data/products/agriculture";
 
-export default function Vegetation() {
+export default function Agriculture() {
     return (
         <Layout title="Data Catalogue">
             <PageLayout

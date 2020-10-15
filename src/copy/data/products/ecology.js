@@ -21,12 +21,4 @@ export const products = [
         description: `Real water quality and quantity measurements from the Yellowstone Ecological Research Center.`,
         link: `${base}?${yerc}`,
     },
-    {
-        title: "Groundwater",
-        imageUrl: "/img/data-products/groundwater-image-source-smh.jpg",
-        description: `Ground water level and salinity for any location in Australia.
-                Incorporated from 1000s of bore readings in 2019/20. Coming in
-                Spring.
-            `,
-    },
 ];

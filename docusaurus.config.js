@@ -2,9 +2,9 @@ module.exports = {
     url: "https://amphoradata.github.io",
     baseUrl: "/",
     favicon: "img/favicon.ico",
-    title: "Analytics and AI for small businesses",
+    title: "Change the future",
     tagline:
-        "Ready-to-use insights to improve your business",
+        "Predictive analytics that work",
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
@@ -36,8 +36,8 @@ module.exports = {
                 //     position: "right",
                 // },
                 {
-                    to: "data/vegetation",
-                    activeBasePath: "data/vegetation",
+                    to: "data/agriculture",
+                    activeBasePath: "data/agriculture",
                     position: "right",
                     label: "Get AI insights",
                 },

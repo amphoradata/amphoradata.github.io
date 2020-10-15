@@ -28,10 +28,10 @@ export const BuyData = (props) => {
                     <div className="m-3">
                         <Link
                             className="font_medium text--white"
-                            to="data/vegetation"
+                            to="data/churn_prediction"
                         >
                             <PrimaryButton className="w-100 mb-5">
-                                Discover Analytics
+                                Change the future
                             </PrimaryButton>
                         </Link>
                     </div>

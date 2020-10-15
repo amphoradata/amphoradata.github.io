@@ -17,24 +17,16 @@ export const GlazeTabs = [
 const catalog = "data";
 export const DataTabs = [
     {
-        to: `/${catalog}/vegetation`,
-        name: "Vegetation",
+        to: `/${catalog}/agriculture`,
+        name: "Agriculture",
     },
     {
-        to: `/${catalog}/weather`,
-        name: "Weather",
+        to: `/${catalog}/ecology`,
+        name: "Ecology",
     },
     {
-        to: `/${catalog}/water`,
-        name: "Water",
-    },
-    {
-        to: `/${catalog}/soil`,
-        name: "Soil",
-    },
-    {
-        to: `/${catalog}/economic`,
-        name: "Economic",
+        to: `/${catalog}/churn_prediction`,
+        name: "Churn Prediction",
     },
 ];
 

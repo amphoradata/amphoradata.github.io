@@ -28,10 +28,7 @@ function Home() {
                     {/* <SellData />
                     <hr /> */}
                     <BuyData />
-                    <ValueProps styles={styles} />
-                    <MailingListSubscribeSection styles={styles} />
                     <Logos />
-                    <HowWeThinkAboutData />
                 </main>
             </Layout>
         </React.Fragment>
