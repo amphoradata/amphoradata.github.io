@@ -16,14 +16,13 @@ export const BuyData = (props) => {
                 </div>
                 <div className="col-md-5 text-center">
                     <div className="font_large mt-5">
-                        Looking for insightful and easy-to-use analytics?
+                        Want to know what will happen in 3 months?
                     </div>
                     <div className="font_large mt-3">
-                        Use our analytics-as-a-service for your small business.
+                        Want to know how best to respond to the future?
                     </div>
                     <div className="font_large mt-3">
-                        Only buy the insights you need - no platform fees or
-                        lock-in contracts!
+                        Try our prediction products
                     </div>
                     <div className="m-3">
                         <Link

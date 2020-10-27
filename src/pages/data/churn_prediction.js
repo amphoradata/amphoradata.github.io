@@ -13,7 +13,7 @@ export default function Page() {
             <PageLayout
                 tabs={DataTabs}
                 heading="Analytics Products"
-                subheading="Get the insights you need in 30 seconds"
+                subheading="Control the future with AI"
             >
                 <DataProducts products={products} />
             </PageLayout>

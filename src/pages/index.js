@@ -20,7 +20,7 @@ function Home() {
             <CustomHead />
             <Layout
                 title={`Amphora Data | ${siteConfig.title}`}
-                description="Real Time Analytics."
+                description="Control the future with AI"
             >
                 <Landing siteConfig={siteConfig} styles={styles} />
 

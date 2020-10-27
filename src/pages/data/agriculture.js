@@ -5,11 +5,11 @@ import { products } from "../../copy/data/products/agriculture";
 
 export default function Agriculture() {
     return (
-        <Layout title="Data Catalogue">
+        <Layout title="Analytics Products">
             <PageLayout
                 tabs={DataTabs}
                 heading="Analytics Products"
-                subheading="Get the insights you need in 30 seconds"
+                subheading="Control the future with AI"
             >
                 <DataProducts products={products} />
             </PageLayout>

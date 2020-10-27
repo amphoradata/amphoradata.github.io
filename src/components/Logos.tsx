@@ -17,9 +17,13 @@ const supporters: Supporter[] = [
         website: "https://www.founders.unsw.edu.au/",
     },
     {
-        imgPath: "/img/logos/YERC.png",
-        website: "https://www.yellowstoneresearch.org/",
+        imgPath: "/img/logos/Upstreet.png",
+        website: "https://www.upstreet.co/",
     },
+    //{
+    //    imgPath: "/img/logos/YERC.png",
+    //    website: "https://www.yellowstoneresearch.org/",
+    //},
     {
         imgPath: "/img/logos/microsoft.png",
         website: "https://www.microsoft.com/en-us/ai/ai-for-earth",
