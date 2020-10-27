@@ -27,9 +27,9 @@ export const Landing = (props) => {
                                 </Link>
                             </div>
                             <div className="col-md-5 col-lg-6">
-                                <Link to="https://identity.amphoradata.com/Register">
+                                <Link to="mailto:contact@amphoradata.com">
                                     <PrimaryButton className="w-100">
-                                        Register
+                                        Learn more
                                     </PrimaryButton>
                                 </Link>
                             </div>
