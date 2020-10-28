@@ -190,3 +190,7 @@ h3,
     color: white;
     background: rgba(72, 140, 166, 0.8) !important;
 }
+
+.avatar {
+    border-radius: 15%;
+  }

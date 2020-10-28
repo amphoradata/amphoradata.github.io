@@ -82,7 +82,7 @@ module.exports = {
                     title: "Company",
                     items: [
                         {
-                            to: "leadership-team",
+                            to: "team",
                             label: "Team",
                         },
                         {
