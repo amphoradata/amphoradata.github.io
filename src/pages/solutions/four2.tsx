@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "@docusaurus/Link";
+import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 import { PrimaryButton } from "../../components/buttons/PrimaryButton";
 
@@ -14,6 +14,10 @@ const Four2Page: React.FC = () => {
                             Four2 is an application that uses machine learning
                             to maximise lifetime customer value.
                         </p>
+
+                        <div>
+                            <Link to="/team">Contact our team</Link> to learn more about our private beta program
+                        </div>
 
                         <a href="https://four2.ai">
                             <PrimaryButton>Visit Four2</PrimaryButton>
