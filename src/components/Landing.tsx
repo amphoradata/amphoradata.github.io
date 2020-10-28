@@ -6,7 +6,7 @@ import "./landing.css";
 
 interface Action {
     to: string;
-    text: string
+    text: string;
 }
 interface LandingProps {
     siteConfig: any;
