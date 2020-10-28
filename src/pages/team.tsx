@@ -42,8 +42,8 @@ function leadership_team() {
                             <h2 className="text-center">
                                 We Are An Experienced Team With Distinctive
                                 Expertise In Software Engineering, Data
-                                Governance, People Leadership, Operations,
-                                Data Science And Strategy.
+                                Governance, People Leadership, Operations, Data
+                                Science And Strategy.
                             </h2>
                         </div>
                     </div>
@@ -70,6 +70,7 @@ function leadership_team() {
                         was the recipient of the prestigious Fulbright award in
                         2015.
                     </p>
+                    <p>isaac@amphoradata.com</p>
                 </Person>
 
                 <Person
@@ -91,6 +92,7 @@ function leadership_team() {
                         He holds a double Bachelor of Electrical Engineering &
                         Arts from UNSW.
                     </p>
+                    <p>rian@amphoradata.com</p>
                 </Person>
             </div>
         </Layout>

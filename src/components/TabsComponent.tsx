@@ -24,10 +24,6 @@ export const DataTabs = [
         to: `/${catalog}/ecology`,
         name: "Ecology",
     },
-    {
-        to: `/${catalog}/churn_prediction`,
-        name: "Churn Prediction",
-    },
 ];
 
 // window will not be defined in the build step.

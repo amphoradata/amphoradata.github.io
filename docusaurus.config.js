@@ -2,9 +2,9 @@ module.exports = {
     url: "https://amphoradata.github.io",
     baseUrl: "/",
     favicon: "img/favicon.ico",
-    title: "Control the future",
+    title: "Amphora",
     tagline:
-        "Our AI predicts the future and tells you what you should change",
+        "World class data and analytics",
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
@@ -36,10 +36,9 @@ module.exports = {
                 //     position: "right",
                 // },
                 {
-                    to: "data/churn_prediction",
-                    activeBasePath: "data/churn_prediction",
+                    to: "/solutions",
                     position: "right",
-                    label: "AI products",
+                    label: "Solutions",
                 },
                 {
                     to: "docs/contents",

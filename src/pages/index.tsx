@@ -2,11 +2,9 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./styles.module.css";
 import { CustomHead } from "../components/CustomHead";
 import { Landing } from "../components/Landing";
 import { Logos } from "../components/Logos";
-import { BuyData } from "../components/BuyData";
 
 function Home() {
     const context = useDocusaurusContext();
@@ -18,12 +16,19 @@ function Home() {
                 title={`Amphora Data | ${siteConfig.title}`}
                 description="Control the future with AI"
             >
-                <Landing siteConfig={siteConfig} styles={styles} />
+                <Landing
+                    siteConfig={siteConfig}
+                    action1={{
+                        to: "/solutions/data-market",
+                        text: "Data Market",
+                    }}
+                    action2={{
+                        to: "solutions/four2",
+                        text: "Customer ML",
+                    }}
+                />
 
                 <main>
-                    {/* <SellData />
-                    <hr /> */}
-                    <BuyData />
                     <Logos />
                 </main>
             </Layout>

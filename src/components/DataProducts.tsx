@@ -40,7 +40,7 @@ function Product({ imageUrl, title, description, link }) {
                 <p className="font_medium">{description}</p>
                 {link && (
                     <a target="_blank" href={link}>
-                        Learn more
+                        View Data
                     </a>
                 )}
             </div>

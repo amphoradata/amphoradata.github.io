@@ -28,7 +28,7 @@ export const BuyData = (props) => {
                     <div className="m-3">
                         <Link className="font_medium text--white" to="/data">
                             <PrimaryButton className="w-100 mb-5">
-                                Find new data collaborators
+                                Find new data
                             </PrimaryButton>
                         </Link>
                     </div>

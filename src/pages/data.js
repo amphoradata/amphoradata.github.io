@@ -3,7 +3,7 @@ import { Redirect } from "react-router";
 
 //  THIS JUST REDIRETS TO THE VEG PAGE
 const RedirectToVeg = () => {
-    return <Redirect to="/data/vegetation" />;
+    return <Redirect to="/data/agriculture" />;
 };
 
 export default RedirectToVeg;

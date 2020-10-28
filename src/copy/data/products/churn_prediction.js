@@ -6,7 +6,7 @@ const qs = (labels, take) =>
 export const products = [
     {
         title: "Next best actions to improve customer retention",
-        imageUrl: "/img/data-products/four2.PNG",
+        imageUrl: "/img/screenshots/four2-chat.png",
         description: `Clear actions to improve your customer retention. Ask "Who is likely to churn next month", "Who should I call today?", "What should I do to keep customer X" `,
         link: `https://four2.ai`,
     },
