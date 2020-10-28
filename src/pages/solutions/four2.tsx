@@ -16,7 +16,8 @@ const Four2Page: React.FC = () => {
                         </p>
 
                         <div>
-                            <Link to="/team">Contact our team</Link> to learn more about our private beta program
+                            <Link to="/team">Contact our team</Link> to learn
+                            more about our private beta program
                         </div>
 
                         <a href="https://four2.ai">
