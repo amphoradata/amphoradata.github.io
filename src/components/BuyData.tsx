@@ -10,27 +10,25 @@ export const BuyData = (props) => {
                     <img
                         className="img-fluid"
                         alt="Discover Buy Use"
-                        src="img/marketing/discover_buy_use.png"
+                        src="/img/marketing/discover_buy_use.png"
                         width="500px"
                     />
                 </div>
                 <div className="col-md-5 text-center">
                     <div className="font_large mt-5">
-                        Want to know what will happen in 3 months?
+                        Looking for insightful and easy-to-use analytics?
                     </div>
                     <div className="font_large mt-3">
-                        Want to know how best to respond to the future?
+                        Use our analytics-as-a-service for your small business.
                     </div>
                     <div className="font_large mt-3">
-                        Try our prediction products
+                        Only buy the insights you need - no platform fees or
+                        lock-in contracts!
                     </div>
                     <div className="m-3">
-                        <Link
-                            className="font_medium text--white"
-                            to="data/churn_prediction"
-                        >
+                        <Link className="font_medium text--white" to="/data">
                             <PrimaryButton className="w-100 mb-5">
-                                Change the future
+                                Find new data collaborators
                             </PrimaryButton>
                         </Link>
                     </div>

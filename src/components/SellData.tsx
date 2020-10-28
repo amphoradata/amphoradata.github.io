@@ -10,7 +10,7 @@ export const SellData = () => {
                     <img
                         className="img-fluid"
                         alt="List Sell Get Paid"
-                        src="img/marketing/list_sell_get_paid.png"
+                        src="/img/marketing/list_sell_get_paid.png"
                         width="500px"
                     />
                 </div>
