@@ -40,7 +40,9 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-alpha.60",
+    "@tsconfig/docusaurus": "^1.0.2",
     "@types/react": "^16.9.43",
+    "@types/react-helmet": "^6.1.0",
     "add": "2.0.6",
     "prettier": "2.0.5",
     "typescript": "^3.9.7",
