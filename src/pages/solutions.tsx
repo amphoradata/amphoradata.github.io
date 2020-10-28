@@ -38,7 +38,7 @@ const SolutionsPage = () => {
                 <div className="row">
                     <div className="col text-center">
                         <Card
-                            imgPath="/img/amphora_cogs.png"
+                            imgPath="/img/amphora-cogs.png"
                             name="Data Market"
                             link="/solutions/data-market"
                         >
