@@ -6,7 +6,8 @@ import { PrimaryButton } from "../components/buttons/PrimaryButton";
 interface Solution {
     imgPath: string;
     name: string;
-    link: string;
+    href?: string;
+    to?: string;
 }
 const Card: React.FC<Solution> = (p) => {
     return (
@@ -16,11 +17,19 @@ const Card: React.FC<Solution> = (p) => {
                 <h4 className="card-title">{p.name}</h4>
                 <div>{p.children}</div>
                 <div className="text-center w-100">
-                    <Link to={p.link}>
-                        <PrimaryButton className="w-100">
-                            Learn More
-                        </PrimaryButton>
-                    </Link>
+                    {p.to ? (
+                        <Link to={p.to}>
+                            <PrimaryButton className="w-100">
+                                Learn More
+                            </PrimaryButton>
+                        </Link>
+                    ) : (
+                        <a href={p.href}>
+                            <PrimaryButton className="w-100">
+                                Learn More
+                            </PrimaryButton>
+                        </a>
+                    )}
                 </div>
             </div>
         </div>
@@ -40,7 +49,7 @@ const SolutionsPage = () => {
                         <Card
                             imgPath="/img/amphora-cogs.png"
                             name="Data Market"
-                            link="/solutions/data-market"
+                            to="/solutions/data-market"
                         >
                             <p>
                                 The Amphora Data Market is designed for
@@ -53,7 +62,7 @@ const SolutionsPage = () => {
                         <Card
                             imgPath="/img/logos/four2.png"
                             name="Four2"
-                            link="/solutions/four2"
+                            href="https://four2.ai"
                         >
                             <p>
                                 Four2 uses machine learning to drive customer
