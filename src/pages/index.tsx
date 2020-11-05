@@ -23,7 +23,7 @@ function Home() {
                         text: "Data Market",
                     }}
                     action2={{
-                        to: "solutions/four2",
+                        to: "https://four2.ai",
                         text: "Customer ML",
                     }}
                 />

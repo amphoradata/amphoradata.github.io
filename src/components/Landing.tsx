@@ -37,11 +37,11 @@ export const Landing: React.FC<LandingProps> = (props) => {
                                 </Link>
                             </div>
                             <div className="col-md-5 col-lg-6">
-                                <Link to={props.action2.to}>
+                                <a href={props.action2.to}>
                                     <PrimaryButton className="w-100">
                                         {props.action2.text}
                                     </PrimaryButton>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
