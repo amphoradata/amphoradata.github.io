@@ -53,7 +53,7 @@ function leadership_team() {
                 <Person
                     name="Isaac Donnelly"
                     position="Managing Director and Founder"
-                    imagePath="img/IMG_1205.jpg"
+                    imagePath="/img/IMG_1205.jpg"
                     linkedIn="https://linkedin.com/isaac-donnelly"
                 >
                     <p className="font_medium mb-4">
@@ -76,7 +76,7 @@ function leadership_team() {
                 <Person
                     name="Rian Finnegan"
                     position="Technology Lead and Founder"
-                    imagePath="img/IMG_1209.jpg"
+                    imagePath="/img/IMG_1209.jpg"
                     linkedIn="https://linkedin.com/rian-finnegan"
                 >
                     <p className="font_medium mb-4">
