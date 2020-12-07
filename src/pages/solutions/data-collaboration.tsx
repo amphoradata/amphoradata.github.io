@@ -3,12 +3,12 @@ import Layout from "@theme/Layout";
 import { BuyData } from "../../components/BuyData";
 import { SellData } from "../../components/SellData";
 
-const DataMarketPage = () => {
+const DataCollaborationPage = () => {
     return (
         <Layout title="Data Market">
             <div className="container">
                 <div className="mt-3">
-                    <h1>Amphora Data Market</h1>
+                    <h1>Amphora Data Collaboration</h1>
                 </div>
                 <BuyData />
                 <SellData />
@@ -17,4 +17,4 @@ const DataMarketPage = () => {
     );
 };
 
-export default DataMarketPage;
+export default DataCollaborationPage;

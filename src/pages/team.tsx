@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
+import { PrimaryButton } from "../components/buttons/PrimaryButton";
 
 interface Details {
     name: string;
@@ -37,17 +38,23 @@ function leadership_team() {
         <Layout title="Leadership Team">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-8 mt-5">
-                        <div>
-                            <h2 className="text-center">
-                                We Are An Experienced Team With Distinctive
-                                Expertise In Software Engineering, Data
-                                Governance, People Leadership, Operations, Data
-                                Science And Strategy.
-                            </h2>
+                    <div className="col-8 mt-3">
+                        <div className="text-center align-items-center">
+                            <p>
+                                We're an <strong>experienced</strong> team with
+                                distinctive expertise in rigorous analyisis,
+                                software engineering, data governance, people
+                                leadership, operations, and strategy.
+                            </p>
+                            <a href="https://share.hsforms.com/1p8WPBNLTSE6I3goTxmYjkw4ib33">
+                                <PrimaryButton className="m-auto">
+                                    Get in touch
+                                </PrimaryButton>
+                            </a>
                         </div>
                     </div>
                 </div>
+
                 <hr />
 
                 <Person

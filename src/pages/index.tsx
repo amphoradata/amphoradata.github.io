@@ -14,13 +14,13 @@ function Home() {
             <CustomHead />
             <Layout
                 title={`Amphora Data | ${siteConfig.title}`}
-                description="Control the future with AI"
+                description="Better decisions with data"
             >
                 <Landing
                     siteConfig={siteConfig}
                     action1={{
-                        to: "/solutions/data-market",
-                        text: "Data Market",
+                        to: "/team",
+                        text: "Contact Us",
                     }}
                     action2={{
                         to: "https://four2.ai",
@@ -28,9 +28,11 @@ function Home() {
                     }}
                 />
 
-                <main>
-                    <Logos />
-                </main>
+                <Logos />
+                <div className="m-2 text-center">
+                    If you are looking for Four2 customer retention, you can
+                    find out more <a href="https://four2.ai">here.</a>
+                </div>
             </Layout>
         </React.Fragment>
     );

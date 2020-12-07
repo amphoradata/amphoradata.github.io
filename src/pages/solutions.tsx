@@ -45,30 +45,29 @@ const SolutionsPage = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col text-center">
+                    <div className="col-sm text-center mt-1">
                         <Card
-                            imgPath="/img/amphora-cogs.png"
-                            name="Data Market"
-                            to="/solutions/data-market"
+                            imgPath="/img/logos/amphora-normal.png"
+                            name="Data Collaboration"
+                            to="/solutions/data-collaboration"
                         >
                             <p>
-                                The Amphora Data Market is designed for
-                                developers, data scientists, and researchers to
-                                collaborate with data in real time.
+                                The Amphora Data collaboration platform is
+                                designed for developers, experts, and
+                                researchers to collaborate in real time.
                             </p>
                         </Card>
                     </div>
-                    <div className="col text-center">
+                    <div className="col-sm text-center mt-1">
                         <Card
-                            imgPath="/img/logos/four2.png"
-                            name="Four2"
-                            href="https://four2.ai"
+                            imgPath="/img/logos/amphora-cogs.png"
+                            name="Analytical Services"
+                            to="/solutions/analytical-services"
                         >
                             <p>
-                                Four2 uses machine learning to drive customer
-                                success. The goal of Four2 is to improve
-                                lifetime customer value by improving customer
-                                understanding, prediciton, and next-best-action.
+                                Do you have a complex question? The Amphora team
+                                specialise in delivering real value and outcomes
+                                from data analytics.
                             </p>
                         </Card>
                     </div>

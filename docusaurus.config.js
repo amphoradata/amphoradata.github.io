@@ -3,8 +3,7 @@ module.exports = {
     baseUrl: "/",
     favicon: "img/favicon.ico",
     title: "Amphora",
-    tagline:
-        "World class data and analytics",
+    tagline: "The right answers to difficult questions.",
     // github pages config
     organizationName: "AmphoraData", // Usually your GitHub org/user name.
     projectName: "AmphoraData.github.io", // Usually your repo name.
@@ -29,27 +28,26 @@ module.exports = {
                 srcDark: "img/Amphora Data_Logo_white.png",
             },
             items: [
-                // {
-                //     to: "selldata",
-                //     activeBasePath: "selldata",
-                //     label: "Sell Data",
-                //     position: "right",
-                // },
                 {
                     to: "/solutions",
                     position: "right",
                     label: "Solutions",
                 },
                 {
-                    to: "docs/contents",
-                    // activeBasePath: "contents",
-                    label: "Docs",
+                    to: "/team",
                     position: "right",
+                    label: "Contact",
                 },
                 {
                     label: "Resources",
                     position: "right",
                     items: [
+                        {
+                            to: "docs/contents",
+                            // activeBasePath: "contents",
+                            label: "Docs",
+                            position: "right",
+                        },
                         {
                             label: "GitHub",
                             href: "https://github.com/amphoradata/",
@@ -68,7 +66,7 @@ module.exports = {
                 },
                 {
                     href: "https://app.amphoradata.com/Challenge",
-                    label: "Login",
+                    label: "App",
                     position: "right",
                 },
             ],
@@ -102,6 +100,10 @@ module.exports = {
                     title: "Contact us",
                     items: [
                         {
+                            label: "Get in touch",
+                            href: "https://share.hsforms.com/1p8WPBNLTSE6I3goTxmYjkw4ib33",
+                        },
+                        {
                             label: "Email",
                             href: "mailto:contact@amphoradata.com",
                         },
@@ -117,7 +119,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Amphora Data, 34/1 Eagle St, Brisbane`,
+            copyright: `Copyright © ${new Date().getFullYear()} Amphora Data - 34/1 Eagle St, Brisbane`,
         },
     },
     presets: [
