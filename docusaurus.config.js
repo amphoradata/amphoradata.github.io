@@ -12,11 +12,11 @@ module.exports = {
             disableSwitch: true,
         },
 
-        algolia: {
-            apiKey: "0797d5513a4961659b3f15828b64f261",
-            indexName: "amphoradata",
-            algoliaOptions: {}, // Optional, if provided by Algolia
-        },
+        //algolia: {
+        //    apiKey: "0797d5513a4961659b3f15828b64f261",
+        //    indexName: "amphoradata",
+        //    algoliaOptions: {}, // Optional, if provided by Algolia
+        //},
         // Google Analytics
         gtag: {
             trackingID: "UA-164144906-4",
@@ -27,98 +27,11 @@ module.exports = {
                 src: "img/Amphora Data_Logo_black.jpg",
                 srcDark: "img/Amphora Data_Logo_white.png",
             },
-            items: [
-                {
-                    to: "/solutions",
-                    position: "right",
-                    label: "Solutions",
-                },
-                {
-                    to: "/team",
-                    position: "right",
-                    label: "Contact",
-                },
-                {
-                    label: "Resources",
-                    position: "right",
-                    items: [
-                        {
-                            to: "docs/contents",
-                            // activeBasePath: "contents",
-                            label: "Docs",
-                            position: "right",
-                        },
-                        {
-                            label: "GitHub",
-                            href: "https://github.com/amphoradata/",
-                        },
-                        {
-                            label: "Videos",
-                            href:
-                                "https://www.youtube.com/channel/UCdeAwh89DuwZKJ6JJK9TCnw",
-                        },
-                        {
-                            label: "News",
-                            href:
-                                "https://au.linkedin.com/company/amphora-data",
-                        },
-                    ],
-                },
-                {
-                    href: "https://app.amphoradata.com/Challenge",
-                    label: "App",
-                    position: "right",
-                },
-            ],
         },
         footer: {
             logo: {},
             style: "dark",
-            links: [
-                {
-                    title: "Company",
-                    items: [
-                        {
-                            to: "team",
-                            label: "Team",
-                        },
-                        {
-                            to: "careers",
-                            label: "Careers",
-                        },
-                        {
-                            to: "values",
-                            label: "Values",
-                        },
-                        {
-                            to: "privacy-security",
-                            label: "Privacy and security",
-                        },
-                    ],
-                },
-                {
-                    title: "Contact us",
-                    items: [
-                        {
-                            label: "Get in touch",
-                            href: "https://share.hsforms.com/1p8WPBNLTSE6I3goTxmYjkw4ib33",
-                        },
-                        {
-                            label: "Email",
-                            href: "mailto:contact@amphoradata.com",
-                        },
-                        {
-                            label: "GitHub",
-                            href: "https://github.com/amphoradata",
-                        },
-                        {
-                            label: "Linkedin",
-                            href:
-                                "https://au.linkedin.com/company/amphora-data",
-                        },
-                    ],
-                },
-            ],
+            
             copyright: `Copyright © ${new Date().getFullYear()} Amphora Data - 34/1 Eagle St, Brisbane`,
         },
     },

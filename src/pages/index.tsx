@@ -16,20 +16,10 @@ function Home() {
                 title={`Amphora Data | ${siteConfig.title}`}
                 description="Better decisions with data"
             >
-                <Landing
-                    siteConfig={siteConfig}
-                    action1={{
-                        to: "/team",
-                        text: "Contact Us",
-                    }}
-                    action2={{
-                        to: "https://four2.ai",
-                        text: "Customer ML",
-                    }}
-                />
 
-                <Logos />
+
                 <div className="m-2 text-center">
+                    Closed to new users.                    
                     If you are looking for Four2 customer retention, you can
                     find out more <a href="https://four2.ai">here.</a>
                 </div>
