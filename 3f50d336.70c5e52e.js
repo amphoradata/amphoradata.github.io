@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{89:function(t,e,n){"use strict";n.r(e);var a=n(0),c=n(2);e.default=function(){return a.createElement(c.c,{to:"/data/agriculture"})}}}]);
